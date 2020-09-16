@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ascii'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1000" version="1.1" width="1000" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<!-- ####################################################################### -->
+<!-- First create a black background. -->
+
+<g fill="none" stroke-linejoin="miter" >
+
+<circle cx="500" cy="500" r="400" stroke="#FFFFFF" fill="#FFFFFF"/>
+<path d="
+       M350,200 L650,200
+       L500,500 
+       L350,200
+       Z
+"
+stroke="#FF8C00" fill="#FF8C00"/>
+<circle cx="500" cy="500" r="310" stroke="#000000" fill="none" stroke-width="160"/>
+
+<path d="
+       M850,700
+       A380 380, 0, 0, 1, 700 850
+       M150,700
+       A380 380, 0, 0, 0, 300 850
+"
+stroke="#FF8C00" fill="none" stroke-width="180"/>
+</g>
+
+</svg>
