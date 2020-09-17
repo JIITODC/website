@@ -2,6 +2,15 @@
   <title>Team</title>
 </svelte:head>
 
-<h1>About this site</h1>
+<script></script>
 
-<p>This is the 'team' page. There's not much here.</p>
+
+<div class="main-title">TEAMS</div>
+
+
+<style>
+  .main-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+</style>
