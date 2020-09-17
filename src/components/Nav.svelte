@@ -58,12 +58,12 @@
     <li>
       <a
         aria-current={segment === 'events' ? 'page' : undefined}
-        href=".">events</a>
+        href="events">events</a>
     </li>
     <li>
       <a
         aria-current={segment === 'wiki' ? 'page' : undefined}
-        href=".">wiki</a>
+        href="wiki">wiki</a>
     </li>
     <li>
       <a
