@@ -1,5 +1,4 @@
 <script>
-  export let segment;
 </script>
 
 <style>
@@ -12,8 +11,9 @@
   }
 
   .jodc-mascot-img {
-    height: 100px;
+    height: 90px;
     width: auto;
+    margin-left: 40px;
   }
 
   ul {
@@ -33,19 +33,44 @@
     float: left;
   }
 
-  a {
-    text-decoration: none;
-    padding: .5em 0.5em;
-    display: block;
-    text-transform: uppercase;
-    font-size: 2rem;
-    transition: all .5s;
+  li:not(:last-child){
+    margin-right: 50px;
   }
 
-  a:hover {
-    background-color: white;
-    color: black;
+  a {
+    text-decoration: none;
+    padding: .1em 0.25em;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    transition: all .5s;
+    border-radius: 3px;
+    position: relative;
+    border-bottom: 2px solid #fff;
   }
+
+  a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    height: 0;
+    opacity: 0;
+    transition: all .6s;
+    background-color: #fff;
+  }
+
+  a:hover::after{
+    height: 100%;
+    opacity: 1;
+  }
+
+  a:hover{
+    color: #000;
+  }
+
 </style>
 
 <nav>

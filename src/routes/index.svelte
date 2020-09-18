@@ -1,3 +1,8 @@
+<script>
+  import Icon from 'svelte-awesome/components/Icon.svelte';
+  import {telegram, twitter, facebook, github } from 'svelte-awesome/icons';
+</script>
+
 <style>
   :global(body) {
     background-color: black;
@@ -21,15 +26,18 @@
   }
 
   #social {
-    margin-top: 20px;
+    margin-top: 150px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-grow: 0;
-    width: 100px;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
   }
 
+
   a {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     /* 1.1 * 16px */
     text-decoration: none;
     color: #aaa;
@@ -59,7 +67,7 @@
 </style>
 
 <svelte:head>
-  <title>JODC</title>
+  <title>JODC | JIIT Open-Source Developers Circle</title>
 </svelte:head>
 
 <figure>
@@ -85,8 +93,8 @@
 
 <!-- TODO(humancalico) add as a list? -->
 <div id="social">
-  <a href="https://github.com/jiitodc">GITHUB</a>
-  <a href="https://t.me/jiitodc">TELEGRAM</a>
-  <a href="https://twitter.com/jiitodc">TWITTER</a>
-  <a href="https://www.facebook.com/groups/jiitodc">FACEBOOK</a>
+  <a href="https://github.com/jiitodc"><Icon style="margin-right: 10px" data={github}/>GITHUB</a>
+  <a href="https://t.me/jiitodc"><Icon style="margin-right: 10px"  data={telegram}/>TELEGRAM</a>
+  <a href="https://twitter.com/jiitodc"><Icon style="margin-right: 10px" data={twitter}/>TWITTER</a>
+  <a href="https://www.facebook.com/groups/jiitodc"><Icon style="margin-right: 10px; font-size:40px;" data={facebook}/>FACEBOOK</a>
 </div>
