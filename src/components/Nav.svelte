@@ -1,8 +1,11 @@
 <script>
   let active = false;
+  let addActive = "";
 
   const toggleLinks = () => {
     active = !active;
+    if (active) addActive = "active";
+    else addActive = "";
   }
 </script>
 
@@ -34,7 +37,8 @@
     margin-right: 50px;
   }
 
-  a {
+  a,
+  .toggle-button {
     text-decoration: none;
     padding: .1em 0.25em;
     display: block;
@@ -45,7 +49,8 @@
     border-bottom: 2px solid #fff;
   }
 
-  a::after {
+  a::after,
+  .toggle-button::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -58,20 +63,28 @@
     background-color: #fff;
   }
 
-  a:hover::after {
+  a:hover::after,
+  .toggle-button:hover::after {
     height: 100%;
     opacity: 1;
   }
 
-  a:hover {
+  a:hover,
+  .toggle-button:hover {
     color: #000;
   }
 
   .toggle-button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: white;
     font-size: 2rem;
     position: absolute;
     display: none;
     right: 28px;
+    cursor: pointer;
   }
 
   @media (max-width:700px) {
@@ -109,18 +122,10 @@
 
 <nav>
   <img src="jodcMascotWB.svg" alt="JODC Mascot" class="jodc-mascot-img">
-  <a href="#" class="toggle-button" on:click={toggleLinks}>&#9776;</a>
-  {#if active}
-    <ul class="nav-links active">
-      <li><a href=".">home</a></li>
-      <li><a href="events">events</a></li>
-      <li><a href="team">team</a></li>
-    </ul>
-  {:else}
-    <ul class="nav-links">
-      <li><a href=".">home</a></li>
-      <li><a href="events">events</a></li>
-      <li><a href="team">team</a></li>
-    </ul>
-  {/if}
+  <button class="toggle-button" on:click={toggleLinks}>&#9776;</button>
+  <ul class="nav-links {addActive}">
+    <li><a href=".">home</a></li>
+    <li><a href="events">events</a></li>
+    <li><a href="team">team</a></li>
+  </ul>
 </nav>
