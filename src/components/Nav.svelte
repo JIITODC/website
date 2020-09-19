@@ -1,4 +1,9 @@
 <script>
+  let active = false;
+
+  const toggleLinks = () => {
+    active = !active;
+  }
 </script>
 
 <style>
@@ -11,29 +16,21 @@
   }
 
   .jodc-mascot-img {
-    height: 90px;
+    max-height: 90px;
     width: auto;
-    margin-left: 40px;
   }
 
   ul {
     margin: 0;
     padding: 0;
-  }
-
-  /* clearfix */
-  ul::after {
-    content: "";
-    display: block;
-    clear: both;
+    display: flex;
   }
 
   li {
-    display: block;
-    float: left;
+    list-style: none;
   }
 
-  li:not(:last-child){
+  li:not(:last-child) {
     margin-right: 50px;
   }
 
@@ -44,12 +41,11 @@
     text-transform: uppercase;
     font-size: 1.6rem;
     transition: all .5s;
-    border-radius: 3px;
     position: relative;
     border-bottom: 2px solid #fff;
   }
 
-  a::after{
+  a::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -62,22 +58,69 @@
     background-color: #fff;
   }
 
-  a:hover::after{
+  a:hover::after {
     height: 100%;
     opacity: 1;
   }
 
-  a:hover{
+  a:hover {
     color: #000;
   }
 
+  .toggle-button {
+    font-size: 2rem;
+    position: absolute;
+    display: none;
+    right: 28px;
+  }
+
+  @media (max-width:700px) {
+    .toggle-button {
+      display: block;
+    }
+
+    .nav-links {
+      display: none;
+      margin-top: 1em;
+      width: 100%;
+      text-align: center;
+    }
+
+    .nav-links.active {
+      display: block;
+    }
+
+    .jodc-mascot-img {
+      max-height: 70px;
+
+    }
+
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    li:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 1em;
+    }
+  }
 </style>
 
 <nav>
   <img src="jodcMascotWB.svg" alt="JODC Mascot" class="jodc-mascot-img">
-  <ul class="nav-links">
-    <li><a href=".">home</a></li>
-    <li><a href="events">events</a></li>
-    <li><a href="team">team</a></li>
-  </ul>
+  <a href="#" class="toggle-button" on:click={toggleLinks}>&#9776;</a>
+  {#if active}
+    <ul class="nav-links active">
+      <li><a href=".">home</a></li>
+      <li><a href="events">events</a></li>
+      <li><a href="team">team</a></li>
+    </ul>
+  {:else}
+    <ul class="nav-links">
+      <li><a href=".">home</a></li>
+      <li><a href="events">events</a></li>
+      <li><a href="team">team</a></li>
+    </ul>
+  {/if}
 </nav>
