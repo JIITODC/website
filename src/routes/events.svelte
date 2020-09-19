@@ -2,21 +2,16 @@
     <title>Events</title>
 </svelte:head>
 
-<script></script>
+<script>
+    import EventComponent from '../components/EventComponent.svelte';
+</script>
 
 
 <div class="main-title">EVENTS</div>
-<div class="event-container">
-    <div class="left">
-        <img src="Poster.png" alt="event poster">
-    </div>
-    <div class="right">
-        <h2 class="title">HACKTOBERFEST</h2>
-        <p class="about">WIN A TSHIRT AT HACKTOBERFEST BY CONTRIBUTING TO OPEN SOURCE PROJECTS.</p>
-        <p class="time">31 FEB 2023 12:30AM</p>
-        <p class="location">LT5</p>
-    </div>
-</div>
+<EventComponent title="Git/Github Workshop" about="Learn about git and github." time="12:00AM 1 OCT 2002"
+    location="LT6" />
+<EventComponent title="Hacktoberfest" about="Contribute to open source to get a free t-shirt" time="12:00AM 1 OCT 2002"
+    location="LT5" />
 
 
 <style>
@@ -25,18 +20,9 @@
         font-weight: bold;
     }
 
-    .event-container {
-        display: flex;
-        margin-top: 2rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px solid white;
-    }
-
-    .right {
-        padding: 0 0 0 2rem;
-    }
-
-    .title {
-        font-size: 2rem;
+    @media (max-width:700px) {
+        .main-title {
+            font-size: 2rem;
+        }
     }
 </style>

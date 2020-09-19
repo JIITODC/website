@@ -2,27 +2,22 @@
   <title>Team</title>
 </svelte:head>
 
-<script></script>
+<script>
+  import TeamComponent from '../components/TeamComponent.svelte';
+</script>
 
 
 <div class="main-title">TEAMS</div>
 <h2 class="team-type">Core Members</h2>
 <div class="team-container">
-  <div class="team-member">
-    <div class="left">
-      <img src="Poster.png" alt="event poster">
-    </div>
-    <div class="right">
-      <h2 class="name">HACKTOBERFEST</h2>
-      <p class="about">WORLD’S GREATEST DETECTIVE. HE SOLVES CRIME AND HATES THE WORLD. GO TO HIS REPO TO SOLVE MURDER
-        MYSTERIES.</p>
-      <div class="socails">
-        <a href="#">GITHUB</a>
-        <a href="#">FACEBOOK</a>
-        <a href="#">TWITTER</a>
-      </div>
-    </div>
-  </div>
+  <TeamComponent imgSrc="Poster.png" name="Aayush Kumar Sahu"
+    about="Hi there, i am an open source enthusiast and working on web development."
+    gitLink="https://www.github.com/aayushmau5" facebookLink="https://www.facebook.com"
+    twitterLink="https://twitter.com/aayushmau5" />
+  <TeamComponent imgSrc="Poster.png" name="Aachman Mittal"
+    about="Hey, i am an open source enthusiast and love low level system stuff."
+    gitLink="https://www.github.com/aarkimos" facebookLink="https://www.facebook.com"
+    twitterLink="https://twitter.com/aarkimos" />
 </div>
 
 
@@ -32,22 +27,17 @@
     font-weight: bold;
   }
 
-  .team-container {
-    margin-top: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid white;
-  }
-
-  .team-member {
-    display: flex;
-  }
-
-  .right {
-    padding: 0 0 0 2rem;
-  }
-
-  .name {
-    font-size: 3rem;
+  .team-type {
     font-weight: bold;
+  }
+
+  .team-container {
+    font-family: 'Red Hat Display', sans-serif;
+  }
+
+  @media (max-width:700px) {
+    .main-title {
+      font-size: 2rem;
+    }
   }
 </style>
