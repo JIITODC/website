@@ -124,8 +124,8 @@
   <img src="jodcMascotWB.svg" alt="JODC Mascot" class="jodc-mascot-img">
   <button class="toggle-button" on:click={toggleLinks}>&#9776;</button>
   <ul class="nav-links {addActive}">
-    <li><a href=".">home</a></li>
-    <li><a href="events">events</a></li>
-    <li><a href="team">team</a></li>
+    <li><a href="." on:click={toggleLinks}>home</a></li>
+    <li><a href="events" on:click={toggleLinks}>events</a></li>
+    <li><a href="team" on:click={toggleLinks}>team</a></li>
   </ul>
 </nav>
