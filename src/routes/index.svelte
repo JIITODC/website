@@ -12,8 +12,66 @@
   .logo-container {
     text-align: center;
     margin: 2em 0 1em 0;
+    width: 800px;
+    height: 300px;
     font-size: 2rem;
     position: relative;
+    transform-style: preserve-3d;
+    transition: .4s;
+    perspective: 800px;
+  }
+
+  .logo-front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: .4s;
+  }
+
+  .logo-container:hover .logo-front{
+    transform: rotateX(-180deg);
+  }
+
+  .about-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.1rem;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: .4s;
+  }
+
+  .about-back > p{
+    line-height: 1.9;
+    word-spacing: 1.5;
+  }
+
+  .about-back > h2{
+    background-image: linear-gradient(to right,#ffc7d1, #5a03cc);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    margin: 5px;
+  }  
+
+  .divider{
+    height: 3px;
+    width: 140px;
+    background-image: linear-gradient(to right, #ffc7d1, #5a03cc);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -30%);
+  }
+
+  .logo-container:hover .about-back{
+    transform: rotateX(0deg);
   }
 
   img {
@@ -27,7 +85,7 @@
   }
 
   #social {
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     flex-grow: 0;
@@ -50,17 +108,8 @@
     color: white;
   }
 
-  .about {
-    background-color: black;
-    display: none;
-    font-size: 1.5rem;
-    position: absolute;
-    top: -10px;
-    text-align: center;
-  }
-
   @media (max-width: 700px) {
-    .logo {
+    .logo-front {
       font-size: 1.5rem;
     }
 
@@ -70,8 +119,29 @@
   }
 
   @media (max-width: 500px) {
-    .logo {
-      font-size: 1rem;
+    .logo-container {
+      display: inline-block;
+      width: 300px;
+      height: 160px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .logo-front > p{
+      font-size: 1.1rem;
+    }
+
+    .about-back{
+      display: none;
+    }
+
+    .logo-container:hover .logo-front{
+      transform: none;
+    }
+
+    #social {
+      
+      margin-top: 110px;
     }
   }
 </style>
@@ -81,22 +151,24 @@
 </svelte:head>
 
 <div class="logo-container">
-  <div class="logo">
+  <div class="logo-front">
     <img alt="JODC Logo" src="jodcLogoWB.svg" />
     <p>JIIT Open-Source Developers Circle</p>
   </div>
-  <div class="about">
-    According to GitHub’s “State of the Octoverse” report 2019, 99% of software
+  <div class="about-back">
+    <h2>ABOUT US</h2>
+    <div class="divider"></div>
+    <p>According to GitHub’s “State of the Octoverse” report 2019, 99% of software
     projects in the world use Open Source Technologies in some way or the other.
     Open source has undoubtably changed the world, and we, the JODC (JIIT
-    Open-Source Developers Circle) aim to help students to become a part of it. The
+    Open-Source Developers Circle) aim to help students to become a part of it.<br />The
     JODC is an initiative by the students of JIIT-128 to promote open source
-    culture.<br> The hub is all about contributing to and collaborating on projects,
+    culture.The hub is all about contributing to and collaborating on projects,
     networking, learning together and guiding students. We conduct talks, workshops,
     activities, one-to-one sessions and dev-sprints to mentor students. We encourage
     them to volunteer for open source projects and organisations and participate in
     open source initiatives such as Google Summer of Code and Outreachy to become
-    better developers and for the betterment of open source.
+    better developers and for the betterment of open source.</p>
   </div>
 </div>
 
