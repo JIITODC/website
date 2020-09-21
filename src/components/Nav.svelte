@@ -87,7 +87,7 @@
     cursor: pointer;
   }
 
-  @media (max-width:700px) {
+  @media (max-width:500px) {
     .toggle-button {
       display: block;
     }
