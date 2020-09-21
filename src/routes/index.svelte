@@ -1,6 +1,13 @@
 <script>
   import Icon from 'svelte-awesome/components/Icon.svelte';
   import { telegram, twitter, facebook, github } from 'svelte-awesome/icons';
+
+  let isOpen = false;
+    
+    function handleClick() {
+        isOpen = !isOpen
+    }
+
 </script>
 
 <style>
@@ -17,8 +24,10 @@
     font-size: 2rem;
     position: relative;
     transform-style: preserve-3d;
-    transition: .4s;
+    transition: .9s;
     perspective: 800px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .logo-front{
@@ -29,10 +38,10 @@
     height: 100%;
     backface-visibility: hidden;
     transform: rotateX(0deg);
-    transition: .4s;
+    transition: .9s;
   }
 
-  .logo-container:hover .logo-front{
+  .logo-container.open .logo-front{
     transform: rotateX(-180deg);
   }
 
@@ -45,7 +54,7 @@
     font-size: 1.1rem;
     backface-visibility: hidden;
     transform: rotateX(180deg);
-    transition: .4s;
+    transition: .9s;
   }
 
   .about-back > p{
@@ -70,8 +79,9 @@
     transform: translate(-50%, -30%);
   }
 
-  .logo-container:hover .about-back{
+  .logo-container.open .about-back{
     transform: rotateX(0deg);
+
   }
 
   img {
@@ -80,12 +90,22 @@
     margin: 0 0 1em 0;
   }
 
+  .about-info{
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 1rem;
+  }
+
+  .about-info.open{
+    visibility: hidden;
+  }
+
   a {
     outline: none;
   }
 
   #social {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
     flex-grow: 0;
@@ -102,6 +122,7 @@
     color: #aaa;
     margin: 10px 0;
     transition: all 0.3s;
+    -webkit-tap-highlight-color: transparent;
   }
 
   a:hover {
@@ -135,12 +156,15 @@
       display: none;
     }
 
-    .logo-container:hover .logo-front{
+    .about-info{
+      display: none;
+    }
+
+    .logo-container.open .logo-front{
       transform: none;
     }
 
-    #social {
-      
+    #social {  
       margin-top: 110px;
     }
   }
@@ -150,7 +174,7 @@
   <title>JODC | JIIT Open-Source Developers Circle</title>
 </svelte:head>
 
-<div class="logo-container">
+<div class="logo-container" on:click={handleClick} class:open={isOpen}>
   <div class="logo-front">
     <img alt="JODC Logo" src="jodcLogoWB.svg" />
     <p>JIIT Open-Source Developers Circle</p>
@@ -171,8 +195,9 @@
     better developers and for the betterment of open source.</p>
   </div>
 </div>
-
-
+<div class="about-info" on:click={handleClick} class:open={isOpen}>
+<p>Want to know more? Click on JODC !</p>
+</div>
 <!-- TODO(humancalico) add as a list? -->
 <div id="social">
   <a href="https://github.com/jiitodc">
