@@ -37,7 +37,7 @@
     margin-right: 50px;
   }
 
-  a,
+  .nav-link,
   .toggle-button {
     text-decoration: none;
     padding: .1em 0.25em;
@@ -49,7 +49,7 @@
     border-bottom: 2px solid #fff;
   }
 
-  a::after,
+  .nav-link::after,
   .toggle-button::after {
     content: "";
     position: absolute;
@@ -63,13 +63,13 @@
     background-color: #fff;
   }
 
-  a:hover::after,
+  .nav-link:hover::after,
   .toggle-button:hover::after {
     height: 100%;
     opacity: 1;
   }
 
-  a:hover,
+  .nav-link:hover,
   .toggle-button:hover {
     color: #000;
   }
@@ -121,11 +121,13 @@
 </style>
 
 <nav>
-  <img src="jodcMascotWB.svg" alt="JODC Mascot" class="jodc-mascot-img">
+  <a href=".">
+    <img src="jodcMascotWB.svg" alt="JODC Mascot" class="jodc-mascot-img">
+  </a>
   <button class="toggle-button" on:click={toggleLinks}>&#9776;</button>
   <ul class="nav-links {addActive}">
-    <li><a href="." on:click={toggleLinks}>home</a></li>
-    <li><a href="events" on:click={toggleLinks}>events</a></li>
-    <li><a href="team" on:click={toggleLinks}>team</a></li>
+    <li><a class="nav-link" href="." on:click={toggleLinks}>home</a></li>
+    <li><a class="nav-link" href="events" on:click={toggleLinks}>events</a></li>
+    <li><a class="nav-link" href="team" on:click={toggleLinks}>team</a></li>
   </ul>
 </nav>
