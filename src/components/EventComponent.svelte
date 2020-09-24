@@ -3,17 +3,21 @@
     export let about;
     export let time;
     export let location;
+    export let imagelink;
+    import Icon from 'svelte-awesome/components/Icon.svelte';
+    import { calendar, mapMarker } from 'svelte-awesome/icons';
+
 </script>
 
 <div class="event-container">
     <div class="left">
-        <img src="Poster.png" alt="event poster">
+        <img src={imagelink} alt="event poster">
     </div>
     <div class="right">
         <h2 class="title">{title}</h2>
         <p class="about">{about}</p>
-        <p class="time">{time}</p>
-        <p class="location">{location}</p>
+        <br>
+        <p class="location">&nbsp;<Icon data={mapMarker} style="vertical-align: sub;" scale="1.4"/><span>&nbsp;&nbsp; {location}<span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Icon data={calendar} style="vertical-align: sub;" scale="1.4"/><span> &nbsp; {time}</span></p>
     </div>
 </div>
 
@@ -21,14 +25,25 @@
     .event-container {
         font-family: 'Red Hat Display', sans-serif;
         display: flex;
-        margin-top: 2rem;
-        padding-bottom: 1rem;
+        margin-top: 3rem;
+        padding-bottom: 3rem;
         border-bottom: 1px solid white;
     }
 
     .right {
         padding: 0 0 0 2rem;
         font-weight: 100;
+    }
+
+    .left {
+        max-width: 320px;
+        height: auto;
+    }
+
+
+   .left img{
+        width: 100%;
+        height: auto;
     }
 
     .title {
