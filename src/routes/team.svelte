@@ -3,51 +3,54 @@
 </svelte:head>
 
 <script>
+  import { onMount } from 'svelte';
+
   import TeamComponent from '../components/TeamComponent.svelte';
+
+  onMount(() => {
+    AOS.init();
+  })
 </script>
 
-<div class="main-title">TEAMS</div>
-<h2 class="team-type">Core Members</h2>
+<div class="main-title">TEAM</div>
 
 <section class="card-list">
-  <TeamComponent portLink="#" imgSrc="#" name="Aayush Sahu" about="Hey there,i'm currently working on web development."
-    gitLink="https://www.github.com/aayushmau5" twitterLink="https://www.twitter.com/aayushmau5" />
-  <TeamComponent portLink="#" imgSrc="#" name="Aayush Sahu" about="Hey there,i'm currently working on web development."
-    gitLink="https://www.github.com/aayushmau5" twitterLink="https://www.twitter.com/aayushmau5" />
-  <TeamComponent portLink="#" imgSrc="#" name="Aayush Sahu" about="Hey there,i'm currently working on web development."
-    gitLink="https://www.github.com/aayushmau5" twitterLink="https://www.twitter.com/aayushmau5" />
-  <TeamComponent portLink="#" imgSrc="#" name="Aayush Sahu" about="Hey there,i'm currently working on web development."
-    gitLink="https://www.github.com/aayushmau5" twitterLink="https://www.twitter.com/aayushmau5" />
-  <TeamComponent portLink="#" imgSrc="#" name="Aayush Sahu" about="Hey there,i'm currently working on web development."
-    gitLink="https://www.github.com/aayushmau5" twitterLink="https://www.twitter.com/aayushmau5" />
-  <TeamComponent portLink="#" imgSrc="#" name="Aayush Sahu" about="Hey there,i'm currently working on web development."
-    gitLink="https://www.github.com/aayushmau5" twitterLink="https://www.twitter.com/aayushmau5" />
+  <TeamComponent imgSrc="Poster.png" name="Aayush Sahu" role="Core Member"
+    gitLink="https://www.github.com/aayushmau5" />
+  <TeamComponent imgSrc="Poster.png" name="Aachman Mittal" role="Core Member"
+    gitLink="https://www.github.com/aayushmau5" />
+  <TeamComponent imgSrc="Poster.png" name="Aaryan Porwal" role="Core Member"
+    gitLink="https://www.github.com/aayushmau5" />
+  <TeamComponent imgSrc="Poster.png" name="Akshat Agarwal" role="Core Member"
+    gitLink="https://www.github.com/aayushmau5" />
+  <TeamComponent imgSrc="Poster.png" name="Ishan" role="Core Member"
+    gitLink="https://www.github.com/aayushmau5" />
+  <TeamComponent imgSrc="Poster.png" name="Rudraksh Pareek" role="Core Member"
+    gitLink="https://www.github.com/aayushmau5" />
 </section>
 
 <style>
   .main-title {
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ff8c00;
   }
 
   .card-list {
-    display: flex;
-    padding: 3rem;
-    overflow-x: scroll;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:7rem 3rem;
   }
 
-  .card-list::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-
-  .card-list::-webkit-scrollbar-thumb {
-    background: #201c29;
-    border-radius: 10px;
-    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, .25), inset -2px -2px 2px rgba(0, 0, 0, .25);
-  }
-
-  .card-list::-webkit-scrollbar-track {
-    background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+  @media (max-width:700px) {
+    .main-title {
+      font-size:2.5rem;
+    }
+    .card-list {
+      grid-template-columns: 1fr;
+      gap:2rem 1rem;
+    }
   }
 </style>
