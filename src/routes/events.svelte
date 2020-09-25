@@ -3,7 +3,20 @@
 </svelte:head>
 
 <script>
+    import { onMount } from 'svelte';
     import EventComponent from '../components/EventComponent.svelte';
+
+    import AOS from 'aos';
+    import 'aos/dist/aos.css';
+    import 'aos/dist/aos.js';
+
+    import 'lazysizes';
+    import 'lazysizes/plugins/parent-fit/ls.parent-fit';
+
+    onMount(() => {
+        AOS.init();
+    })
+
 </script>
 
 
