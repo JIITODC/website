@@ -139,14 +139,14 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      overflow-y: hidden;
+      overflow-x: hidden;
       transform: translateX(100%);
       transition: all 0.6s ease-in-out;
+      z-index: 5;
     }
     
     .nav-overlay.open{
       transform: translateX(0%);
-      z-index: 5;
     }
     
     .nav-overlay-list{

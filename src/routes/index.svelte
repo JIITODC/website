@@ -23,10 +23,6 @@
     height: 300px;
     font-size: 2rem;
     position: relative;
-    transform-style: preserve-3d;
-    transition: .7s;
-    perspective: 800px;
-    cursor: pointer;
     -webkit-tap-highlight-color: transparent;
   }
 
@@ -36,66 +32,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    transform: rotateX(0deg);
-    transition: .7s;
   }
 
-  .logo-container.open .logo-front{
-    transform: rotateX(-180deg);
-  }
-
-  .about-back{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    font-size: 1.1rem;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: .7s;
-  }
-
-  .about-back > p{
-    line-height: 1.9;
-    word-spacing: 1.5;
-  }
-
-  .about-back > h2{
-    color: #fff;
-    font-weight: 500;
-    margin: 5px;
-  }  
-
-  .divider-small{
-    height: 1px;
-    width: 140px;
-    background-image: linear-gradient(to right, #D4418E, #0652C5);
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -30%);
-  }
-
-  .divider-big{
-    height: 2px;
-    width: 500px;
-    background-image: linear-gradient(to right,#D4418E, #0652C5);
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    visibility: hidden;
-  }
-
-  .divider-big.open{
-    visibility: visible;
-  }
-
-  .logo-container.open .about-back{
-    transform: rotateX(0deg);
-
+  .about-us{
+    display: none;
   }
 
   img {
@@ -155,7 +95,7 @@
       font-size: 1.1rem;
     }
 
-    .about-back{
+    .about-us{
       display: none;
     }
 
@@ -183,14 +123,12 @@
   <title>JODC | JIIT Open-Source Developers Circle</title>
 </svelte:head>
 
-<div class="logo-container" on:click={handleClick} class:open={isOpen}>
+<div class="logo-container">
   <div class="logo-front">
     <img alt="JODC Logo" src="jodcLogoWB.svg" />
     <p>JIIT Open-Source Developers Circle</p>
   </div>
-  <div class="about-back">
-    <h2>ABOUT US</h2>
-    <div class="divider-small"></div>
+  <div class="about-us">
     <p>According to GitHub’s “State of the Octoverse” report 2019, 99% of software
     projects in the world use Open Source Technologies in some way or the other.
     Open source has undoubtably changed the world, and we, the JODC (JIIT
@@ -203,9 +141,7 @@
     open source initiatives such as Google Summer of Code and Outreachy to become
     better developers and for the betterment of open source.</p>
   </div>
-</div>
-
-<div class="divider-big" class:open={isOpen}></div>
+  </div>
 
 <!-- TODO(humancalico) add as a list? -->
 <div id="social">
