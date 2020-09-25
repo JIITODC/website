@@ -5,9 +5,9 @@
     export let role;
 </script>
 
-<div class="card" data-aos="fade-up">
+<div class="card" data-aos="fade-up" data-aos-once="true">
     <div class="card-author">
-        <img alt="author-avatar" src={imgSrc} />
+        <img alt="author-avatar" data-src={imgSrc}  class="lazyload" />
     </div>
     <header class="card-header">
         <h2>{name}</h2>

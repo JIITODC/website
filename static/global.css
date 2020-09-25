@@ -41,3 +41,21 @@ code {
     font-size: 16px;
   }
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: orange black;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: black;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 20px;
+  border: 2px solid black;
+}

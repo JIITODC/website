@@ -9,9 +9,9 @@
 
 </script>
 
-<div class="event-container">
+<div class="event-container" data-aos="fade-up" data-aos-once="true">
     <div class="left">
-        <img src={imagelink} alt="event poster">
+        <img alt="event poster" data-src={imagelink}  class="lazyload">
     </div>
     <div class="right">
         <h2 class="title">{title}</h2>
