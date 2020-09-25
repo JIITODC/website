@@ -24,7 +24,7 @@
     font-size: 2rem;
     position: relative;
     transform-style: preserve-3d;
-    transition: .9s;
+    transition: .7s;
     perspective: 800px;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
@@ -37,8 +37,9 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     transform: rotateX(0deg);
-    transition: .9s;
+    transition: .7s;
   }
 
   .logo-container.open .logo-front{
@@ -53,8 +54,9 @@
     height: 100%;
     font-size: 1.1rem;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
     transform: rotateX(180deg);
-    transition: .9s;
+    transition: .7s;
   }
 
   .about-back > p{
@@ -63,20 +65,32 @@
   }
 
   .about-back > h2{
-    background-image: linear-gradient(to right,#ffc7d1, #5a03cc);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-weight: 700;
+    color: #fff;
+    font-weight: 500;
     margin: 5px;
   }  
 
-  .divider{
-    height: 3px;
+  .divider-small{
+    height: 1px;
     width: 140px;
-    background-image: linear-gradient(to right, #ffc7d1, #5a03cc);
+    background-image: linear-gradient(to right, #D4418E, #0652C5);
     position: absolute;
     left: 50%;
     transform: translate(-50%, -30%);
+  }
+
+  .divider-big{
+    height: 2px;
+    width: 500px;
+    background-image: linear-gradient(to right,#D4418E, #0652C5);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+  }
+
+  .divider-big.open{
+    visibility: visible;
   }
 
   .logo-container.open .about-back{
@@ -90,22 +104,12 @@
     margin: 0 0 1em 0;
   }
 
-  .about-info{
-    text-align: center;
-    word-spacing: 3px;
-    font-size: 1rem;
-  }
-
-  .about-info.open{
-    visibility: hidden;
-  }
-
   a {
     outline: none;
   }
 
   #social {
-    margin-top: 70px;
+    margin-top: 90px;
     display: flex;
     flex-direction: row;
     flex-grow: 0;
@@ -128,21 +132,20 @@
   a:hover {
     color: white;
   }
-
-  @media (max-width: 700px) {
-    .logo-front {
-      font-size: 1.5rem;
+  @media (min-width: 769px){
+    .logo-container{
+      max-width: 800px;
+      width: 100%;
     }
 
-    #social {
-      flex-direction: column;
-    }
   }
 
-  @media (max-width: 500px) {
+
+  @media (max-width: 768px) {
     .logo-container {
       display: inline-block;
-      width: 300px;
+      max-width: 300px;
+      width: 100%;
       height: 160px;
       left: 50%;
       transform: translateX(-50%);
@@ -156,16 +159,22 @@
       display: none;
     }
 
-    .about-info{
-      display: none;
-    }
-
     .logo-container.open .logo-front{
       transform: none;
     }
 
+    .divider-big.open{
+    visibility: hidden;
+    }
+
     #social {  
-      margin-top: 110px;
+      margin-top: 120px;
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+
+    #social > a{
+      font-size: 1.1rem;
     }
   }
 </style>
@@ -181,7 +190,7 @@
   </div>
   <div class="about-back">
     <h2>ABOUT US</h2>
-    <div class="divider"></div>
+    <div class="divider-small"></div>
     <p>According to GitHub’s “State of the Octoverse” report 2019, 99% of software
     projects in the world use Open Source Technologies in some way or the other.
     Open source has undoubtably changed the world, and we, the JODC (JIIT
@@ -195,9 +204,9 @@
     better developers and for the betterment of open source.</p>
   </div>
 </div>
-<div class="about-info" on:click={handleClick} class:open={isOpen}>
-<p>Want to know more? Click on JODC !</p>
-</div>
+
+<div class="divider-big" class:open={isOpen}></div>
+
 <!-- TODO(humancalico) add as a list? -->
 <div id="social">
   <a href="https://github.com/jiitodc">

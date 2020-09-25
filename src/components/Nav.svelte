@@ -2,11 +2,11 @@
   let active = false;
   let addActive = "";
 
-  const toggleLinks = () => {
-    active = !active;
-    if (active) addActive = "active";
-    else addActive = "";
-  }
+  let isOpen = false;
+    
+    function handleClick() {
+        isOpen = !isOpen
+    }
 </script>
 
 <style>
@@ -37,8 +37,8 @@
     margin-right: 50px;
   }
 
-  .nav-link,
-  .toggle-button {
+  .nav-link
+  {
     text-decoration: none;
     padding: .1em 0.25em;
     display: block;
@@ -49,8 +49,8 @@
     border-bottom: 2px solid #fff;
   }
 
-  .nav-link::after,
-  .toggle-button::after {
+  .nav-link::after
+  {
     content: "";
     position: absolute;
     bottom: 0;
@@ -63,59 +63,148 @@
     background-color: #fff;
   }
 
-  .nav-link:hover::after,
-  .toggle-button:hover::after {
+  .nav-link:hover::after
+   {
     height: 100%;
     opacity: 1;
   }
 
-  .nav-link:hover,
-  .toggle-button:hover {
+  .nav-link:hover
+  {
     color: #000;
   }
 
-  .toggle-button {
-    background-color: transparent;
-    outline: none;
-    border: none;
-    border-bottom: 2px solid #fff;
-    color: white;
-    font-size: 2rem;
-    position: absolute;
-    display: none;
-    right: 28px;
-    cursor: pointer;
-  }
+  
+  .burger-container{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+      transition: all .5s ease-in-out;
+      display: none;
+      z-index: 10;
+    }
 
-  @media (max-width:500px) {
-    .toggle-button {
+    .hamburger-icon{
+      width: 30px;
+      height: 2px;
+      background: #fff;
+      border-radius: 5px;
+      transition: all .5s ease-in-out;
+    }
+
+    .hamburger-icon::before,
+    .hamburger-icon::after{
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      background: #fff;
+      border-radius: 5px;
+      transition: all .5s ease-in-out;
+    }
+
+    .hamburger-icon::before{
+      transform: translateY(-11px);
+    }
+
+    .hamburger-icon::after{
+      transform: translateY(11px);
+    }
+
+    .burger-container.open .hamburger-icon {
+      transform: translateX(-50px);
+      background: transparent;
+    }
+
+    .burger-container.open .hamburger-icon::before{
+      transform: rotate(45deg) translate(35px, -35px);
+    }  
+
+    .burger-container.open .hamburger-icon::after{
+      transform: rotate(-45deg) translate(35px, 35px);
+    }
+
+    .nav-overlay{
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow-y: hidden;
+      transform: translateX(100%);
+      transition: all 0.6s ease-in-out;
+    }
+    
+    .nav-overlay.open{
+      transform: translateX(0%);
+      z-index: 5;
+    }
+    
+    .nav-overlay-list{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+    }
+
+    .nav-overlay-list li{
+      position: relative;
+      list-style: none;
+      text-align: center;
       display: block;
     }
+
+    .nav-overlay-list li a{
+      position: relative;
+      text-decoration: none;
+      font-size: 1.4em;
+      padding: 0 10px;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      display: inline-block;
+      margin-top: 40px;
+      border: none;
+      margin-bottom: 30px;
+    }
+
+    .divider-big{
+    height: 1px;
+    width: 70%;
+    margin: 0 auto;
+    
+  }
+
+  @media (max-width:768px) {
 
     .nav-links {
       display: none;
-      margin-top: 1em;
-      width: 100%;
-      text-align: center;
-    }
-
-    .nav-links.active {
-      display: block;
     }
 
     .jodc-mascot-img {
       max-height: 70px;
-
     }
 
-    nav {
-      flex-direction: column;
-      align-items: flex-start;
-    }
 
     li:not(:last-child) {
       margin-right: 0;
       margin-bottom: 1em;
+    }
+
+    .burger-container{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
 </style>
@@ -124,10 +213,21 @@
   <a href=".">
     <img src="jodcMascotWB.svg" alt="JODC Mascot" class="jodc-mascot-img">
   </a>
-  <button class="toggle-button" on:click={toggleLinks}>&#9776;</button>
-  <ul class="nav-links {addActive}">
-    <li><a class="nav-link" href="." on:click={toggleLinks}>home</a></li>
-    <li><a class="nav-link" href="events" on:click={toggleLinks}>events</a></li>
-    <li><a class="nav-link" href="team" on:click={toggleLinks}>team</a></li>
+  <div class="burger-container" on:click={handleClick} class:open={isOpen}>
+  <div class="hamburger-icon"></div>
+  </div>
+  <ul class="nav-links ">
+    <li><a class="nav-link" href=".">home</a></li>
+    <li><a class="nav-link" href="events">events</a></li>
+    <li><a class="nav-link" href="team">team</a></li>
   </ul>
+  <div class="nav-overlay" on:click={handleClick} class:open={isOpen}>
+    <ul class="nav-overlay-list">
+      <li><a href=".">home</a></li>
+      <div class="divider-big"></div>
+      <li><a href="events">events</a></li>
+      <div class="divider-big"></div>
+      <li><a href="team">team</a></li>
+    </ul>
+  </div>
 </nav>
