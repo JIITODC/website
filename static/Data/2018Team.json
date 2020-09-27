@@ -1,16 +1,58 @@
 [
   {
     "id": 1,
-    "name": "Aayush Kumar Sahu",
+    "name": "Ankit Khandelwal",
     "imgSrc": "Photos/Poster.png",
-    "role": "Core Member",
-    "gitlink": "https://www.github.com/aayushmau5"
+    "role": "Society Head",
+    "gitlink": "https://github.com/Ankk98"
   },
   {
     "id": 2,
-    "name": "Aachman Mittal",
+    "name": "Aman Sharma",
     "imgSrc": "Photos/Poster.png",
-    "role": "Core Member",
-    "gitlink": "https://www.github.com/AarKiMos"
+    "role": "Coordinator",
+    "gitlink": "https://github.com/amanharitsh123"
+  },
+  {
+    "id": 3,
+    "name": "Anmol Mishra",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Coordinator",
+    "gitlink": "https://github.com/anmol27katyani"
+  },
+  {
+    "id": 4,
+    "name": "Mayank Chaudhary",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Coordinator",
+    "gitlink": "https://github.com/im-gozmit"
+  },
+  {
+    "id": 5,
+    "name": "Kanchan Joshi",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Coordinator",
+    "gitlink": "https://github.com/koderjoker"
+  },
+  {
+    "id": 6,
+    "name": "Pranshu Srivastava",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/rexagod"
+  },
+  {
+    "id": 7,
+    "name": "Tripti Shukla",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/yellowwoods12"
+  },
+  {
+    "id": 8,
+    "name": "Vaibhav Gupta",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/VARoDeK"
   }
 ]

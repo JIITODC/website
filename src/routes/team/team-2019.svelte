@@ -4,7 +4,7 @@
 
 <script context="module">
   export async function preload() {
-    const res = await this.fetch('./Data/currentTeam.json');
+    const res = await this.fetch('./Data/2019Team.json');
     const datas = await res.json();
     return { datas };
   }

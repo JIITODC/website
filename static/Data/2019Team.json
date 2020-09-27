@@ -1,16 +1,107 @@
 [
   {
     "id": 1,
-    "name": "Aayush Kumar Sahu",
-    "imgSrc": "Photos/Poster.png",
-    "role": "Core Member",
-    "gitlink": "https://www.github.com/aayushmau5"
+    "name": "Vaibhav Gupta",
+    "imgSrc": "Photos/2019-team/vaibhav.jpg",
+    "role": "Head-Coordinator",
+    "gitlink": "https://github.com/VARoDeK"
   },
   {
     "id": 2,
-    "name": "Aachman Mittal",
-    "imgSrc": "Photos/Poster.png",
-    "role": "Core Member",
-    "gitlink": "https://www.github.com/AarKiMos"
+    "name": "Kanchan Joshi",
+    "imgSrc": "Photos/2019-team/kanchan.jpg",
+    "role": "Coordinator",
+    "gitlink": "https://github.com/koderjoker"
+  },
+  {
+    "id": 3,
+    "name": "Karan Dev Tyagi",
+    "imgSrc": "Photos/2019-team/karan.jpg",
+    "role": "Coordinator",
+    "gitlink": "https://github.com/karandevtyagi"
+  },
+  {
+    "id": 4,
+    "name": "Pranshu Srivastava",
+    "imgSrc": "Photos/2019-team/pranshu.jpg",
+    "role": "Coordinator",
+    "gitlink": "https://github.com/rexagod"
+  },
+  {
+    "id": 5,
+    "name": "Shikhar Kataruka",
+    "imgSrc": "Photos/2019-team/shikhar.jpg",
+    "role": "Coordinator",
+    "gitlink": "https://github.com/shikhar9820"
+  },
+  {
+    "id": 6,
+    "name": "Tripti Shukla",
+    "imgSrc": "Photos/2019-team/tripti.jpg",
+    "role": "Coordinator",
+    "gitlink": "Tripti Shukla"
+  },
+  {
+    "id": 7,
+    "name": "Ankur Kothiwal",
+    "imgSrc": "Photos/2019-team/ankur.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/Ankurk99"
+  },
+  {
+    "id": 8,
+    "name": "Arushi Verma",
+    "imgSrc": "Photos/2019-team/arushi.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/av-00"
+  },
+  {
+    "id": 9,
+    "name": "Ayush",
+    "imgSrc": "Photos/2019-team/ayush.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/eldraco19/"
+  },
+  {
+    "id": 10,
+    "name": "Ayush Dwivedi",
+    "imgSrc": "Photos/2019-team/dwivedi.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/AyushOneironaut"
+  },
+  {
+    "id": 11,
+    "name": "Divyansh Kamboj",
+    "imgSrc": "Photos/2019-team/divyansh.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/weirdwiz"
+  },
+  {
+    "id": 12,
+    "name": "Dharmveer Singh",
+    "imgSrc": "Photos/2019-team/dharamveer.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/moriarity9211"
+  },
+  {
+    "id": 13,
+    "name": "Eshan Dhawan",
+    "imgSrc": "Photos/2019-team/eshan.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/eshandhawan51"
+  },
+  {
+    "id": 14,
+    "name": "Nishit Anand",
+    "imgSrc": "Photos/2019-team/nishit.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/nishitanand"
+  },
+  {
+    "id": 15,
+    "name": "Prakher Prashank",
+    "imgSrc": "Photos/2019-team/prakher.jpg",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/im-prakher"
   }
 ]
