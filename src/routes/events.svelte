@@ -5,7 +5,8 @@
 <script context="module">
   export async function preload() {
     const res = await this.fetch('./Data/events.json');
-    const datas = await res.json();
+    const textData = await res.text();
+    const datas = await JSON.parse(textData);
     return { datas };
   }
 </script>
