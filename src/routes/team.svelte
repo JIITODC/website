@@ -2,19 +2,18 @@
   <title>Team</title>
 </svelte:head>
 
-<script context="module">
-  export async function preload() {
-    const res = await this.fetch('./Data/currentTeam.json');
-    const textData = await res.text();
-    const datas = await JSON.parse(textData);
-    return { datas };
-  }
-</script>
 
 <script>
+  import {onMount} from 'svelte';
   import TeamComponent from '../components/TeamComponent.svelte';
 
-  export let datas;
+  let datas = [];
+
+  onMount(async () => {
+    const res = await fetch('./Data/currentTeam.json');
+    const textData = await res.text();
+    datas = await JSON.parse(textData);
+  });
 </script>
 
 <div class="main-title">OUR TEAM</div>
