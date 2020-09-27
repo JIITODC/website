@@ -11,7 +11,7 @@
 </script>
 
 <script>
-  import TeamComponent from '../../components/TeamComponent.svelte';
+  import TeamComponent from '../components/TeamComponent.svelte';
 
   export let datas;
 </script>
@@ -28,8 +28,8 @@
 <div class="previous-team">
   <p class="previous-message">Previous Year Teams and Mentors</p>
   <div class="year-container">
-    <a rel=prefetch href="team/team-2018">2018-2019</a>
-    <a rel=prefetch href="team/team-2019">2019-2020</a>
+    <a rel=prefetch href="/team-2018">2018-2019</a>
+    <a rel=prefetch href="/team-2019">2019-2020</a>
   </div>
 </div>
 

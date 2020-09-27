@@ -11,7 +11,7 @@
 </script>
 
 <script>
-  import TeamComponent from '../../components/TeamComponent.svelte';
+  import TeamComponent from '../components/TeamComponent.svelte';
 
   export let datas;
 </script>
