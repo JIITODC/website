@@ -14,16 +14,20 @@
   :global(body) {
     background-color: black;
     font-family: "Red Hat Display";
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .section-header{
+    height: 90vh;
   }
 
   .logo-container {
     text-align: center;
-    margin: 2em 0 1em 0;
+    margin: 2em 0 0 0;
     width: 800px;
     height: 300px;
     font-size: 2rem;
     position: relative;
-    -webkit-tap-highlight-color: transparent;
   }
 
   .logo-front{
@@ -34,14 +38,38 @@
     height: 100%;
   }
 
-  .about-us{
-    display: none;
-  }
-
   img {
     width: 100%;
     max-width: 600px;
     margin: 0 0 1em 0;
+  }
+
+  .section-about{
+    height: 80vh;
+  }
+
+  .about-us{
+    width: 100%;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 5vh;
+  }
+  
+  .about-us > p{
+    line-height: 1.9;
+    word-spacing: 4px;
+  }
+
+  .about-us > h2{
+    color: #fff;
+    font-weight: 700;
+    margin: 5px;
+  } 
+
+  .divider{
+    height: 3px;
+    width: 140px;
+    background-color: orange;
   }
 
   a {
@@ -95,7 +123,7 @@
       font-size: 1.1rem;
     }
 
-    .about-us{
+    .section-about{
       display: none;
     }
 
@@ -123,34 +151,42 @@
   <title>JODC | JIIT Open-Source Developers Circle</title>
 </svelte:head>
 
+<section class="section-header">
 <div class="logo-container">
   <div class="logo-front">
     <img alt="JODC Logo" src="jodcLogoWB.svg" />
     <p>JIIT Open-Source Developers Circle</p>
   </div>
+  </div>
+
+  <div id="social">
+    <a href="https://github.com/jiitodc">
+      <Icon style="margin-right: 10px; scale:1.5;" data={github} />GITHUB</a>
+    <a href="https://t.me/jiitodc">
+      <Icon style="margin-right: 10px; scale:1.5;" data={telegram} />TELEGRAM</a>
+    <a href="https://twitter.com/jiitodc">
+      <Icon style="margin-right: 10px; scale:1.5;" data={twitter} />TWITTER</a>
+    <a href="https://www.facebook.com/groups/jiitodc">
+      <Icon style="margin-right: 10px; scale:1.5;" data={facebook} />FACEBOOK</a>
+  </div>
+
+</section>
+<section class="section-about">
   <div class="about-us">
+    <h2>ABOUT US</h2>
+    <div class="divider"></div>
     <p>According to GitHub’s “State of the Octoverse” report 2019, 99% of software
     projects in the world use Open Source Technologies in some way or the other.
     Open source has undoubtably changed the world, and we, the JODC (JIIT
-    Open-Source Developers Circle) aim to help students to become a part of it.<br />The
+    Open-Source Developers Circle) aim to help students to become a part of it.<br /><br />The
     JODC is an initiative by the students of JIIT-128 to promote open source
-    culture.The hub is all about contributing to and collaborating on projects,
+    culture. The hub is all about contributing to and collaborating on projects,
     networking, learning together and guiding students. We conduct talks, workshops,
-    activities, one-to-one sessions and dev-sprints to mentor students. We encourage
+    activities, one-to-one sessions and dev-sprints to mentor students.<br /><br /> We encourage
     them to volunteer for open source projects and organisations and participate in
     open source initiatives such as Google Summer of Code and Outreachy to become
     better developers and for the betterment of open source.</p>
   </div>
-  </div>
+</section>
 
-<!-- TODO(humancalico) add as a list? -->
-<div id="social">
-  <a href="https://github.com/jiitodc">
-    <Icon style="margin-right: 10px; scale:1.5;" data={github} />GITHUB</a>
-  <a href="https://t.me/jiitodc">
-    <Icon style="margin-right: 10px; scale:1.5;" data={telegram} />TELEGRAM</a>
-  <a href="https://twitter.com/jiitodc">
-    <Icon style="margin-right: 10px; scale:1.5;" data={twitter} />TWITTER</a>
-  <a href="https://www.facebook.com/groups/jiitodc">
-    <Icon style="margin-right: 10px; scale:1.5;" data={facebook} />FACEBOOK</a>
-</div>
+
