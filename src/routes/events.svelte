@@ -3,19 +3,44 @@
 </svelte:head>
 
 <script>
+    import {onMount} from 'svelte';
     import EventComponent from '../components/EventComponent.svelte';
+
+    let datas = [];
+
+    onMount(async () => {
+        const res = await fetch('./Data/events.json');
+        const textData = await res.text();
+        datas = await JSON.parse(textData);
+    });
+
+    const compareDate = (prevTime) => {
+        let [prevDate,prevMonth,prevYear] = prevTime.split("-");
+        let [month, date, year]    = ( new Date() ).toLocaleDateString().split("/");
+        if(+prevDate < +date || +prevMonth < +month || +prevYear < +year) {
+            return false;
+        } else {
+            return true;
+        }
+    }
 </script>
 
 
 <div class="main-title">EVENTS</div>
 <div class="sub-title"> Upcoming Events</div>
-<EventComponent title="Git/Github Workshop" about="Learn about git and github." time="12:00AM 1 OCT 2002"
-    location="LT6" imagelink="Poster.png"/>
-<EventComponent title="Hacktoberfest" about="Contribute to open source to get a free t-shirt" time="12:00AM 1 OCT 2002"
-    location="LT5" imagelink="Poster.png"/>
+{#each datas as data (data.id)} 
+    {#if compareDate(data.formatDate)}
+        <EventComponent title={data.title} about={data.about} time={data.time}
+    location={data.location} imagelink={data.imagelink} />
+    {/if}
+{/each}
 <div class="sub-title"> Past Events</div>
-<EventComponent title="Informal Meetup" about="Very first meetup for the first year students at JIIT" time="September 19' 2020  @  6:00PM"
-    location="Virtual" imagelink="posters/Informal_Meetup.jpg" />
+{#each datas as data (data.id)} 
+    {#if !compareDate(data.formatDate)}
+        <EventComponent title={data.title} about={data.about} time={data.time}
+    location={data.location} imagelink={data.imagelink} />
+    {/if}
+{/each}
 
 <style>
     .main-title {

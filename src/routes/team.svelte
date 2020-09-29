@@ -2,18 +2,18 @@
   <title>Team</title>
 </svelte:head>
 
-<script context="module">
-  export async function preload() {
-    const res = await this.fetch('./Data/currentTeam.json');
-    const datas = await res.json();
-    return { datas };
-  }
-</script>
 
 <script>
-  import TeamComponent from '../../components/TeamComponent.svelte';
+  import {onMount} from 'svelte';
+  import TeamComponent from '../components/TeamComponent.svelte';
 
-  export let datas;
+  let datas = [];
+
+  onMount(async () => {
+    const res = await fetch('./Data/currentTeam.json');
+    const textData = await res.text();
+    datas = await JSON.parse(textData);
+  });
 </script>
 
 <div class="main-title">OUR TEAM</div>
@@ -28,8 +28,8 @@
 <div class="previous-team">
   <p class="previous-message">Previous Year Teams and Mentors</p>
   <div class="year-container">
-    <a rel=prefetch href="team/team-2018">2018-2019</a>
-    <a rel=prefetch href="team/team-2019">2019-2020</a>
+    <a rel=prefetch href="/team-2018">2018-2019</a>
+    <a rel=prefetch href="/team-2019">2019-2020</a>
   </div>
 </div>
 

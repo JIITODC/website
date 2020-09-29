@@ -2,15 +2,8 @@
   {
     "id": 1,
     "name": "Aayush Kumar Sahu",
-    "imgSrc": "Photos/Poster.png",
-    "role": "Core Member",
-    "gitlink": "https://www.github.com/aayushmau5"
-  },
-  {
-    "id": 2,
-    "name": "Aachman Mittal",
-    "imgSrc": "Photos/Poster.png",
-    "role": "Core Member",
-    "gitlink": "https://www.github.com/AarKiMos"
+    "imgSrc": "Photos/Current-Team/aayushmau5.jpg",
+    "role": "Core Team",
+    "gitlink": "https://github.com/aayushmau5"
   }
 ]
