@@ -10,11 +10,11 @@
   },
   {
     "id": 2,
-    "title": "Git/Github Worksop",
+    "title": "Git/Github/Hacktoberfest Workshop ",
     "about": "Introduction to Open Source and Git/Github",
     "time": "September 30' 2020  @  6:00PM",
     "location": "Virtual",
-    "imagelink": "Photos/Poster.png",
+    "imagelink": "Photos/posters/git-github-workshop.png",
     "formatDate": "30-9-2020"
   }
 ]
