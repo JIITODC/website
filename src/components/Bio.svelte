@@ -20,13 +20,6 @@
 
 <div>
     <!-- TODO -->
-    <img src="profile-pic.png" alt="JODC Logo" />
-    <p>
-        You can follow us on
-        <a href="https://www.twitter.com/jiitodc" target="_blank">Twitter</a>,
-        see some of my work on
-        <a href="https://www.github.com/jiitodc" target="_blank">GitHub</a>, or
-        read more about me on
-        <a href="https://www.jodc.tech" target="_blank">our website</a>.
-    </p>
+    <img src="jodcMascotWB.svg" alt="JODC Logo" />
+    <p>TODO: Add some details here</p>
 </div>

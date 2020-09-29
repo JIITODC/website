@@ -30,7 +30,7 @@
     header p {
         color: #aaa;
         text-transform: uppercase;
-        font-family: Rubik, sans-serif;
+        font-family: Raleway, sans-serif;
         font-weight: 600;
     }
 
