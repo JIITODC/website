@@ -3,10 +3,10 @@
   let addActive = "";
 
   let isOpen = false;
-    
-    function handleClick() {
-        isOpen = !isOpen
-    }
+
+  function handleClick() {
+    isOpen = !isOpen;
+  }
 </script>
 
 <style>
@@ -38,20 +38,18 @@
     margin-right: 50px;
   }
 
-  .nav-link
-  {
+  .nav-link {
     text-decoration: none;
-    padding: .1em 0.25em;
+    padding: 0.1em 0.25em;
     display: block;
     text-transform: uppercase;
     font-size: 1.6rem;
-    transition: all .5s;
+    transition: all 0.5s;
     position: relative;
     border-bottom: 2px solid #fff;
   }
 
-  .nav-link::after
-  {
+  .nav-link::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -60,133 +58,128 @@
     z-index: -1;
     height: 0;
     opacity: 0;
-    transition: all .6s;
+    transition: all 0.6s;
     background-color: #fff;
   }
 
-  .nav-link:hover::after
-   {
+  .nav-link:hover::after {
     height: 100%;
     opacity: 1;
   }
 
-  .nav-link:hover
-  {
+  .nav-link:hover {
     color: #000;
   }
 
-  
-  .burger-container{
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 50px;
-      height: 50px;
-      cursor: pointer;
-      transition: all .5s ease-in-out;
-      display: none;
-      z-index: 10;
-    }
+  .burger-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    display: none;
+    z-index: 10;
+  }
 
-    .hamburger-icon{
-      width: 30px;
-      height: 2px;
-      background: #fff;
-      border-radius: 5px;
-      transition: all .5s ease-in-out;
-    }
+  .hamburger-icon {
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
 
-    .hamburger-icon::before,
-    .hamburger-icon::after{
-      content: '';
-      position: absolute;
-      width: 30px;
-      height: 2px;
-      background: #fff;
-      border-radius: 5px;
-      transition: all .5s ease-in-out;
-    }
+  .hamburger-icon::before,
+  .hamburger-icon::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+  }
 
-    .hamburger-icon::before{
-      transform: translateY(-11px);
-    }
+  .hamburger-icon::before {
+    transform: translateY(-11px);
+  }
 
-    .hamburger-icon::after{
-      transform: translateY(11px);
-    }
+  .hamburger-icon::after {
+    transform: translateY(11px);
+  }
 
-    .burger-container.open .hamburger-icon {
-      transform: translateX(-50px);
-      background: transparent;
-    }
+  .burger-container.open .hamburger-icon {
+    transform: translateX(-50px);
+    background: transparent;
+  }
 
-    .burger-container.open .hamburger-icon::before{
-      transform: rotate(45deg) translate(35px, -35px);
-    }  
+  .burger-container.open .hamburger-icon::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
 
-    .burger-container.open .hamburger-icon::after{
-      transform: rotate(-45deg) translate(35px, 35px);
-    }
+  .burger-container.open .hamburger-icon::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
 
-    .nav-overlay{
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      left: 0;
-      background: #000;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      overflow-x: hidden;
-      transform: translateX(100%);
-      transition: all 0.6s ease-in-out;
-      z-index: 5;
-    }
-    
-    .nav-overlay.open{
-      transform: translateX(0%);
-    }
-    
-    .nav-overlay-list{
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      width: 100vw;
-    }
+  .nav-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    transform: translateX(100%);
+    transition: all 0.6s ease-in-out;
+    z-index: 5;
+  }
 
-    .nav-overlay-list li{
-      position: relative;
-      list-style: none;
-      text-align: center;
-      display: block;
-    }
+  .nav-overlay.open {
+    transform: translateX(0%);
+  }
 
-    .nav-overlay-list li a{
-      position: relative;
-      text-decoration: none;
-      font-size: 1.4em;
-      padding: 0 10px;
-      color: #fff;
-      font-weight: 700;
-      text-transform: uppercase;
-      display: inline-block;
-      margin-top: 40px;
-      border: none;
-      margin-bottom: 30px;
-    }
+  .nav-overlay-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
 
-    .divider-big{
+  .nav-overlay-list li {
+    position: relative;
+    list-style: none;
+    text-align: center;
+    display: block;
+  }
+
+  .nav-overlay-list li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 40px;
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .divider-big {
     height: 1px;
     width: 70%;
     margin: 0 auto;
-    
   }
 
-  @media (max-width:768px) {
-
+  @media (max-width: 768px) {
     .nav-links {
       display: none;
     }
@@ -195,13 +188,12 @@
       max-height: 70px;
     }
 
-
     li:not(:last-child) {
       margin-right: 0;
       margin-bottom: 1em;
     }
 
-    .burger-container{
+    .burger-container {
       position: relative;
       display: flex;
       justify-content: center;
@@ -212,23 +204,26 @@
 
 <nav>
   <a href=".">
-    <img src="jodcMascotWB.svg" alt="JODC Mascot" class="jodc-mascot-img">
+    <img src="jodcMascotWB.svg" alt="JODC Mascot" class="jodc-mascot-img" />
   </a>
   <div class="burger-container" on:click={handleClick} class:open={isOpen}>
-  <div class="hamburger-icon"></div>
+    <div class="hamburger-icon" />
   </div>
   <ul class="nav-links ">
     <li><a class="nav-link" href=".">home</a></li>
     <li><a class="nav-link" href="events">events</a></li>
-    <li><a class="nav-link" href="team">team</a></li>
+    <li><a rel="prefetch" class="nav-link" href="team">team</a></li>
+    <li><a rel="prefetch" class="nav-link" href="blog">blog</a></li>
   </ul>
   <div class="nav-overlay" on:click={handleClick} class:open={isOpen}>
     <ul class="nav-overlay-list">
       <li><a href=".">home</a></li>
-      <div class="divider-big"></div>
+      <div class="divider-big" />
       <li><a href="events">events</a></li>
-      <div class="divider-big"></div>
+      <div class="divider-big" />
       <li><a href="team">team</a></li>
+      <div class="divider-big" />
+      <li><a href="blog">blog</a></li>
     </ul>
   </div>
 </nav>
