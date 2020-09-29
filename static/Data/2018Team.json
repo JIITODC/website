@@ -1,16 +1,9 @@
 [
   {
     "id": 1,
-    "name": "Aayush Kumar Sahu",
+    "name": "Ankit Khandelwal",
     "imgSrc": "Photos/Poster.png",
-    "role": "Core Member",
-    "gitlink": "https://www.github.com/aayushmau5"
-  },
-  {
-    "id": 2,
-    "name": "Aachman Mittal",
-    "imgSrc": "Photos/Poster.png",
-    "role": "Core Member",
-    "gitlink": "https://www.github.com/AarKiMos"
+    "role": "Society Head",
+    "gitlink": "https://github.com/Ankk98"
   }
 ]

@@ -220,7 +220,7 @@
   <ul class="nav-links ">
     <li><a class="nav-link" href=".">home</a></li>
     <li><a class="nav-link" href="events">events</a></li>
-    <li><a rel=prefetch class="nav-link" href="team">team</a></li>
+    <li><a class="nav-link" href="team">team</a></li>
   </ul>
   <div class="nav-overlay" on:click={handleClick} class:open={isOpen}>
     <ul class="nav-overlay-list">

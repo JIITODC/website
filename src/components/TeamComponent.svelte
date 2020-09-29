@@ -16,10 +16,8 @@
         <p>{role}</p>
     </div>
     <div class="link">
-            <a href={gitLink}>Github</a>
-            <a href={gitLink}>Twitter</a>
-            <a href={gitLink}>LinkedIn</a>
-        </div>
+        <a href={gitLink}>Github</a>
+    </div>
 </div>
 
 <style>
