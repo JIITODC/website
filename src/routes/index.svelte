@@ -180,7 +180,7 @@
     Open source has undoubtably changed the world, and we, the JODC (JIIT
     Open-Source Developers Circle) aim to help students to become a part of it.<br /><br />The
     JODC is an initiative by the students of JIIT-128 to promote open source
-    culture.The hub is all about contributing to and collaborating on projects,
+    culture. The hub is all about contributing to and collaborating on projects,
     networking, learning together and guiding students. We conduct talks, workshops,
     activities, one-to-one sessions and dev-sprints to mentor students.<br /><br /> We encourage
     them to volunteer for open source projects and organisations and participate in
