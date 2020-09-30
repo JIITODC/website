@@ -18,6 +18,8 @@ efforts from contributors on the same issue.
 Look for [good first issues](https://github.com/JIITODC/jiitodc.github.io/labels/good%20first%20issue) to find
 good tasks to start with. 
 
+If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
+
 ## Setup instructions
 
 ```sh
