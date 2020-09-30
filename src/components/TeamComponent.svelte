@@ -25,6 +25,7 @@
   img {
     width: 200px;
     border-radius: 50%;
+    border: 5px solid #ffa500;
   }
 
   a {
