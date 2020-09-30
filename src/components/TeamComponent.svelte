@@ -21,35 +21,32 @@
 </div>
 
 <style>
+    .lazyload{
+      border: 4px solid purple;
+    }
     .card {
         margin-top:4rem;
         text-align:center;
         font-family: "Roboto Mono",sans-serif;
     }
-
     .card-header {
         margin-top:1.5rem;
         font-size:1.5rem;
         font-weight: 900;
     }
-
     .role p {
         color:#6c715d;
     }
-
     img {
         width:200px;
         border-radius: 50%;
     }
-
     a {
         color:#ccc;
     } 
-
     a:hover {
         color:white;
     }
-
     @media (max-width:700px) {
         .card-header {
             font-size: 1.2rem;
