@@ -7,7 +7,7 @@ We welcome contributions from everyone. Here are the guidelines if you are
 thinking of helping us:
 
 Contributions should be made in the form of GitHub pull requests.
-Each pull request will be reviewed by someone with permission to land patches and either landed in the main tree or
+Each pull request will be reviewed by someone with permission to land patches and either land in the main tree or
 given feedback for changes that would be required. All contributions should
 follow this format.
 
