@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "jodc_website",
+  "description": "Main website for JODC",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
@@ -14,8 +14,13 @@
   "dependencies": {
     "aos": "^2.3.4",
     "compression": "^1.7.1",
+    "date-fns": "^2.16.1",
+    "gray-matter": "^4.0.2",
     "lazysizes": "^5.2.2",
+    "marked": "^1.2.0",
     "polka": "next",
+    "prismjs": "^1.21.0",
+    "reading-time": "^1.2.0",
     "sirv": "^1.0.0",
     "svelte-awesome": "^2.3.0"
   },
@@ -29,10 +34,14 @@
     "@rollup/plugin-commonjs": "^14.0.0",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@rollup/plugin-replace": "^2.2.0",
+<<<<<<< HEAD
     "imagemin": "^7.0.1",
     "imagemin-webp": "^6.0.0",
+=======
+>>>>>>> 10d41a8d64d815bd13bde1425962a5d2d20de8f0
     "npm-run-all": "^4.1.5",
     "rollup": "^2.3.4",
+    "rollup-plugin-glob": "^1.0.2",
     "rollup-plugin-svelte": "^6.0.0",
     "rollup-plugin-terser": "^7.0.0",
     "sapper": "^0.28.0",
