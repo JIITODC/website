@@ -1,7 +1,7 @@
-const imagemin = require("imagemin");
-const imageminWebp = require("imagemin-webp");
+const imagemin = require('imagemin');
+const imageminWebp = require('imagemin-webp');
 
-imagemin(["../static/Photos/*.png"], {
+imagemin(["../static/Photos/**!webp/*.{png, jpg}"], {
   destination: "../static/Photos/webp/",
   plugins: [
     imageminWebp({
