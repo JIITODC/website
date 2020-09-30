@@ -127,13 +127,6 @@
       display: none;
     }
 
-    .logo-container.open .logo-front{
-      transform: none;
-    }
-
-    .divider-big.open{
-    visibility: hidden;
-    }
 
     #social {  
       margin-top: 120px;
