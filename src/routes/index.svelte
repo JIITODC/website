@@ -176,16 +176,16 @@
     <h2>ABOUT US</h2>
     <div class="divider"></div>
     <p>According to GitHub’s “State of the Octoverse” report 2019, 99% of software
-    projects in the world use Open Source Technologies in some way or the other.
-    Open source has undoubtably changed the world, and we, the JODC (JIIT
+    projects in the world use Open-Source Technologies in some way or the other.
+    Open-source has undoubtedly changed the world, and we, the JODC (JIIT
     Open-Source Developers Circle) aim to help students to become a part of it.<br /><br />The
-    JODC is an initiative by the students of JIIT-128 to promote open source
+    JODC is an initiative by the students of JIIT-128 to promote open-source
     culture. The hub is all about contributing to and collaborating on projects,
     networking, learning together and guiding students. We conduct talks, workshops,
     activities, one-to-one sessions and dev-sprints to mentor students.<br /><br /> We encourage
-    them to volunteer for open source projects and organisations and participate in
-    open source initiatives such as Google Summer of Code and Outreachy to become
-    better developers and for the betterment of open source.</p>
+    them to volunteer for open-source projects and organisations and participate in
+    open-source initiatives such as Google Summer of Code and Outreachy to become
+    better developers and for the betterment of open-source.</p>
   </div>
 </section>
 
