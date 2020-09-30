@@ -17,12 +17,19 @@
     const compareDate = (prevTime) => {
         let [prevDate,prevMonth,prevYear] = prevTime.split("-");
         let [month, date, year]    = ( new Date() ).toLocaleDateString().split("/");
-        if(+prevDate < +date || +prevMonth < +month || +prevYear < +year) {
-            return false;
-        } else {
-            return true;
+        if(+prevYear < +year){
+          return false;
+        } 
+        else if(+prevYear == +year && +prevMonth < +month){
+          return false;
         }
-    }
+        else if(+prevYear == +year && +prevMonth == +month && +prevDate < +date){
+          return false;
+        }
+        else{
+          return true;
+        }
+      }
 </script>
 
 
