@@ -110,33 +110,60 @@
 
 
   @media (max-width: 768px) {
+
+    .section-header{
+      height: 87vh;
+      position: relative;
+    }
+
     .logo-container {
       display: inline-block;
       max-width: 300px;
       width: 100%;
       height: 160px;
       left: 50%;
-      transform: translateX(-50%);
+      top: 17%;
+      transform: translate(-50%, -50%);
     }
 
     .logo-front > p{
       font-size: 1.1rem;
     }
 
-    .section-about{
-      display: none;
-    }
-
-
     #social {  
-      margin-top: 120px;
+      position: absolute;
+      bottom: 25%;
       display: grid;
       grid-template-columns: auto auto;
     }
 
+<<<<<<< HEAD
+=======
     #social > a{
       font-size: 1.1rem;
     }
+
+    .section-about{
+      height: 100vh;
+    }
+>>>>>>> 920c15c... Add About section in mobile design and some positioning fixes
+
+    .about-us{
+    width: 100%;
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 15vh;
+    }
+  
+    .about-us > p{
+    line-height: 1.5;
+    word-spacing: 2px;
+    }
+
+    .divider{
+    width: 130px;
+    }
+  
   }
 </style>
 
