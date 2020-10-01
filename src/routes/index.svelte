@@ -137,8 +137,6 @@
       grid-template-columns: auto auto;
     }
 
-<<<<<<< HEAD
-=======
     #social > a{
       font-size: 1.1rem;
     }
@@ -146,7 +144,6 @@
     .section-about{
       height: 100vh;
     }
->>>>>>> 920c15c... Add About section in mobile design and some positioning fixes
 
     .about-us{
     width: 100%;
