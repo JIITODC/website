@@ -4,7 +4,7 @@
   <img src="https://res.cloudinary.com/dcykxiua2/image/upload/v1601403909/screely-1601393893331_vglbvb.png">
 </p>
 
-[![Open Issues](https://img.shields.io/github/issues/JIITODC/jiitodc.github.io?style=for-the-badge&logo=github)](https://github.com/JIITODC/jiitodc.github.io/issues) [![Forks](https://img.shields.io/github/forks/JIITODC/jiitodc.github.io?style=for-the-badge&logo=github)](https://github.com/code-monk08/connect-four/network/members) [![Stars](https://img.shields.io/github/stars/JIITODC/jiitodc.github.io?style=for-the-badge&logo=reverbnation)](https://github.com/code-monk08/connect-four/stargazers) ![Maintained](https://img.shields.io/maintenance/yes/2019?style=for-the-badge&logo=github) ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%99%A5-red?style=for-the-badge&logo=open-source-initiative) ![Built with Love](https://img.shields.io/badge/Built%20With-%E2%99%A5-critical?style=for-the-badge&logo=ko-fi)
+[![Open Issues](https://img.shields.io/github/issues/JIITODC/jiitodc.github.io?style=for-the-badge&logo=github)](https://github.com/JIITODC/jiitodc.github.io/issues) [![Forks](https://img.shields.io/github/forks/JIITODC/jiitodc.github.io?style=for-the-badge&logo=github)](https://github.com/JIITODC/jiitodc.github.io/network/members) [![Stars](https://img.shields.io/github/stars/JIITODC/jiitodc.github.io?style=for-the-badge&logo=reverbnation)](https://github.com/JIITODC/jiitodc.github.io/stargazers)  ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%99%A5-red?style=for-the-badge&logo=open-source-initiative) ![Built with Love](https://img.shields.io/badge/Built%20With-%E2%99%A5-critical?style=for-the-badge&logo=ko-fi)
 
 </div>
 
@@ -31,23 +31,13 @@ To use this project.
 -   However you get the code, you can install dependencies and run the project in development mode with:
 
 ```bash
-$cd jiitodc.github.io
-npm install # or yarn
-npm run dev
+$ cd jiitodc.github.io
+$ npm install # or yarn
+$ npm run dev
 ```
 
 -   Open up localhost:3000 and start clicking around.
 -   Consult sapper.svelte.dev for help getting started.
-
-### 📦: Commands
-
--   Start project using
-
-```bash
-$cd jiitodc.github.io
-npm install # or yarn
-npm run dev
-```
 
 ## 📁: File Structure
 
@@ -130,7 +120,7 @@ Look for good first issues to find good tasks to start with.
 Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
 
 1.  **Report a bug** <br>
-    If you think you have encountered a new issue, and I should know about it, feel free to report it and I will take care of it.
+    If you think you have encountered a new issue, and we should know about it, feel free to report it and we will take care of it.
 
 2.  **Create a pull request** <br>
     It cannot get better then this, your pull request will be appreciated by the community. You can get started by picking up any open issues and make a pull request.
@@ -152,8 +142,6 @@ Your contributions are always welcome and appreciated. Following are the things 
   <img src="https://res.cloudinary.com/dcykxiua2/image/upload/v1601404144/shotsnapp-1601404124.596_qpkdu5.png" width="800">
 </p>
 <p align="center">The Events Page.</p>
-
-<p align="center">And a lot more is waiting for you [here](https://jodc.vercel.app/).</p>
 
 ## 🔒 : License
 
