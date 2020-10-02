@@ -1,13 +1,14 @@
 const imagemin = require('imagemin');
 const imageminWebp = require('imagemin-webp');
 
-imagemin(["../static/Photos/**/*.{png,jpg}"], {
-  destination: "../static/Photos/webp/",
-  plugins: [
-    imageminWebp({
-      quality: 100
-    }),
-  ],
-}).then(() => {
-  console.log("Images Converted");
-});
+(async() => {
+  const files = await imagemin(["../static/Photos/**/*.{png,jpg}"], {
+    destination: "../static/Photos/webp/",
+    plugins: [
+      imageminWebp({
+        quality: 100
+      }),
+    ],
+  });
+  console.log(files);
+})();
