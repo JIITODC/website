@@ -78,6 +78,7 @@
         scale="1.4" /><span>&nbsp;&nbsp;
         {location}<span>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <br /><br />
           <Icon
             data={calendar}
             style="vertical-align: sub;"
