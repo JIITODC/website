@@ -51,7 +51,7 @@
 
     .divider{
     height: 3px;
-    width: 180px;
+    width: 181px;
     background-color: orange;
     }
 
@@ -60,7 +60,7 @@
         margin-top: 4rem;
     }
 
-    @media (max-width:700px) {
+    @media (max-width:768px) {
         .main-title {
             font-size: 2rem;
         }

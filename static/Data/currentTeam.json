@@ -5,5 +5,12 @@
     "imgSrc": "Photos/Current-Team/aayushmau5.jpg",
     "role": "Core Team",
     "gitlink": "https://github.com/aayushmau5"
+  },
+  {
+    "id": 2,
+    "name": "Ishan",
+    "imgSrc": "Photos/Current-Team/Ishan-Saini.jpg",
+    "role": "Core Team",
+    "gitlink": "https://github.com/Ishan-Saini"
   }
 ]
