@@ -38,7 +38,7 @@
     font-weight: bold;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     .event-container {
       flex-direction: column;
       font-size: 1rem;
@@ -79,6 +79,7 @@
         scale="1.4" /><span>&nbsp;&nbsp;
         {location}<span>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <br /><br />
           <Icon
             data={calendar}
             style="vertical-align: sub;"

@@ -125,6 +125,15 @@
   }
 
   .nav-overlay {
+    display: none;
+  }
+
+  @media (max-width:768px) {
+    .nav-links {
+      display: none;
+    }
+
+    .nav-overlay {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -173,17 +182,6 @@
     margin-bottom: 30px;
   }
 
-  .divider-big {
-    height: 1px;
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  @media (max-width:768px) {
-    .nav-links {
-      display: none;
-    }
-
     .jodc-mascot-img {
       max-height: 70px;
     }
@@ -218,11 +216,8 @@
   <div class="nav-overlay" on:click={handleClick} class:open={isOpen}>
     <ul class="nav-overlay-list">
       <li><a href=".">home</a></li>
-      <div class="divider-big" />
       <li><a href="events">events</a></li>
-      <div class="divider-big" />
       <li><a href="team">team</a></li>
-      <div class="divider-big" />
       <li><a href="blog">blog</a></li>
     </ul>
   </div>

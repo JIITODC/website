@@ -27,6 +27,7 @@
 
 
 <div class="main-title">EVENTS</div>
+<div class="divider"></div>
 <div class="sub-title"> Upcoming Events</div>
 {#each datas as data (data.id)} 
     {#if compareDate(data.formatDate)}
@@ -48,6 +49,12 @@
         font-weight: bold;
     }
 
+    .divider{
+    height: 3px;
+    width: 180px;
+    background-color: orange;
+    }
+
     .sub-title {
         font-size: 2rem;
         margin-top: 4rem;
@@ -56,6 +63,9 @@
     @media (max-width:700px) {
         .main-title {
             font-size: 2rem;
+        }
+        .divider{
+            width: 120px;
         }
     }
 </style>
