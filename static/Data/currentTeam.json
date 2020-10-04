@@ -2,14 +2,14 @@
   {
     "id": 1,
     "name": "Aayush Kumar Sahu",
-    "imgSrc": "Photos/Current-Team/aayushmau5.jpg",
+    "imgSrc": "Photos/webp/aayushmau5.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/aayushmau5"
   },
   {
     "id": 2,
     "name": "Ishan",
-    "imgSrc": "Photos/Current-Team/Ishan-Saini.jpg",
+    "imgSrc": "Photos/webp/Ishan-Saini.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/Ishan-Saini"
   }
