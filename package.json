@@ -10,7 +10,9 @@
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
-    "webp": "cd src && node webp.js"
+    "webp": "cd src && node webp.js",
+    "lint": "prettier --write --plugin-search-dir=. './**/*.{svelte,js,html,css}'",
+    "lint:check": "prettier --check --plugin-search-dir=. './**/*.{svelte,js,html,css}'"
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -38,6 +40,8 @@
     "imagemin": "^7.0.1",
     "imagemin-webp": "^6.0.0",
     "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.2",
+    "prettier-plugin-svelte": "^1.4.0",
     "rollup": "^2.3.4",
     "rollup-plugin-glob": "^1.0.2",
     "rollup-plugin-svelte": "^6.0.0",
