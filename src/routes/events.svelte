@@ -40,12 +40,7 @@ let hide = true;
 const compareDate = (prevTime) => {
   const currentDate = new Date();
   const prevDate = new Date(prevTime);
-  if (prevDate < currentDate) {
-    return false;
-  } else {
-    hide = false;
-    return true;
-  }
+  return prevDate <= currentDate ? false : true;
 };
 </script>
 
