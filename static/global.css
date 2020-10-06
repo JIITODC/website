@@ -1,28 +1,23 @@
 @font-face {
   font-family: 'Red-Hat Regular';
   src: url(fonts/RedHatDisplay-Regular.woff);
-}
-@font-face {
-  font-family: 'Red-Hat Medium';
-  src: url(fonts/RedHatDisplay-Medium.woff);
-  font-weight: 500;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Red-Hat Bold';
   src: url(fonts/RedHatDisplay-Bold.woff);
   font-weight: bold;
-}
-@font-face {
-  font-family: 'Red-Hat Black';
-  src: url(fonts/RedHatDisplay-Black.woff);
+  font-display: swap;
 }
 @font-face {
   font-family: 'Roboto Mono';
   src: url(fonts/RobotoMono-Regular.woff);
+  font-display: swap;
 }
 @font-face {
   font-family: 'Merriweather Regular';
   src: url(fonts/Merriweather-Regular.woff);
+  font-display: swap;
 }
 body {
   margin: 0;
