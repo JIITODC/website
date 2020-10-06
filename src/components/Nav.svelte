@@ -1,5 +1,6 @@
 <style>
 nav {
+  font-family: 'Red-Hat Regular';
   font-weight: 300;
   padding: 1em 2em;
   display: flex;
@@ -162,6 +163,7 @@ li:not(:last-child) {
     text-decoration: none;
     font-size: 1.4em;
     padding: 0 10px;
+    font-family: 'Red-Hat Bold';
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;

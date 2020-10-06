@@ -1,5 +1,37 @@
+@font-face {
+  font-family: 'Red-Hat Regular';
+  src: url(fonts/RedHatDisplay-Regular.woff);
+}
+@font-face {
+  font-family: 'Red-Hat Medium';
+  src: url(fonts/RedHatDisplay-Medium.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Red-Hat Bold';
+  src: url(fonts/RedHatDisplay-Bold.woff);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Red-Hat Black';
+  src: url(fonts/RedHatDisplay-Black.woff);
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url(fonts/RobotoMono-Regular.woff);
+}
+@font-face {
+  font-family: 'Merriweather Regular';
+  src: url(fonts/Merriweather-Regular.woff);
+}
 body {
   margin: 0;
+<<<<<<< HEAD
+=======
+  font-family: 'Red-Hat Regular', Roboto, -apple-system, BlinkMacSystemFont,
+    Merriweather, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+>>>>>>> 284ed75... remove CDN fonts
   font-size: 14px;
   line-height: 1.5;
   color: #fff;
