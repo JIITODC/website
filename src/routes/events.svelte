@@ -15,6 +15,10 @@
   margin-top: 4rem;
 }
 
+.hide {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .main-title {
     font-size: 2rem;
@@ -30,6 +34,7 @@ import { onMount } from 'svelte';
 import EventComponent from '../components/EventComponent.svelte';
 
 let datas = [];
+let hide = true;
 
 onMount(async () => {
   const res = await fetch('./Data/events.json');
@@ -38,11 +43,12 @@ onMount(async () => {
 });
 
 const compareDate = (prevTime) => {
-  let [prevDate, prevMonth, prevYear] = prevTime.split('-');
-  let [month, date, year] = new Date().toLocaleDateString().split('/');
-  if (+prevDate < +date || +prevMonth < +month || +prevYear < +year) {
+  const currentDate = new Date();
+  const prevDate = new Date(prevTime);
+  if (prevDate < currentDate) {
     return false;
   } else {
+    hide = false;
     return true;
   }
 };
@@ -51,7 +57,7 @@ const compareDate = (prevTime) => {
 <svelte:head>
   <title>Events</title>
 </svelte:head>
-<div class="main-title">EVENTS</div>
+<div class="main-title" class:hide>EVENTS</div>
 <div class="divider"></div>
 <div class="sub-title">Upcoming Events</div>
 {#each datas as data (data.id)}
