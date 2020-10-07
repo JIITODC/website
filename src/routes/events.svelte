@@ -57,9 +57,9 @@ const compareDate = (prevTime) => {
 <svelte:head>
   <title>Events</title>
 </svelte:head>
-<div class="main-title" class:hide>EVENTS</div>
+<div class="main-title">EVENTS</div>
 <div class="divider"></div>
-<div class="sub-title">Upcoming Events</div>
+<div class="sub-title" class:hide>Upcoming Events</div>
 {#each datas as data (data.id)}
   {#if compareDate(data.formatDate)}
     <EventComponent
