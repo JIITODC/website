@@ -190,9 +190,6 @@ li:not(:last-child) {
 </style>
 
 <script>
-let active = false;
-let addActive = '';
-
 let isOpen = false;
 
 function handleClick() {
