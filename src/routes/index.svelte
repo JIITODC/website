@@ -150,12 +150,6 @@ a:hover {
 <script>
 import Icon from 'svelte-awesome/components/Icon.svelte';
 import { telegram, twitter, facebook, github } from 'svelte-awesome/icons';
-
-let isOpen = false;
-
-function handleClick() {
-  isOpen = !isOpen;
-}
 </script>
 
 <svelte:head>

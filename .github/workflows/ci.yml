@@ -19,4 +19,6 @@ jobs:
       - name: Install Packages
         run: yarn install
       - name: Run Prettier
+        run: yarn fmt:check
+      - name: Run eslint
         run: yarn lint:check
