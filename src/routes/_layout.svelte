@@ -6,6 +6,7 @@ main {
   padding: 2em;
   margin: 0 auto;
   box-sizing: border-box;
+  min-height: 100vh;
 }
 </style>
 
