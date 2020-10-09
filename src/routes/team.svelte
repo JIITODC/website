@@ -10,7 +10,8 @@
 .card-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 7rem 3rem;
+  gap: 0 3rem;
+  min-height: 50vh;
 }
 
 .previous-team {
@@ -57,19 +58,17 @@
 }
 </style>
 
-<script context="module">
-export async function preload() {
-  const res = await this.fetch('Data/currentTeam.json');
-  const datas = await res.json();
-
-  return { datas };
-}
-</script>
-
 <script>
+import { onMount } from 'svelte';
 import TeamComponent from '../components/TeamComponent.svelte';
 
-export let datas;
+let datas = [];
+
+onMount(async () => {
+  const res = await fetch('./Data/currentTeam.json');
+  const textData = await res.text();
+  datas = await JSON.parse(textData);
+});
 </script>
 
 <svelte:head>

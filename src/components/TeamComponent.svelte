@@ -50,7 +50,12 @@ export let role;
   data-aos-duration="1000"
 >
   <div class="card-author">
-    <img alt="author-avatar" data-src="{imgSrc}" class="lazyload" />
+    <img
+      alt="author-avatar"
+      src="Poster.png"
+      data-src="{imgSrc}"
+      class="lazyload"
+    />
   </div>
   <header class="card-header">
     <h2>{name}</h2>

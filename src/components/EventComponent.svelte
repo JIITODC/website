@@ -66,7 +66,12 @@ import { calendar, mapMarker } from 'svelte-awesome/icons';
   data-aos-duration="1000"
 >
   <div class="left">
-    <img alt="event poster" data-src="{imagelink}" class="lazyload" />
+    <img
+      alt="event poster"
+      src="Poster.png"
+      data-src="{imagelink}"
+      class="lazyload"
+    />
   </div>
   <div class="right">
     <h2 class="title">{title}</h2>
