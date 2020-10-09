@@ -29,18 +29,20 @@
 }
 </style>
 
+<script context="module">
+export async function preload() {
+  const res = await this.fetch('Data/events.json');
+  const datas = await res.json();
+
+  return { datas };
+}
+</script>
+
 <script>
-import { onMount } from 'svelte';
 import EventComponent from '../components/EventComponent.svelte';
 
-let datas = [];
+export let datas;
 let hide = true;
-
-onMount(async () => {
-  const res = await fetch('./Data/events.json');
-  const textData = await res.text();
-  datas = await JSON.parse(textData);
-});
 
 const compareDate = (prevTime) => {
   const currentDate = new Date();
