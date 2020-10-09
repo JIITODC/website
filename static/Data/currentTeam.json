@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
+    "name": "Ankur Kothiwal",
+    "imgSrc": "Photos/webp/ankur.webp",
+    "role": "Head Coordinator",
+    "gitlink": "https://github.com/Ankurk99"
+  },
+  {
+    "id": 2,
     "name": "Aayush Kumar Sahu",
     "imgSrc": "Photos/webp/aayushmau5.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/aayushmau5"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Ishan",
     "imgSrc": "Photos/webp/Ishan-Saini.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/Ishan-Saini"
   },
-  {
-    "id": 3,
-    "name": "Ankur Kothiwal",
-    "imgSrc": "Photos/webp/ankur.webp",
-    "role": "Head Coordinator",
-    "gitlink": "https://github.com/Ankurk99"
-  }
 ]
