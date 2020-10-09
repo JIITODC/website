@@ -12,5 +12,12 @@
     "imgSrc": "Photos/webp/Ishan-Saini.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/Ishan-Saini"
+  },
+  {
+    "id": 3,
+    "name": "Ankur Kothiwal",
+    "imgSrc": "Photos/webp/ankur.webp",
+    "role": "Core Team",
+    "gitlink": "https://github.com/Ankurk99"
   }
 ]
