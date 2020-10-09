@@ -24,17 +24,25 @@
 }
 </style>
 
+<script context="module">
+export async function preload() {
+  const res = await this.fetch('Data/2019Team.json');
+  const datas = await res.json();
+  return { datas };
+}
+</script>
+
 <script>
-import { onMount } from 'svelte';
+// import { onMount } from 'svelte';
 import TeamComponent from '../components/TeamComponent.svelte';
 
-let datas = [];
+export let datas;
 
-onMount(async () => {
-  const res = await fetch('./Data/2019Team.json');
-  const textData = await res.text();
-  datas = await JSON.parse(textData);
-});
+// onMount(async () => {
+//   const res = await fetch('./Data/2019Team.json');
+//   const textData = await res.text();
+//   datas = await JSON.parse(textData);
+// });
 </script>
 
 <svelte:head>
