@@ -1,7 +1,4 @@
 <style>
-.event-container {
-  min-height: 90vh;
-}
 .main-title {
   font-size: 3rem;
   font-weight: bold;
@@ -41,17 +38,10 @@ export async function preload() {
 </script>
 
 <script>
-// import { onMount } from 'svelte';
 import EventComponent from '../components/EventComponent.svelte';
 
 export let datas;
 let hide = true;
-
-// onMount(async () => {
-//   const res = await fetch('./Data/events.json');
-//   const textData = await res.text();
-//   datas = await JSON.parse(textData);
-// });
 
 const compareDate = (prevTime) => {
   const currentDate = new Date();
@@ -68,31 +58,29 @@ const compareDate = (prevTime) => {
 <svelte:head>
   <title>Events</title>
 </svelte:head>
-<div class="event-container">
-  <div class="main-title">EVENTS</div>
-  <div class="divider"></div>
-  <div class="sub-title" class:hide>Upcoming Events</div>
-  {#each datas as data (data.id)}
-    {#if compareDate(data.formatDate)}
-      <EventComponent
-        title="{data.title}"
-        about="{data.about}"
-        time="{data.time}"
-        location="{data.location}"
-        imagelink="{data.imagelink}"
-      />
-    {/if}
-  {/each}
-  <div class="sub-title">Past Events</div>
-  {#each datas as data (data.id)}
-    {#if !compareDate(data.formatDate)}
-      <EventComponent
-        title="{data.title}"
-        about="{data.about}"
-        time="{data.time}"
-        location="{data.location}"
-        imagelink="{data.imagelink}"
-      />
-    {/if}
-  {/each}
-</div>
+<div class="main-title">EVENTS</div>
+<div class="divider"></div>
+<div class="sub-title" class:hide>Upcoming Events</div>
+{#each datas as data (data.id)}
+  {#if compareDate(data.formatDate)}
+    <EventComponent
+      title="{data.title}"
+      about="{data.about}"
+      time="{data.time}"
+      location="{data.location}"
+      imagelink="{data.imagelink}"
+    />
+  {/if}
+{/each}
+<div class="sub-title">Past Events</div>
+{#each datas as data (data.id)}
+  {#if !compareDate(data.formatDate)}
+    <EventComponent
+      title="{data.title}"
+      about="{data.about}"
+      time="{data.time}"
+      location="{data.location}"
+      imagelink="{data.imagelink}"
+    />
+  {/if}
+{/each}

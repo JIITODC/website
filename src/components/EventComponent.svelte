@@ -55,16 +55,12 @@ export let about;
 export let time;
 export let location;
 export let imagelink;
+import { fly } from 'svelte/transition';
 import Icon from 'svelte-awesome/components/Icon.svelte';
 import { calendar, mapMarker } from 'svelte-awesome/icons';
 </script>
 
-<div
-  class="event-container"
-  data-aos="fade-up"
-  data-aos-once="true"
-  data-aos-duration="1000"
->
+<div class="event-container" in:fly="{{ y: 100, duration: 700 }}">
   <div class="left">
     <img
       alt="event poster"

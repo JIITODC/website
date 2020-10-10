@@ -16,7 +16,6 @@
     "lint:check": "npx eslint src/"
   },
   "dependencies": {
-    "aos": "^2.3.4",
     "compression": "^1.7.1",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",

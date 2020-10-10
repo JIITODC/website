@@ -37,18 +37,14 @@ a:hover {
 </style>
 
 <script>
+import { fly } from 'svelte/transition';
 export let imgSrc;
 export let name;
 export let gitLink;
 export let role;
 </script>
 
-<div
-  class="card"
-  data-aos="fade-up"
-  data-aos-once="true"
-  data-aos-duration="1000"
->
+<div class="card" in:fly="{{ y: 100, duration: 700 }}">
   <div class="card-author">
     <img
       alt="author-avatar"

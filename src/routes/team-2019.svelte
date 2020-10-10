@@ -33,16 +33,9 @@ export async function preload() {
 </script>
 
 <script>
-// import { onMount } from 'svelte';
 import TeamComponent from '../components/TeamComponent.svelte';
 
 export let datas;
-
-// onMount(async () => {
-//   const res = await fetch('./Data/2019Team.json');
-//   const textData = await res.text();
-//   datas = await JSON.parse(textData);
-// });
 </script>
 
 <svelte:head>
