@@ -19,5 +19,12 @@
     "imgSrc": "Photos/webp/Ishan-Saini.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/Ishan-Saini"
+  },
+  {
+    "id": 4,
+    "name": "Suryashankar Das",
+    "imgSrc": "Photos/webp/iamsdas.webp",
+    "role": "Core Team",
+    "gitlink": "https://github.com/iamsdas"
   }
 ]
