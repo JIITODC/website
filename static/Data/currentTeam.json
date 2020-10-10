@@ -26,5 +26,12 @@
     "imgSrc": "Photos/webp/iamsdas.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/iamsdas"
+  },
+  {
+    "id": 5,
+    "name": "Kushagra Singh",
+    "imgSrc": "Photos/Current-Team/Kushagra_Singh.jpg",
+    "role": "Core Team",
+    "gitlink": "https://github.com/perkymaster"
   }
 ]
