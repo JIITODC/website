@@ -177,13 +177,13 @@
   </div>
 
   <div id="social">
-    <a href="https://github.com/jiitodc">
+    <a href="https://github.com/jiitodc" target = "_blank"> 
       <Icon style="margin-right: 10px; scale:1.5;" data={github} />GITHUB</a>
-    <a href="https://t.me/jiitodc">
+    <a href="https://t.me/jiitodc" target = "_blank">
       <Icon style="margin-right: 10px; scale:1.5;" data={telegram} />TELEGRAM</a>
-    <a href="https://twitter.com/jiitodc">
+    <a href="https://twitter.com/jiitodc" target = "_blank">
       <Icon style="margin-right: 10px; scale:1.5;" data={twitter} />TWITTER</a>
-    <a href="https://www.facebook.com/groups/jiitodc">
+    <a href="https://www.facebook.com/groups/jiitodc" target = "_blank">
       <Icon style="margin-right: 10px; scale:1.5;" data={facebook} />FACEBOOK</a>
   </div>
 
