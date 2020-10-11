@@ -2,12 +2,9 @@
 .main-title {
   font-size: 3rem;
   font-weight: bold;
-}
-
-.divider {
-  height: 3px;
-  width: 181px;
-  background-color: orange;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ff8c00;
 }
 
 .sub-title {
@@ -22,9 +19,6 @@
 @media (max-width: 768px) {
   .main-title {
     font-size: 2rem;
-  }
-  .divider {
-    width: 120px;
   }
 }
 </style>
@@ -59,7 +53,6 @@ const compareDate = (prevTime) => {
   <title>Events</title>
 </svelte:head>
 <div class="main-title">EVENTS</div>
-<div class="divider"></div>
 <div class="sub-title" class:hide>Upcoming Events</div>
 {#each datas as data (data.id)}
   {#if compareDate(data.formatDate)}
