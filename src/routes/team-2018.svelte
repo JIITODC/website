@@ -27,7 +27,8 @@
 <div class="other-team">
   <p class="other-team-message">Upcoming Year Teams and Mentors</p>
   <div class="year-container">
-    <a rel=prefetch href="/team-2019">2019-2020 --></a>
+    <a rel=prefetch href="/team-2019">2019-2020 &rarr; </a>
+    <a rel=prefetch href="/team">2020-2021 &rarr; </a>
   </div>
 </div>
 
