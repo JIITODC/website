@@ -15,27 +15,34 @@
   },
   {
     "id": 3,
+    "name": "Dharmveer Singh",
+    "imgSrc": "Photos/webp/dharmveer.webp",
+    "role": "Co-ordinator",
+    "gitlink": "https://github.com/moriarity9211"
+  },
+  {
+    "id": 4,
     "name": "Aayush Kumar Sahu",
     "imgSrc": "Photos/webp/aayushmau5.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/aayushmau5"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Ishan",
     "imgSrc": "Photos/webp/Ishan-Saini.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/Ishan-Saini"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Suryashankar Das",
     "imgSrc": "Photos/webp/iamsdas.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/iamsdas"
   },
   {
-    "id": 5,
+    "id": 7,
     "name": "Kushagra Singh",
     "imgSrc": "Photos/Current-Team/Kushagra_Singh.jpg",
     "role": "Core Team",
