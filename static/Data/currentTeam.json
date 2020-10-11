@@ -8,20 +8,27 @@
   },
   {
     "id": 2,
+    "name": "Divyansh Kamboj",
+    "imgSrc": "Photos/webp/divyansh.webp",
+    "role": "Technical Head",
+    "gitlink": "https://github.com/weirdwiz"
+  },
+  {
+    "id": 3,
     "name": "Aayush Kumar Sahu",
     "imgSrc": "Photos/webp/aayushmau5.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/aayushmau5"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Ishan",
     "imgSrc": "Photos/webp/Ishan-Saini.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/Ishan-Saini"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Suryashankar Das",
     "imgSrc": "Photos/webp/iamsdas.webp",
     "role": "Core Team",
