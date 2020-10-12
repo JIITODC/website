@@ -1,4 +1,61 @@
+<style>
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ff8c00;
+}
 
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 7rem 3rem;
+}
+
+.other-team {
+  margin-top: 6rem;
+}
+
+.other-team-message {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.year-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.year-container a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+@media (max-width: 700px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+  .card-list {
+    grid-template-columns: 1fr;
+    gap: 2rem 1rem;
+  }
+
+  .other-team-message {
+    font-size: 2rem;
+  }
+
+  .year-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .year-container a {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+</style>
 
 <svelte:head>
   <title>Team - 2018</title>
@@ -20,66 +77,7 @@
 <div class="other-team">
   <p class="other-team-message">Upcoming Year Teams and Mentors</p>
   <div class="year-container">
-    <a rel=prefetch href="/team-2019">2019-2020 &rarr; </a>
-    <a rel=prefetch href="/team">2020-2021 &rarr; </a>
+    <a rel="prefetch" href="/team-2019">2019-2020 &rarr; </a>
+    <a rel="prefetch" href="/team">2020-2021 &rarr; </a>
   </div>
 </div>
-
-<style>
-  .main-title {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #ff8c00;
-  }
-
-  .card-list {
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:7rem 3rem;
-  }
-
-  .other-team {
-    margin-top:6rem;
-  }
-
-  .other-team-message {
-      text-align: center;
-      font-size:3rem;
-  }
-
-  .year-container {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .year-container a {
-    text-decoration: none;
-    font-size:2rem;
-  }
-
-  @media (max-width:700px) {
-    .main-title {
-      font-size:2.5rem;
-    }
-    .card-list {
-      grid-template-columns: 1fr;
-      gap:2rem 1rem;
-    }
-
-    .other-team-message {
-      font-size:2rem;
-    }
-
-    .year-container {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .year-container a {
-      font-size:1.5rem;
-      margin-bottom: 1rem;
-    }
-  }
-</style>

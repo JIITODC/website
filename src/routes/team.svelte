@@ -1,39 +1,3 @@
-
-<svelte:head>
-  <title>Team</title>
-</svelte:head>
-
-
-<script>
-  import {onMount} from 'svelte';
-  import TeamComponent from '../components/TeamComponent.svelte';
-
-  let datas = [];
-
-  onMount(async () => {
-    const res = await fetch('./Data/currentTeam.json');
-    const textData = await res.text();
-    datas = await JSON.parse(textData);
-  });
-</script>
-
-<div class="main-title">OUR TEAM</div>
-
-<section class="card-list">
-  {#each datas as data (data.id)} 
-    <TeamComponent imgSrc={data.imgSrc} name={data.name} role={data.role}
-    gitLink={data.gitlink} />
-  {/each}
-</section>
-
-<div class="previous-team">
-  <p class="previous-message">Teams and Mentors</p>
-  <div class="year-container">
-    <a rel=prefetch href="/team-2018"> &larr;	 2018-2019</a>
-    <a rel=prefetch href="/team-2019"> &larr;	 2019-2020</a>
-  </div>
-</div>
-
 <style>
 .main-title {
   font-size: 3rem;
@@ -93,3 +57,39 @@
 }
 </style>
 
+<script>
+import { onMount } from 'svelte';
+import TeamComponent from '../components/TeamComponent.svelte';
+
+let datas = [];
+
+onMount(async () => {
+  const res = await fetch('./Data/currentTeam.json');
+  const textData = await res.text();
+  datas = await JSON.parse(textData);
+});
+</script>
+
+<svelte:head>
+  <title>Team</title>
+</svelte:head>
+<div class="main-title">OUR TEAM</div>
+
+<section class="card-list">
+  {#each datas as data (data.id)}
+    <TeamComponent
+      imgSrc="{data.imgSrc}"
+      name="{data.name}"
+      role="{data.role}"
+      gitLink="{data.gitlink}"
+    />
+  {/each}
+</section>
+
+<div class="previous-team">
+  <p class="previous-message">Teams and Mentors</p>
+  <div class="year-container">
+    <a rel="prefetch" href="/team-2018"> &larr; 2018-2019</a>
+    <a rel="prefetch" href="/team-2019"> &larr; 2019-2020</a>
+  </div>
+</div>
