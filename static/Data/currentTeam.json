@@ -22,30 +22,79 @@
   },
   {
     "id": 4,
+    "name": "Eshan Dhawan",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Co-ordinator",
+    "gitlink": "https://github.com/eshandhawan51"
+  },
+  {
+    "id": 5,
+    "name": "Nishit Anand",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Co-ordinator",
+    "gitlink": "https://github.com/nishitanand"
+  },
+  {
+    "id": 6,
+    "name": "Prakher Prashank",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Co-ordinator",
+    "gitlink": "https://github.com/im-prakher"
+  },
+  {
+    "id": 7,
+    "name": "Aachman Mittal",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Core Team",
+    "gitlink": "https://github.com/AarKiMos"
+  },
+  {
+    "id": 8,
     "name": "Aayush Kumar Sahu",
     "imgSrc": "Photos/webp/aayushmau5.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/aayushmau5"
   },
   {
-    "id": 5,
+    "id": 9,
+    "name": "Akshat Agarwal",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Core Team",
+    "gitlink": "https://github.com/humancalico"
+  },
+  {
+    "id": 10,
     "name": "Ishan",
     "imgSrc": "Photos/webp/Ishan-Saini.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/Ishan-Saini"
   },
   {
-    "id": 6,
-    "name": "Suryashankar Das",
-    "imgSrc": "Photos/webp/iamsdas.webp",
-    "role": "Core Team",
-    "gitlink": "https://github.com/iamsdas"
-  },
-  {
-    "id": 7,
+    "id": 11,
     "name": "Kushagra Singh",
     "imgSrc": "Photos/Current-Team/Kushagra_Singh.jpg",
     "role": "Core Team",
     "gitlink": "https://github.com/perkymaster"
+  },
+  {
+    "id": 12,
+    "name": "Rudraksh Pareek",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Core Team",
+    "gitlink": "https://github.com/DelusionalOptimist"
+  },
+  {
+    "id": 13,
+    "name": "Sabreen Parveen",
+    "imgSrc": "Photos/Poster.png",
+    "role": "Core Team",
+    "gitlink": "https://github.com/Sabreen-Parveen"
+  },
+  {
+    "id": 14,
+    "name": "Suryashankar Das",
+    "imgSrc": "Photos/webp/iamsdas.webp",
+    "role": "Core Team",
+    "gitlink": "https://github.com/iamsdas"
   }
 ]
