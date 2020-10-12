@@ -1,21 +1,9 @@
 
-<script context="module">
-export async function preload() {
-  const res = await this.fetch('Data/2018Team.json');
-  const datas = await res.json();
-  return { datas };
-}
-</script>
-
-<script>
-import TeamComponent from '../components/TeamComponent.svelte';
-
-export let datas;
-</script>
 
 <svelte:head>
   <title>Team - 2018</title>
 </svelte:head>
+
 <div class="main-title">OUR TEAM <br /> 2018-2019</div>
 
 <section class="card-list">

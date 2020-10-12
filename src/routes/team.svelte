@@ -1,16 +1,3 @@
-<script context="module">
-export async function preload() {
-  const res = await this.fetch('Data/currentTeam.json');
-  const datas = await res.json();
-  return { datas };
-}
-</script>
-
-<script>
-import TeamComponent from '../components/TeamComponent.svelte';
-
-export let datas;
-</script>
 
 <svelte:head>
   <title>Team</title>
