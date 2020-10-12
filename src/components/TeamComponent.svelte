@@ -43,7 +43,7 @@ export let gitLink;
 export let role;
 </script>
 
-<div class="card" in:fly="{{ y: 100, duration: 700 }}">
+<div class="card" in:fly="{{ y: 50, duration: 700 }}">
   <div class="card-author">
     <img
       alt="author-avatar"

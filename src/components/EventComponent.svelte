@@ -59,7 +59,7 @@ import Icon from 'svelte-awesome/components/Icon.svelte';
 import { calendar, mapMarker } from 'svelte-awesome/icons';
 </script>
 
-<div class="event-container" in:fly="{{ y: 100, duration: 700 }}">
+<div class="event-container" in:fly="{{ y: 50, duration: 700 }}">
   <div class="left">
     <img
       alt="event poster"
