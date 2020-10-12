@@ -2,7 +2,6 @@
 .card {
   margin-top: 4rem;
   text-align: center;
-  font-family: 'Roboto Mono', sans-serif;
 }
 
 .card-header {

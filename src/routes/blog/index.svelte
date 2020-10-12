@@ -1,7 +1,6 @@
 <style>
 h2,
 .post-item-footer {
-  font-family: Rubik, sans-serif;
   font-weight: 700;
 }
 

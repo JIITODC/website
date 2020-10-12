@@ -1,6 +1,5 @@
 <style>
 .event-container {
-  font-family: 'Red Hat Display', sans-serif;
   display: flex;
   margin-top: 3rem;
   padding-bottom: 3rem;
