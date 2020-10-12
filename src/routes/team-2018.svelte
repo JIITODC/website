@@ -57,6 +57,17 @@
 }
 </style>
 
+<script>
+import { onMount } from 'svelte';
+import TeamComponent from '../components/TeamComponent.svelte';
+let datas = [];
+onMount(async () => {
+  const res = await fetch('./Data/2018Team.json');
+  const textData = await res.text();
+  datas = await JSON.parse(textData);
+});
+</script>
+
 <svelte:head>
   <title>Team - 2018</title>
 </svelte:head>
