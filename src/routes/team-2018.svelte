@@ -94,4 +94,4 @@ export let datas;
       margin-bottom: 1rem;
     }
   }
-
+</style>
