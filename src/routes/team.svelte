@@ -1,3 +1,17 @@
+<script context="module">
+export async function preload() {
+  const res = await this.fetch('Data/currentTeam.json');
+  const datas = await res.json();
+  return { datas };
+}
+</script>
+
+<script>
+import TeamComponent from '../components/TeamComponent.svelte';
+
+export let datas;
+</script>
+
 <svelte:head>
   <title>Team</title>
 </svelte:head>
@@ -34,63 +48,61 @@
 </div>
 
 <style>
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ff8c00;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 3rem;
+}
+
+.previous-team {
+  margin-top: 6rem;
+}
+
+.previous-message {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.year-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.year-container a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+@media (max-width: 700px) {
   .main-title {
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #ff8c00;
+    font-size: 2.5rem;
   }
-
   .card-list {
-    display:grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:7rem 3rem;
-  }
-
-  
-
-  .previous-team {
-    margin-top:6rem;
+    grid-template-columns: 1fr;
+    gap: 2rem 1rem;
   }
 
   .previous-message {
-    text-align: center;
-    font-size:3rem;
+    font-size: 2rem;
   }
 
   .year-container {
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
   }
 
   .year-container a {
-    text-decoration: none;
-    font-size:2rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
-  
-  @media (max-width:700px) {
-    .main-title {
-      font-size:2.5rem;
-    }
-    .card-list {
-      grid-template-columns: 1fr;
-      gap:2rem 1rem;
-    }
-
-    .previous-message {
-      font-size:2rem;
-    }
-
-    .year-container {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .year-container a {
-      font-size:1.5rem;
-      margin-bottom: 1rem;
-    }
-  
-  }
+}
 </style>
+
