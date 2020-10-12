@@ -10,21 +10,12 @@ main {
 </style>
 
 <script>
-import { onMount } from 'svelte';
 import Nav from '../components/Nav.svelte';
 
 export let segment;
 
 import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import 'aos/dist/aos.js';
-
-onMount(() => {
-  AOS.init();
-});
 </script>
 
 <Nav segment="{segment}" />

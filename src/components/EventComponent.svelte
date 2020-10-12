@@ -1,6 +1,5 @@
 <style>
 .event-container {
-  font-family: 'Red Hat Display', sans-serif;
   display: flex;
   margin-top: 3rem;
   padding-bottom: 3rem;
@@ -55,18 +54,19 @@ export let about;
 export let time;
 export let location;
 export let imagelink;
+import { fly } from 'svelte/transition';
 import Icon from 'svelte-awesome/components/Icon.svelte';
 import { calendar, mapMarker } from 'svelte-awesome/icons';
 </script>
 
-<div
-  class="event-container"
-  data-aos="fade-up"
-  data-aos-once="true"
-  data-aos-duration="1000"
->
+<div class="event-container" in:fly="{{ y: 50, duration: 700 }}">
   <div class="left">
-    <img alt="event poster" data-src="{imagelink}" class="lazyload" />
+    <img
+      alt="event poster"
+      src="Poster.png"
+      data-src="{imagelink}"
+      class="lazyload"
+    />
   </div>
   <div class="right">
     <h2 class="title">{title}</h2>

@@ -1,7 +1,6 @@
 <style>
 :global(body) {
   background-color: black;
-  font-family: 'Red Hat Display';
   -webkit-tap-highlight-color: transparent;
 }
 

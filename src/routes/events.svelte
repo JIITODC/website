@@ -2,12 +2,9 @@
 .main-title {
   font-size: 3rem;
   font-weight: bold;
-}
-
-.divider {
-  height: 3px;
-  width: 181px;
-  background-color: orange;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #ff8c00;
 }
 
 .sub-title {
@@ -23,24 +20,22 @@
   .main-title {
     font-size: 2rem;
   }
-  .divider {
-    width: 120px;
-  }
 }
 </style>
 
+<script context="module">
+export async function preload() {
+  const res = await this.fetch('Data/events.json');
+  const datas = await res.json();
+  return { datas };
+}
+</script>
+
 <script>
-import { onMount } from 'svelte';
 import EventComponent from '../components/EventComponent.svelte';
 
-let datas = [];
+export let datas;
 let hide = true;
-
-onMount(async () => {
-  const res = await fetch('./Data/events.json');
-  const textData = await res.text();
-  datas = await JSON.parse(textData);
-});
 
 const compareDate = (prevTime) => {
   const currentDate = new Date();
@@ -58,7 +53,6 @@ const compareDate = (prevTime) => {
   <title>Events</title>
 </svelte:head>
 <div class="main-title">EVENTS</div>
-<div class="divider"></div>
 <div class="sub-title" class:hide>Upcoming Events</div>
 {#each datas as data (data.id)}
   {#if compareDate(data.formatDate)}
