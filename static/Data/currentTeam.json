@@ -103,5 +103,12 @@
     "imgSrc": "Photos/webp/iamsdas.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/iamsdas"
+  },
+  {
+   "id": 16,
+    "name": "Aaryan Porwal",
+    "imgSrc": "Photos/webp/aaryan.webp",
+    "role": "Core Team",
+    "gitlink": "https://github.com/aaryanporwal"
   }
 ]
