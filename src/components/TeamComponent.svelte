@@ -2,7 +2,6 @@
 .card {
   margin-top: 4rem;
   text-align: center;
-  font-family: 'Roboto Mono', sans-serif;
 }
 
 .card-header {
@@ -37,20 +36,21 @@ a:hover {
 </style>
 
 <script>
+import { fly } from 'svelte/transition';
 export let imgSrc;
 export let name;
 export let gitLink;
 export let role;
 </script>
 
-<div
-  class="card"
-  data-aos="fade-up"
-  data-aos-once="true"
-  data-aos-duration="1000"
->
+<div class="card" in:fly="{{ y: 50, duration: 700 }}">
   <div class="card-author">
-    <img alt="author-avatar" data-src="{imgSrc}" class="lazyload" />
+    <img
+      alt="author-avatar"
+      src="Poster.png"
+      data-src="{imgSrc}"
+      class="lazyload"
+    />
   </div>
   <header class="card-header">
     <h2>{name}</h2>
