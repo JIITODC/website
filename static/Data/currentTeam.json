@@ -57,58 +57,58 @@
   },
   {
     "id": 9,
+    "name": "Aaryan Porwal",
+    "imgSrc": "Photos/webp/aaryan.webp",
+    "role": "Core Team",
+    "gitlink": "https://github.com/aaryanporwal"
+  },
+  {
+    "id": 10,
     "name": "Aayush Kumar Sahu",
     "imgSrc": "Photos/webp/aayushmau5.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/aayushmau5"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Akshat Agarwal",
     "imgSrc": "Photos/Poster.png",
     "role": "Core Team",
     "gitlink": "https://github.com/humancalico"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Ishan",
     "imgSrc": "Photos/webp/Ishan-Saini.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/Ishan-Saini"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Kushagra Singh",
     "imgSrc": "Photos/Current-Team/Kushagra_Singh.jpg",
     "role": "Core Team",
     "gitlink": "https://github.com/perkymaster"
   },
   {
-    "id": 13,
+    "id": 14,
     "name": "Rudraksh Pareek",
     "imgSrc": "Photos/Poster.png",
     "role": "Core Team",
     "gitlink": "https://github.com/DelusionalOptimist"
   },
   {
-    "id": 14,
+    "id": 15,
     "name": "Sabreen Parveen",
     "imgSrc": "Photos/Poster.png",
     "role": "Core Team",
     "gitlink": "https://github.com/Sabreen-Parveen"
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Suryashankar Das",
     "imgSrc": "Photos/webp/iamsdas.webp",
     "role": "Core Team",
     "gitlink": "https://github.com/iamsdas"
-  },
-  {
-   "id": 16,
-    "name": "Aaryan Porwal",
-    "imgSrc": "Photos/webp/aaryan.webp",
-    "role": "Core Team",
-    "gitlink": "https://github.com/aaryanporwal"
   }
 ]
