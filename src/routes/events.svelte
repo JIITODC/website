@@ -1,6 +1,5 @@
 <style>
 .main-title {
-  font-family: 'Red-Hat Bold';
   font-size: 3rem;
   font-weight: bold;
   text-align: center;
@@ -41,7 +40,12 @@ let hide = true;
 const compareDate = (prevTime) => {
   const currentDate = new Date();
   const prevDate = new Date(prevTime);
-  return prevDate <= currentDate ? false : true;
+  if (prevDate < currentDate) {
+    return false;
+  } else {
+    hide = false;
+    return true;
+  }
 };
 </script>
 

@@ -1,6 +1,5 @@
 <style>
 .main-title {
-  font-family: 'Red-Hat Bold';
   font-size: 3rem;
   font-weight: bold;
   text-align: center;

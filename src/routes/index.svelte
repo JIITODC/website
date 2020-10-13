@@ -48,7 +48,6 @@ img {
 }
 
 .about-us > h2 {
-  font-family: 'Red-Hat Bold';
   color: #fff;
   font-weight: bold;
   margin: 5px;

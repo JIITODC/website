@@ -1,24 +1,3 @@
-@font-face {
-  font-family: 'Red-Hat Regular';
-  src: url(fonts/RedHatDisplay-Regular.woff);
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Red-Hat Bold';
-  src: url(fonts/RedHatDisplay-Bold.woff);
-  font-weight: bold;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Roboto Mono';
-  src: url(fonts/RobotoMono-Regular.woff);
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Merriweather Regular';
-  src: url(fonts/Merriweather-Regular.woff);
-  font-display: swap;
-}
 body {
   margin: 0;
   font-size: 14px;
