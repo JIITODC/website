@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Merriweather, serif;
   font-size: 16px;
   line-height: 1.6;
   color: #fff;
@@ -12,12 +13,14 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 0.5em 0;
+  font-family: Rubik, sans-serif;
   font-weight: 700;
   line-height: 1.2;
+  margin: 0 0 0.5em 0;
 }
 
 h1 {
+  font-family: Merriweather, serif;
   font-size: 4em;
   margin: 0 0 1em 0;
 }
@@ -89,7 +92,7 @@ p a:hover {
 }
 
 code {
-  /* font-family: menlo, inconsolata, monospace; */
+  font-family: 'SF Mono', menlo, inconsolata, monospace;
   font-size: calc(1em - 2px);
   color: #555;
   background-color: #f0f0f0;
@@ -106,6 +109,15 @@ pre {
 
 pre code {
   padding: 0;
+}
+
+blockquote {
+  border-left: 4px solid #cccccc;
+  font-size: 1.4em;
+  font-style: italic;
+  margin: 2rem 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 blockquote p {
@@ -130,6 +142,7 @@ figure {
 
 table {
   border-collapse: collapse;
+  font-family: Rubik, sans-serif;
   font-size: 1.125em;
   margin: 2em 0;
 }

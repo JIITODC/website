@@ -1,5 +1,6 @@
 <style>
 nav {
+  font-family: Rubik, sans-serif;
   font-weight: 300;
   padding: 1em 2em;
   display: flex;
