@@ -1,6 +1,5 @@
 <style>
 nav {
-  font-family: 'Red-Hat Regular';
   font-weight: 300;
   padding: 1em 2em;
   display: flex;

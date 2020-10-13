@@ -6,7 +6,7 @@ const imageminWebp = require('imagemin-webp');
     destination: '../static/Photos/webp/',
     plugins: [
       imageminWebp({
-        quality: 100,
+        quality: 80,
       }),
     ],
   });

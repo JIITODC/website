@@ -21,12 +21,6 @@
 }
 body {
   margin: 0;
-<<<<<<< HEAD
-=======
-  font-family: 'Red-Hat Regular', Roboto, -apple-system, BlinkMacSystemFont,
-    Merriweather, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
->>>>>>> 284ed75... remove CDN fonts
   font-size: 14px;
   line-height: 1.5;
   color: #fff;

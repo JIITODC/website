@@ -23,7 +23,6 @@
 }
 
 .title {
-  font-family: 'Red-Hat Bold';
   font-size: 2rem;
   font-weight: bold;
 }
