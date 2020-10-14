@@ -70,7 +70,6 @@ import TeamComponent from '../components/TeamComponent.svelte';
 export let datas;
 </script>
 
-
 <svelte:head>
   <title>Team - 2019</title>
 </svelte:head>
