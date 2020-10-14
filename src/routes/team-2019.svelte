@@ -57,16 +57,19 @@
 }
 </style>
 
-<script>
-import { onMount } from 'svelte';
-import TeamComponent from '../components/TeamComponent.svelte';
-let datas = [];
-onMount(async () => {
-  const res = await fetch('./Data/2018Team.json');
-  const textData = await res.text();
-  datas = await JSON.parse(textData);
-});
+<script context="module">
+export async function preload() {
+  const res = await this.fetch('Data/2019Team.json');
+  const datas = await res.json();
+  return { datas };
+}
 </script>
+
+<script>
+import TeamComponent from '../components/TeamComponent.svelte';
+export let datas;
+</script>
+
 
 <svelte:head>
   <title>Team - 2019</title>
@@ -88,6 +91,6 @@ onMount(async () => {
   <p class="other-team-message">Previous Year Teams and Mentors</p>
   <div class="year-container">
     <a rel="prefetch" href="/team-2018"> &larr; 2018-2019 </a>
-    <a rel="prefetch" href="/team"> &rarr; 2020-2021 </a>
+    <a rel="prefetch" href="/team"> 2020-2021 &rarr; </a>
   </div>
 </div>
