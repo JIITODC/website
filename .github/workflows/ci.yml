@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    # Run for any pushs on master
+    branches:
+      - master
+  # Run tests for any PRs.
+  pull_request:
+
+jobs:
+  run-tests:
+    name: Quality Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: setup node
+        uses: actions/setup-node@v1
+      - name: Install Packages
+        run: yarn install
+      - name: Run Prettier
+        run: yarn fmt:check
+      - name: Run eslint
+        run: yarn lint:check
