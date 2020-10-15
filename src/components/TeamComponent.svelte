@@ -49,7 +49,9 @@
     } 
 
     a:hover {
-        color:white;
+        color:#ff0000;
+        transition:0.5s;
+        opacity:0.8;
     }
 
     @media (max-width:700px) {
