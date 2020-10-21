@@ -149,4 +149,4 @@ Your contributions are always welcome and appreciated. Following are the things 
 [![License](https://img.shields.io/github/license/JIITODC/jiitodc.github.io?style=for-the-badge)](https://github.com/JIITODC/jiitodc.github.io/blob/master/LICENSE)
 
 ## :star2: Credit/Acknowledgment
-[![Contributors](https://img.shields.io/github/contributors/JIITODC/jiitodc.github.io?style=for-the-badge)](https://github.com/JIITODC/jiitodc.github.io/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/JIITODC/jiitodc.github.io?style=for-the-badge)](https://github.com/JIITODC/jiitodc.github.io/graphs/contributors) 
