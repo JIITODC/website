@@ -10,12 +10,17 @@
   font-weight: 900;
 }
 
+.card-header h2 {
+  font-size: 1.5em;
+}
+
 .role p {
   color: #6c715d;
 }
 
 img {
-  width: 200px;
+  width: 210px;
+  height: 210px;
   border-radius: 50%;
   border: 5px solid #ffa500;
 }
