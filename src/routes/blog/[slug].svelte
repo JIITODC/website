@@ -35,7 +35,6 @@ export async function preload({ params }) {
 </script>
 
 <script>
-import Bio from '../../components/Bio.svelte';
 export let post;
 </script>
 
@@ -46,12 +45,11 @@ export let post;
 <header>
   <p>{post.printDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
+  <p>by {post.author}</p>
   <hr />
 </header>
 <div class="container">
   <article class="content">
     {@html post.html}
   </article>
-  <hr />
-  <Bio />
 </div>
