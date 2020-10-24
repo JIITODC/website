@@ -13,6 +13,25 @@
   gap: 7rem 3rem;
 }
 
+.other-team {
+  margin-top: 6rem;
+}
+
+.other-team-message {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.year-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.year-container a {
+  text-decoration: none;
+  font-size: 2rem;
+}
+
 @media (max-width: 700px) {
   .main-title {
     font-size: 2.5rem;
@@ -20,6 +39,20 @@
   .card-list {
     grid-template-columns: 1fr;
     gap: 2rem 1rem;
+  }
+
+  .other-team-message {
+    font-size: 2rem;
+  }
+
+  .year-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .year-container a {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
 }
 </style>
@@ -34,13 +67,13 @@ export async function preload() {
 
 <script>
 import TeamComponent from '../components/TeamComponent.svelte';
-
 export let datas;
 </script>
 
 <svelte:head>
   <title>Team - 2018</title>
 </svelte:head>
+
 <div class="main-title">OUR TEAM <br /> 2018-2019</div>
 
 <section class="card-list">
@@ -53,3 +86,11 @@ export let datas;
     />
   {/each}
 </section>
+
+<div class="other-team">
+  <p class="other-team-message">Upcoming Year Teams and Mentors</p>
+  <div class="year-container">
+    <a rel="prefetch" href="/team-2019">2019-2020 &rarr; </a>
+    <a rel="prefetch" href="/team">2020-2021 &rarr; </a>
+  </div>
+</div>
