@@ -43,7 +43,7 @@ export default () => ({
 
     const fileName = path.basename(id);
     const { data, content: rawContent } = matter(md);
-    const { title, date } = data;
+    const { title, date, author } = data;
     const slug = fileName.split('.')[0];
     let content = rawContent;
     let excerpt = '';
@@ -67,6 +67,7 @@ export default () => ({
       excerpt,
       printDate,
       printReadingTime,
+      author,
     });
 
     return {
