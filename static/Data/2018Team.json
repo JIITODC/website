@@ -5,5 +5,54 @@
     "imgSrc": "Photos/webp/Poster.webp",
     "role": "Society Head",
     "gitlink": "https://github.com/Ankk98"
+  },
+  {
+    "id": 2,
+    "name": "Aman Sharma",
+    "imgSrc": "Photos/webp/Poster.webp",
+    "role": "Co-ordinator",
+    "gitlink": "https://github.com/amanharitsh123"
+  },
+  {
+    "id": 3,
+    "name": "Anmol Mishra",
+    "imgSrc": "Photos/webp/Poster.webp",
+    "role": "Co-ordinator",
+    "gitlink": "https://github.com/anmol27katyani"
+  },
+  {
+    "id": 4,
+    "name": "Mayank Chaudhary",
+    "imgSrc": "Photos/webp/Poster.webp",
+    "role": "Co-ordinator",
+    "gitlink": "https://github.com/im-gozmit"
+  },
+  {
+    "id": 5,
+    "name": "Kanchan Joshi",
+    "imgSrc": "Photos/webp/Poster.webp",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/koderjoker"
+  },
+  {
+    "id": 6,
+    "name": "Pranshu Srivastava",
+    "imgSrc": "Photos/webp/Poster.webp",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/rexagod"
+  },
+  {
+    "id": 7,
+    "name": "Tripti Shukla",
+    "imgSrc": "Photos/webp/Poster.webp",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/yellowwoods12"
+  },
+  {
+    "id": 8,
+    "name": "Vaibhav Gupta",
+    "imgSrc": "Photos/webp/Poster.webp",
+    "role": "Volunteer",
+    "gitlink": "https://github.com/VARoDeK"
   }
 ]
