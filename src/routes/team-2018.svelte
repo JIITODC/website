@@ -24,11 +24,6 @@
   margin-top: 6rem;
 }
 
-.other-team-message {
-  text-align: center;
-  font-size: 3rem;
-}
-
 .year-container {
   display: flex;
   justify-content: space-around;
@@ -95,7 +90,6 @@ export let datas;
 </section>
 
 <div class="other-team">
-  <p class="other-team-message">Upcoming Year Teams and Mentors</p>
   <div class="year-container">
     <a rel="prefetch" href="/team-2019">2019-2020 &rarr; </a>
   </div>

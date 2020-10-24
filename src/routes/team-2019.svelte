@@ -24,11 +24,6 @@
   margin-top: 6rem;
 }
 
-.other-team-message {
-  text-align: center;
-  font-size: 3rem;
-}
-
 .year-container {
   display: flex;
   justify-content: space-around;
@@ -46,10 +41,6 @@
   .card-list {
     grid-template-columns: 1fr;
     gap: 2rem 1rem;
-  }
-
-  .other-team-message {
-    font-size: 2rem;
   }
 
   .year-container {
@@ -94,7 +85,6 @@ export let datas;
 </section>
 
 <div class="other-team">
-  <p class="other-team-message">Previous Year Teams and Mentors</p>
   <div class="year-container">
     <a rel="prefetch" href="/team-2018"> &larr; 2018-2019 </a>
     <a rel="prefetch" href="/team"> 2020-2021 &rarr; </a>
