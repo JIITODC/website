@@ -89,7 +89,6 @@ export let datas;
 <div class="previous-team">
   <p class="previous-message">Teams and Mentors</p>
   <div class="year-container">
-    <a rel="prefetch" href="/team-2018"> &larr; 2018-2019</a>
     <a rel="prefetch" href="/team-2019"> &larr; 2019-2020</a>
   </div>
 </div>

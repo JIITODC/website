@@ -4,6 +4,13 @@
   font-weight: bold;
   text-align: center;
   padding-bottom: 1rem;
+}
+
+.sub-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1rem;
   border-bottom: 2px solid #ff8c00;
 }
 
@@ -73,8 +80,8 @@ export let datas;
 <svelte:head>
   <title>Team - 2019</title>
 </svelte:head>
-<div class="main-title">OUR TEAM <br /> 2019-2020</div>
-
+<div class="main-title">OUR TEAM</div>
+<div class="sub-title">2019-2020</div>
 <section class="card-list">
   {#each datas as data (data.id)}
     <TeamComponent
