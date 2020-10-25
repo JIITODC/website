@@ -72,7 +72,7 @@ export let datas;
 <div class="main-title">{datas.heading}</div>
 
 <section class="card-list">
-{#each datas.team as data (data.id)}
+  {#each datas.team as data (data.id)}
     <TeamComponent
       imgSrc="{data.imgSrc}"
       name="{data.name}"
@@ -85,10 +85,14 @@ export let datas;
 <div class="previous-team">
   <div class="year-container">
     {#if datas.points_to.prev !== null}
-      <a rel="prefetch" href={datas.url.prev} > &larr; {datas.points_to.prev}</a>
+      <a rel="prefetch" href="{datas.url.prev}">
+        &larr;
+        {datas.points_to.prev}</a>
     {/if}
     {#if datas.points_to.next !== null}
-      <a rel="prefetch" href={datas.url.next}>  {datas.points_to.next} &rarr;</a>
+      <a rel="prefetch" href="{datas.url.next}">
+        {datas.points_to.next}
+        &rarr;</a>
     {/if}
   </div>
 </div>
