@@ -21,10 +21,10 @@
 .card-author {
   width: 210px;
   height: 210px;
-  position: center;
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid #ffa500;
+  margin: 0 auto;
 }
 
 img {
