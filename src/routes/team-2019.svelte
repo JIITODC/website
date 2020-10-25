@@ -4,6 +4,13 @@
   font-weight: bold;
   text-align: center;
   padding-bottom: 1rem;
+}
+
+.sub-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1rem;
   border-bottom: 2px solid #ff8c00;
 }
 
@@ -15,11 +22,6 @@
 
 .other-team {
   margin-top: 6rem;
-}
-
-.other-team-message {
-  text-align: center;
-  font-size: 3rem;
 }
 
 .year-container {
@@ -39,10 +41,6 @@
   .card-list {
     grid-template-columns: 1fr;
     gap: 2rem 1rem;
-  }
-
-  .other-team-message {
-    font-size: 2rem;
   }
 
   .year-container {
@@ -73,8 +71,8 @@ export let datas;
 <svelte:head>
   <title>Team - 2019</title>
 </svelte:head>
-<div class="main-title">OUR TEAM <br /> 2019-2020</div>
-
+<div class="main-title">OUR TEAM</div>
+<div class="sub-title">2019-2020</div>
 <section class="card-list">
   {#each datas as data (data.id)}
     <TeamComponent
@@ -87,7 +85,6 @@ export let datas;
 </section>
 
 <div class="other-team">
-  <p class="other-team-message">Previous Year Teams and Mentors</p>
   <div class="year-container">
     <a rel="prefetch" href="/team-2018"> &larr; 2018-2019 </a>
     <a rel="prefetch" href="/team"> 2020-2021 &rarr; </a>

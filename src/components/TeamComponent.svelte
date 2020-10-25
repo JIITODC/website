@@ -18,11 +18,18 @@
   color: #6c715d;
 }
 
-img {
+.card-author {
   width: 210px;
   height: 210px;
+  overflow: hidden;
   border-radius: 50%;
   border: 5px solid #ffa500;
+  margin: 0 auto;
+}
+
+img {
+  height: 100%;
+  width: auto;
 }
 
 a {
