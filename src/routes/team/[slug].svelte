@@ -36,10 +36,6 @@
     gap: 2rem 1rem;
   }
 
-  .previous-message {
-    font-size: 2rem;
-  }
-
   .year-container {
     flex-direction: column;
     align-items: center;
@@ -53,25 +49,30 @@
 </style>
 
 <script context="module">
-export async function preload() {
-  const res = await this.fetch('Data/currentTeam.json');
-  const datas = await res.json();
-  return { datas };
+export async function preload({ params }) {
+  const res = await this.fetch(`Data/${params.slug}.json`);
+  const data = await res.json();
+
+  if (res.status === 200) {
+    return { datas: data };
+  } else {
+    this.error(res.status, data.message);
+  }
 }
 </script>
 
 <script>
-import TeamComponent from '../components/TeamComponent.svelte';
+import TeamComponent from '../../components/TeamComponent.svelte';
 export let datas;
 </script>
 
 <svelte:head>
   <title>Team</title>
 </svelte:head>
-<div class="main-title">OUR TEAM</div>
+<div class="main-title">{datas.heading}</div>
 
 <section class="card-list">
-  {#each datas as data (data.id)}
+{#each datas.team as data (data.id)}
     <TeamComponent
       imgSrc="{data.imgSrc}"
       name="{data.name}"
@@ -83,6 +84,11 @@ export let datas;
 
 <div class="previous-team">
   <div class="year-container">
-    <a rel="prefetch" href="/team-2019"> &larr; 2019-2020</a>
+    {#if datas.points_to.prev !== null}
+      <a rel="prefetch" href={datas.url.prev} > &larr; {datas.points_to.prev}</a>
+    {/if}
+    {#if datas.points_to.next !== null}
+      <a rel="prefetch" href={datas.url.next}>  {datas.points_to.next} &rarr;</a>
+    {/if}
   </div>
 </div>
