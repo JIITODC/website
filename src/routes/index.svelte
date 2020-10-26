@@ -87,6 +87,11 @@ a {
 a:hover {
   color: white;
 }
+
+.logo-front {
+  @include svgGlitch("logo-front", 30, white, black, red, red, 100, 100, 200, 175);
+}
+
 @media (min-width: 769px) {
   .logo-container {
     max-width: 800px;
@@ -149,7 +154,7 @@ a:hover {
 
 <script>
 import Icon from 'svelte-awesome/components/Icon.svelte';
-import { telegram, twitter, facebook, github } from 'svelte-awesome/icons';
+import { telegram, twitter, facebook, github, discord } from 'svelte-awesome/icons';
 </script>
 
 <svelte:head>
@@ -182,6 +187,11 @@ import { telegram, twitter, facebook, github } from 'svelte-awesome/icons';
         style="margin-right: 10px; scale:1.5;"
         data="{facebook}"
       />FACEBOOK</a>
+    <a href="https://discord.gg/RMSZtzr">
+      <Icon
+        style="margin-right: 10px; scale:1.5;"
+        data="{discord}"
+      />DISCORD</a>
   </div>
 </section>
 <section class="section-about">
