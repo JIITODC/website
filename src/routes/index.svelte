@@ -181,6 +181,11 @@ import { telegram, twitter, facebook, github } from 'svelte-awesome/icons';
         style="margin-right: 10px; scale:1.5;"
         data="{facebook}"
       />FACEBOOK</a>
+    <a href="https://discord.gg/RMSZtzr">
+      <Icon
+        style="margin-right: 10px; scale:1.5;"
+        data="{discord}"
+      />DISCORD</a>
   </div>
 </section>
 <section class="section-about">
