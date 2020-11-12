@@ -1,7 +1,7 @@
 ---
 title: JIIT Month of Code Winners
 date: 2020-01-07T12:51:00.000Z
-author: Jiit Open Source Developers Community
+author: JIIT Open-Source Developers Circle
 ---
 
 **JIIT Month of Code** is an online programme by the open-source club of JIIT Noida-128, the **JODC**, focused on introducing students to open source software development and documentation writing.
@@ -35,7 +35,7 @@ Congratulations to the participants who have passed the final evaluation. The re
 
 **Top Performing Students**
 
-(Names are mentioned in random order).
+(No particular order).
 
 | **S.No** | **Name**             | **GitHub Profile**                         |
 | -------- | -------------------- | ------------------------------------------ |
