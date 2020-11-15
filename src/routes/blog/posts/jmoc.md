@@ -4,11 +4,11 @@ date: 2020-01-07T12:51:00.000Z
 author: JIIT Open-Source Developers Circle
 ---
 
-**JIIT Month of Code** is an online programme by the open-source club of JIIT Noida-128, the **JODC**, focused on introducing students to open source software development and documentation writing.
+JIIT Month of Code is an online programme by the open-source club of JIIT Noida-128, the JODC, focused on introducing students to open source software development and documentation writing.
 
 <!-- more -->
 
-JODC is glad to announce the results of JMOC 2020, held in the month of January. It&#39;s an initiative taken to promote open source culture among the college students and beginners, which is a one month long coding period where participants contribute to various projects under the guidenship of project mentors. This is the very first event of JODC organized at this level. The response we received for the same was extremely overwhelming. We received 63 mentor applications and 319 student applications at the beginning of this event. Out of that 43 projects were selected for the coding period and all the students, who applied, were allowed to contribute.
+**JODC** is glad to announce the results of **JMOC** 2020, held in the month of January. It&#39;s an initiative taken to promote open source culture among the college students and beginners, which is a one month long coding period where participants contribute to various projects under the guidenship of project mentors. This is the very first event of JODC organized at this level. The response we received for the same was extremely overwhelming. We received 63 mentor applications and 319 student applications at the beginning of this event. Out of that 43 projects were selected for the coding period and all the students, who applied, were allowed to contribute.
 
 We would like to thank the mentors for their constant support to the participants, thereby making the event a big success.
 
@@ -35,7 +35,7 @@ Congratulations to the participants who have passed the final evaluation. The re
 
 **Top Performing Students**
 
-(No particular order).
+(The names are mentioned no particular order).
 
 | **S.No** | **Name**             | **GitHub Profile**                         |
 | -------- | -------------------- | ------------------------------------------ |
