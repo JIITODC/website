@@ -20,7 +20,7 @@
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
     "lazysizes": "^5.2.2",
-    "marked": "^1.2.3",
+    "marked": "^1.2.4",
     "polka": "next",
     "prismjs": "^1.22.0",
     "reading-time": "^1.2.0",
