@@ -51,12 +51,14 @@ li:not(:last-child) {
   background-color: #fff;
 }
 
-.nav-link:hover::after {
+.nav-link:hover::after,
+.nav-link.active::after {
   height: 100%;
   opacity: 1;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link.active {
   color: #000;
 }
 
@@ -190,6 +192,8 @@ li:not(:last-child) {
 </style>
 
 <script>
+export let segment;
+console.log(segment);
 let isOpen = false;
 
 function handleClick() {
@@ -204,11 +208,34 @@ function handleClick() {
   <div class="burger-container" on:click="{handleClick}" class:open="{isOpen}">
     <div class="hamburger-icon"></div>
   </div>
-  <ul class="nav-links ">
-    <li><a class="nav-link" href=".">home</a></li>
-    <li><a rel="prefetch" class="nav-link" href="events">events</a></li>
-    <li><a rel="prefetch" class="nav-link" href="team">team</a></li>
-    <li><a rel="prefetch" class="nav-link" href="blog">blog</a></li>
+  <ul class="nav-links">
+    <li>
+      <a class="nav-link" class:active="{!segment}" href=".">home</a>
+    </li>
+    <li>
+      <a
+        rel="prefetch"
+        class="nav-link"
+        class:active="{segment === 'events'}"
+        href="events"
+      >events</a>
+    </li>
+    <li>
+      <a
+        rel="prefetch"
+        class="nav-link"
+        class:active="{segment === 'team'}"
+        href="team"
+      >team</a>
+    </li>
+    <li>
+      <a
+        rel="prefetch"
+        class="nav-link"
+        class:active="{segment === 'blog'}"
+        href="blog"
+      >blog</a>
+    </li>
   </ul>
   <div class="nav-overlay" on:click="{handleClick}" class:open="{isOpen}">
     <ul class="nav-overlay-list">
