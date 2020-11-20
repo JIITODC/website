@@ -209,9 +209,7 @@ function handleClick() {
     <div class="hamburger-icon"></div>
   </div>
   <ul class="nav-links">
-    <li>
-      <a class="nav-link" class:active="{!segment}" href=".">home</a>
-    </li>
+    <li><a class="nav-link" class:active="{!segment}" href=".">home</a></li>
     <li>
       <a
         rel="prefetch"
