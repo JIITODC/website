@@ -193,7 +193,6 @@ li:not(:last-child) {
 
 <script>
 export let segment;
-console.log(segment);
 let isOpen = false;
 
 function handleClick() {
