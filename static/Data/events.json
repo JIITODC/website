@@ -16,5 +16,14 @@
     "location": "Virtual",
     "imagelink": "Photos/webp/git-github-workshop.webp",
     "formatDate": "2020-9-30"
+  },
+  {
+    "id":3,
+    "title": "Introduction to APIs",
+    "about": "APIs and how do they work, Introduction to REST API, CRUD Operations, cURL and Python Scripts, and Working with twilio API",
+    "time":"November 22' 2020  @  6:00PM",
+    "location":"Virtual",
+    "imagelink": "Photos/webp/api-workshop.webp",
+    "formatDate":"2020-11-22"
   }
 ]
