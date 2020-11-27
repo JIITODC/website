@@ -19,6 +19,15 @@
   },
   {
     "id":3,
+    "title": "Workshop on Linux",
+    "about": "An introduction to what, why and how to Linux, what's Ricing and why developers love linux",
+    "time":"October 16' 2020 @ 6:00 PM",
+    "location":"Virtual",
+    "imagelink": "Photos/webp/linux-workshop.webp",
+    "formatDate":"2020-10-16"
+  },
+  {
+    "id":4,
     "title": "Introduction to APIs",
     "about": "APIs and how do they work, Introduction to REST API, CRUD Operations, cURL and Python Scripts, and Working with twilio API",
     "time":"November 22' 2020  @  6:00PM",
