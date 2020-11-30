@@ -23,7 +23,7 @@
     "marked": "^1.2.4",
     "polka": "next",
     "prismjs": "^1.22.0",
-    "reading-time": "^1.2.0",
+    "reading-time": "^1.2.1",
     "sirv": "^1.0.7",
     "svelte-awesome": "^2.3.0"
   },
