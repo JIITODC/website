@@ -34,5 +34,14 @@
     "location":"Virtual",
     "imagelink": "Photos/webp/api-workshop.webp",
     "formatDate":"2020-11-22"
+  },
+  {
+    "id":5,
+    "title": "Introduction to GSOC",
+    "about": "GSOC, Open Source and talk with former GSOC members",
+    "time":"December 4' 2020  @  6:00PM",
+    "location":"Virtual",
+    "imagelink": "Photos/webp/gsoc-workshop.webp",
+    "formatDate":"2020-12-04"
   }
 ]
