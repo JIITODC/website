@@ -24,7 +24,7 @@
     "polka": "next",
     "prismjs": "^1.22.0",
     "reading-time": "^1.2.1",
-    "sirv": "^1.0.9",
+    "sirv": "^1.0.10",
     "svelte-awesome": "^2.3.0"
   },
   "devDependencies": {
