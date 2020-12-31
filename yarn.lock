@@ -1725,10 +1725,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-plugin-svelte3@^2.7.3:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte3/-/eslint-plugin-svelte3-2.7.3.tgz#e793b646b848e717674fe668c21b909cfa025eb3"
-  integrity sha512-p6HhxyICX9x/x+8WSy6AVk2bmv9ayoznoTSyCvK47th/k/07ksuJixMwbGX9qxJVAmPBaYMjEIMSEZtJHPIN7w==
+eslint-plugin-svelte3@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-svelte3/-/eslint-plugin-svelte3-3.0.0.tgz#7c085ccc214e07feaa125b02f51a5789bc807a7f"
+  integrity sha512-8IZAT1Qkk1X6z+zLGeIF4OYYhYodr5iUoCczovEAbtzf2VOoyrS1rk66SkYknJKjPh8rwFErjCpN4dFa2Bmbng==
 
 eslint-scope@^5.1.1:
   version "5.1.1"
@@ -3581,10 +3581,10 @@ signal-exit@^3.0.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-sirv@^1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.9.tgz#6d4d09de0c0458534a47e8cd32fa3152733f6b8a"
-  integrity sha512-ISwUxLRiB89/+9IeHkm0YUk+8NoFtcoxc8/nSnP2FIDR7UG2fsDSPH/KO2Fx/iw0b/T+2yhnFRbC59Yy5MFVvA==
+sirv@^1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.10.tgz#3e591f5a9ae2520f50d5830f5fae38d97e7be194"
+  integrity sha512-H5EZCoZaggEUQy8ocKsF7WAToGuZhjJlLvM3XOef46CbdIgbNeQ1p32N1PCuCjkVYwrAVOSMacN6CXXgIzuspg==
   dependencies:
     "@polka/url" "^1.0.0-next.9"
     mime "^2.3.1"
