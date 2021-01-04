@@ -19,7 +19,7 @@
     "compression": "^1.7.1",
     "date-fns": "^2.16.1",
     "gray-matter": "^4.0.2",
-    "lazysizes": "^5.2.2",
+    "lazysizes": "^5.3.0",
     "marked": "^1.2.4",
     "polka": "next",
     "prismjs": "^1.22.0",
