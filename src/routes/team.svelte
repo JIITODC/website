@@ -36,10 +36,6 @@
     gap: 2rem 1rem;
   }
 
-  .previous-message {
-    font-size: 2rem;
-  }
-
   .year-container {
     flex-direction: column;
     align-items: center;
