@@ -1,10 +1,10 @@
 ---
-title: Getting Started in Open-Source
+title: Getting Started in Computer Science
 date: 2020-11-16T12:51:00.000Z
 author: JIIT Open-Source Developers Circle
 ---
 
-Here are the useful resources to help you get started in Open-Source.
+Here are the useful resources to help you get started in Computer Science.
 
 <!-- more -->
 
