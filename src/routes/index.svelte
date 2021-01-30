@@ -32,7 +32,7 @@ img {
 }
 
 .section-about {
-  height: 80vh;
+  height: 100vh;
 }
 
 .about-us {
@@ -55,7 +55,7 @@ img {
 
 .divider {
   height: 3px;
-  width: 140px;
+  width: 160px;
   background-color: orange;
 }
 
