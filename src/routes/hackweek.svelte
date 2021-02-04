@@ -116,6 +116,33 @@
   border-bottom-left-radius: 0;
 }
 
+.more-info {
+  margin-top: 70px;
+}
+
+.more-info p {
+  display: inline;
+}
+
+.more-info a {
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 5px 10px;
+  background-color: lightblue;
+  border-radius: 2px;
+  background: linear-gradient(to right, #ffa500, #fd9346);
+  font-weight: 600;
+}
+
+.more-info a:hover {
+  color: #000;
+}
+
+.divider-3 {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 1020px) {
   .divider-1 {
     width: 280px;
@@ -156,12 +183,13 @@
     <h1 class="header-styler">Hack week</h1>
     <div class="divider divider-1"></div>
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
-      reiciendis porro totam aliquam ex impedit sequi temporibus blanditiis quod
-      ipsa qui voluptas dicta pariatur atque repudiandae. Minima, totam
-      laudantium culpa corrupti sed velit eius? Reiciendis accusantium repellat
-      deserunt praesentium quam ea neque exercitationem mollitia, sint odio
-      aliquid velit at ipsum?
+      The Hack-Week will be a week long event in which you'll get a chance to
+      hack on something with a team or if you chose to, mentor a team. You'll be
+      able to participate either as a project mentor or a mentee. Project
+      mentors will propose projects and mentees will apply individually to work
+      on a proposed project of their choice. The JODC team will review mentor
+      applications and once a mentor's project is accepted, they'll be able to
+      review and select mentees for their project.
     </p>
   </div>
   <div class="registration">
@@ -181,5 +209,12 @@
       <p class="timeline-para">very good spot.</p>
       <p class="timeline-para">borking doggo.</p>
     </div>
+  </div>
+  <div class="more-info">
+    <p>Student/Mentor Manual and FAQs &#8594</p>
+    <a href="#" class="link-help">HELP</a>
+    <h2 class="header-styler">Contact us</h2>
+    <div class="divider divider-3"></div>
+    <p>%Insert contact details%</p>
   </div>
 </section>
