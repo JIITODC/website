@@ -39,6 +39,10 @@
   margin-bottom: 60px;
 }
 
+.divider-4 {
+  width: 168px;
+}
+
 .reg-heading {
   display: inline-block;
   margin: 10px 20px 10px 0;
@@ -136,6 +140,7 @@
   border: none;
   color: #fff;
   font-weight: 600;
+  outline: none;
 }
 
 .link-help,
@@ -192,6 +197,10 @@
 
   .divider-3 {
     width: 165px;
+  }
+
+  .divider-4 {
+    width: 192px;
   }
 
   .btn-help,
@@ -255,11 +264,30 @@
         >PROJECTS</a></button>
     </p>
     <p class="para-help">
-      Manual and FAQs &#8594
-      <button class="btn-help"><a href="#" class="link-help">HELP</a></button>
+      Student/Mentor Manual &#8594
+      <button class="btn-help"><a
+          href="hackweek/help"
+          class="link-help"
+        >HELP</a></button>
     </p>
+
+    <h2 class="header-styler">Prizes/Swags</h2>
+    <div class="divider divider-4"></div>
+    <p>
+      At the end of the program, students will be assigned a pass or fail grade
+      by the organisers and will be provided with mentor feedback. All
+      successful students will be provided with a digital certificate and swag
+      from the organising team.
+    </p>
+
     <h2 class="header-styler">Contact us</h2>
     <div class="divider divider-3"></div>
-    <p>%Insert contact details%</p>
+    <p>
+      Mail us at
+      <a
+        style="text-decoration:none"
+        href="mailto:jiitodc@gmail.com"
+      >jiitodc@gmail.com</a>
+    </p>
   </div>
 </section>

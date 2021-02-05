@@ -248,7 +248,7 @@ function handleClick() {
       <li><a href="events">events</a></li>
       <li><a href="team">team</a></li>
       <li><a href="blog">blog</a></li>
-      <li><a href="hackweek">hackweek</a></li>
+      <li><a href="hackweek/about">hackweek</a></li>
     </ul>
   </div>
 </nav>
