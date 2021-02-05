@@ -123,7 +123,7 @@
 .para-help,
 .para-projects {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .btn-help,
@@ -157,6 +157,12 @@
 @media (max-width: 1020px) {
   .divider-1 {
     width: 280px;
+  }
+
+  .para-help,
+  .para-projects {
+    font-size: 20px;
+    margin-left: 30px;
   }
 }
 
@@ -244,7 +250,7 @@
     <p class="para-projects">
       List of projects &#8594
       <button class="btn-projects"><a
-          href="#"
+          href="hackweek/projects"
           class="link-projects"
         >PROJECTS</a></button>
     </p>

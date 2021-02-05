@@ -238,7 +238,7 @@ function handleClick() {
         rel="prefetch"
         class="nav-link"
         class:active="{segment === 'hackweek'}"
-        href="hackweek"
+        href="hackweek/about"
       >hackweek</a>
     </li>
   </ul>
