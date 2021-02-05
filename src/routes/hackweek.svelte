@@ -120,21 +120,32 @@
   margin-top: 70px;
 }
 
-.more-info p {
-  display: inline;
+.para-help,
+.para-projects {
+  display: inline-block;
+  margin-left: 20px;
 }
 
-.more-info a {
-  text-decoration: none;
+.btn-help,
+.btn-projects {
   margin-left: 15px;
-  padding: 5px 10px;
-  background-color: lightblue;
-  border-radius: 2px;
+  padding: 8px 16px;
+  border-radius: 3px;
   background: linear-gradient(to right, #ffa500, #fd9346);
+  cursor: pointer;
+  border: none;
+  color: #fff;
   font-weight: 600;
 }
 
-.more-info a:hover {
+.link-help,
+.link-projects {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.btn-help:hover .link-help,
+.btn-projects:hover .link-projects {
   color: #000;
 }
 
@@ -167,6 +178,25 @@
 
   .divider-1 {
     width: 250px;
+  }
+
+  .divider-2 {
+    width: 125px;
+  }
+
+  .divider-3 {
+    width: 165px;
+  }
+
+  .btn-help,
+  .btn-projects {
+    margin-left: 0;
+  }
+
+  .para-help,
+  .para-projects {
+    font-size: 20px;
+    margin-left: 0;
   }
 }
 </style>
@@ -211,8 +241,17 @@
     </div>
   </div>
   <div class="more-info">
-    <p>Student/Mentor Manual and FAQs &#8594</p>
-    <a href="#" class="link-help">HELP</a>
+    <p class="para-projects">
+      List of projects &#8594
+      <button class="btn-projects"><a
+          href="#"
+          class="link-projects"
+        >PROJECTS</a></button>
+    </p>
+    <p class="para-help">
+      Manual and FAQs &#8594
+      <button class="btn-help"><a href="#" class="link-help">HELP</a></button>
+    </p>
     <h2 class="header-styler">Contact us</h2>
     <div class="divider divider-3"></div>
     <p>%Insert contact details%</p>
