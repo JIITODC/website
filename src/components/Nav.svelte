@@ -211,7 +211,7 @@ function handleClick() {
     <li><a class="nav-link" class:active="{!segment}" href=".">home</a></li>
     <li>
       <a
-        rel="prefetch"
+        sapper:prefetch
         class="nav-link"
         class:active="{segment === 'events'}"
         href="events"
@@ -219,7 +219,7 @@ function handleClick() {
     </li>
     <li>
       <a
-        rel="prefetch"
+        sapper:prefetch
         class="nav-link"
         class:active="{segment === 'team'}"
         href="team"
@@ -227,7 +227,7 @@ function handleClick() {
     </li>
     <li>
       <a
-        rel="prefetch"
+        sapper:prefetch
         class="nav-link"
         class:active="{segment === 'blog'}"
         href="blog"

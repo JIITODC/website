@@ -1,10 +1,14 @@
 <div align=center>
 
 <p>
-  <img src="https://res.cloudinary.com/dcykxiua2/image/upload/v1601403909/screely-1601393893331_vglbvb.png">
+  <img src="https://cloud-t01sgib7y.vercel.app/0image.png">
 </p>
 
-[![Open Issues](https://img.shields.io/github/issues/JIITODC/jiitodc.github.io?style=for-the-badge&logo=github)](https://github.com/JIITODC/jiitodc.github.io/issues) [![Forks](https://img.shields.io/github/forks/JIITODC/jiitodc.github.io?style=for-the-badge&logo=github)](https://github.com/JIITODC/jiitodc.github.io/network/members) [![Stars](https://img.shields.io/github/stars/JIITODC/jiitodc.github.io?style=for-the-badge&logo=reverbnation)](https://github.com/JIITODC/jiitodc.github.io/stargazers)  ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%99%A5-red?style=for-the-badge&logo=open-source-initiative) ![Built with Love](https://img.shields.io/badge/Built%20With-%E2%99%A5-critical?style=for-the-badge&logo=ko-fi)
+![Open Issues](https://img.shields.io/github/issues/JIITODC/website?color=green&style=for-the-badge&logo=github)
+[![Forks](https://img.shields.io/github/forks/JIITODC/website?style=for-the-badge&logo=github)](https://github.com/JIITODC/jiitodc.github.io/network/members) 
+[![Stars](https://img.shields.io/github/stars/JIITODC/website?style=for-the-badge&logo=reverbnation)](https://github.com/JIITODC/website/stargazers)
+![Discord Online](https://img.shields.io/discord/475154983910899722?label=JODC%20Discord&style=for-the-badge)
+![Twitter Followers](https://img.shields.io/twitter/follow/jiitodc?label=Twitter&style=for-the-badge)
 
 </div>
 
@@ -135,18 +139,33 @@ Your contributions are always welcome and appreciated. Following are the things 
 ## :camera: Gallery
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dcykxiua2/image/upload/v1601403909/shotsnapp-1601403666.419_p57vxt.png" width="800">
+  <img src="https://cloud-fu0hdsfst.vercel.app/0image.png" width="800">
 </p>
-<p align="center">The main landing Page.</p>
+<p align="center">The Home Page.</p>
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dcykxiua2/image/upload/v1601404144/shotsnapp-1601404124.596_qpkdu5.png" width="800">
+  <img src="https://cloud-qchetr8qb.vercel.app/0image.png" width="800">
+</p>
+<p align="center">About Us.</p>
+
+<p align="center">
+  <img src="https://cloud-hudew9uoc.vercel.app/0image.png" width="800">
 </p>
 <p align="center">The Events Page.</p>
 
+<p align="center">
+  <img src="https://cloud-czb2a3zdk.vercel.app/0image.png" width="800">
+</p>
+<p align="center">The Team Page.</p>
+
+<p align="center">
+  <img src="https://cloud-k9llgco0a.vercel.app/0image.png" width="800">
+</p>
+<p align="center">The Blog Page.</p>
+
 ## :lock: License
 
-[![License](https://img.shields.io/github/license/JIITODC/jiitodc.github.io?style=for-the-badge)](https://github.com/JIITODC/jiitodc.github.io/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/JIITODC/website?style=for-the-badge)](https://github.com/JIITODC/website/blob/master/LICENSE)
 
 ## :star2: Credit/Acknowledgment
-[![Contributors](https://img.shields.io/github/contributors/JIITODC/jiitodc.github.io?style=for-the-badge)](https://github.com/JIITODC/jiitodc.github.io/graphs/contributors) 
+[![Contributors](https://img.shields.io/github/contributors/JIITODC/website?style=for-the-badge)](https://github.com/JIITODC/website/graphs/contributors) 
