@@ -210,8 +210,12 @@
 
   .para-help,
   .para-projects {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 0;
+  }
+
+  p {
+    font-size: 18px;
   }
 }
 </style>

@@ -69,7 +69,7 @@
   <div class="divider divider-2"></div>
   <p>
     Mentors will be required to help students in any type of problem related to
-    the project. Mentors can give overview, resources and a general direction of
+    the project. They can give overview, resources and a general direction of
     the project.
   </p>
   <h2>Why should you apply?</h2>

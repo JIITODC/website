@@ -16,7 +16,8 @@ h2 {
   font-size: 30px;
 }
 
-.gitlink {
+.gitlink,
+.gitlink:visited {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
@@ -37,7 +38,7 @@ hr {
   }
 
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .gitlink {
