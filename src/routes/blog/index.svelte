@@ -41,7 +41,7 @@ export let posts;
       <hr />
     {/if}
     <div class="post-item">
-      <h2><a rel="prefetch" href="blog/{post.slug}">{post.title}</a></h2>
+      <h2><a sapper:prefetch href="blog/{post.slug}">{post.title}</a></h2>
       <p>{post.excerpt}</p>
       <div class="post-item-footer">
         <span class="post-item-date">— {post.printDate}</span>
