@@ -39,9 +39,49 @@
     "id":5,
     "title": "Introduction to GSOC",
     "about": "GSOC, Open Source and talk with former GSOC members",
-    "time":"December 4' 2020  @  6:00PM",
+    "time":"December 04' 2020  @  6:00PM",
     "location":"Virtual",
     "imagelink": "Photos/webp/gsoc-workshop.webp",
     "formatDate":"2020-12-04"
+  },
+  {
+    "id":6,
+    "title": "Building Your Own Text Editor",
+    "about": "Build a fully functional terminal based text editor from scratch in C and assembly using minimal external libraries",
+    "time":"December 11' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2020-12-11"
+  },
+  {
+    "id":7,
+    "title": "Building a Code Sharing Platform",
+    "about": "Make your own full stack Pastebin like code sharing platform using HTML, CSS, JS and using MySQL Database. Pastebin clone is the hello world to system design, and possibly one of the most asked interview questions for system design and in a lot of product based companies.",
+    "time":"December 27' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2020-12-27"
+  },
+  {
+    "id":8,
+    "title": "Getting Started with Vim",
+    "about": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. Learn how to get started with Vim and how to customize it to take your productivity to the moon 🚀 ",
+    "time":"January 02' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2021-01-02"
+  },
+  {
+    "id":9,
+    "title": "Conway's Game of Life in WebAssembly",
+    "about": "WebAssembly (wasm) is a simple machine model and executable format for a stack-based virtual machine. It is designed to be portable, compact, and execute at native or near native speeds. In this event we'll implement the famous Comway's Game Of Life in wasm!",
+    "time":"January 10' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2021-01-10"
+  },
+  {
+    "id":10,
+    "title": "Getting started with CLI apps in Node.js",
+    "about": "Command line applications (CLI) are often the core tools for automating tasks, such as deploying production applications, running tests, building reports, etc. and Node.js is a great solution for writing CLI apps. You can take advantage of Node.js's thousands of built-in libraries and npm packages to build apps faster than ever.",
+    "time":"January 22' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2021-01-22"
   }
 ]
