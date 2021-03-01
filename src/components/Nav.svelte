@@ -168,7 +168,7 @@ li:not(:last-child) {
     font-weight: 700;
     text-transform: uppercase;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 20px;
     border: none;
     margin-bottom: 30px;
   }
@@ -233,6 +233,14 @@ function handleClick() {
         href="blog"
       >blog</a>
     </li>
+    <li>
+      <a
+        rel="prefetch"
+        class="nav-link"
+        class:active="{segment === 'hackweek'}"
+        href="hackweek/about"
+      >hackweek</a>
+    </li>
   </ul>
   <div class="nav-overlay" on:click="{handleClick}" class:open="{isOpen}">
     <ul class="nav-overlay-list">
@@ -240,6 +248,7 @@ function handleClick() {
       <li><a href="events">events</a></li>
       <li><a href="team">team</a></li>
       <li><a href="blog">blog</a></li>
+      <li><a href="hackweek/about">hackweek</a></li>
     </ul>
   </div>
 </nav>
