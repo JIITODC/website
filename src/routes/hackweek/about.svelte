@@ -51,10 +51,11 @@
 .reg-link {
   text-decoration: none;
   font-size: 20px;
+  color: orange;
 }
 
 .reg-link:hover {
-  color: orange;
+  color: #fff;
 }
 
 .timeline-wrapper {
@@ -233,39 +234,53 @@
     <div class="divider divider-1"></div>
     <p>
       The Hack-Week will be a week long event in which you'll get a chance to
-      hack on something with a team or if you chose to, mentor a team. You'll be
-      able to participate either as a project mentor or a mentee. Project
-      mentors will propose projects and mentees will apply individually to work
-      on a proposed project of their choice. The JODC team will review mentor
-      applications and once a mentor's project is accepted, they'll be able to
-      review and select mentees for their project.
+      hack on something or if you chose to, mentor a team. You'll be able to
+      participate either as a project mentor or a mentee. Project mentors will
+      propose projects and mentees will apply individually to work on a proposed
+      project of their choice. The JODC team will review mentor applications and
+      once a mentor's project is accepted, they'll be able to review and select
+      mentees for their project. All successful students will be provided with a
+      digital certificate.
     </p>
   </div>
   <div class="registration">
     <h3 class="reg-heading">Mentor Registration &#8594</h3>
-    <a href="#" class="reg-link">%Insert link here%</a>
+    <a
+      href="https://www.shorturl.at/rxTX8"
+      class="reg-link"
+      target="_blank"
+    >Here</a>
     <p></p>
     <h3 class="reg-heading">Student Registration &#8594</h3>
-    <a href="#" class="reg-link">%Insert link here%</a>
+    <a href="#" class="reg-link">Releasing on 6th March, 2021</a>
   </div>
   <div class="timeline-container">
     <h2 class="header-styler">Timeline</h2>
     <div class="divider divider-2"></div>
 
     <div class="timeline-wrapper">
-      <p class="timeline-para">Doggo ipsum .</p>
-      <p class="timeline-para">Big ol</p>
-      <p class="timeline-para">very good spot.</p>
-      <p class="timeline-para">borking doggo.</p>
+      <p class="timeline-para">
+        Mentors Application : March 2, 2021 - March 5, 2021
+      </p>
+      <p class="timeline-para">Projects Announced: March 6, 2021</p>
+      <p class="timeline-para">
+        Student Application : March 6, 2021 - March 10, 2021
+      </p>
+      <p class="timeline-para">Students Project Announced: March 11, 2021</p>
+      <p class="timeline-para">
+        Coding Period: March 11, 2021 - March 17, 2021
+      </p>
+      <p class="timeline-para">Results Announced: March 23, 2021</p>
     </div>
   </div>
   <div class="more-info">
     <p class="para-projects">
       List of projects &#8594
-      <button class="btn-projects"><a
+      <!-- <button class="btn-projects"><a
           href="hackweek/projects"
           class="link-projects"
-        >PROJECTS</a></button>
+        >PROJECTS</a></button> -->
+      Releasing on March 6, 2021
     </p>
     <p class="para-help">
       Student/Mentor Manual &#8594
@@ -273,15 +288,6 @@
           href="hackweek/help"
           class="link-help"
         >HELP</a></button>
-    </p>
-
-    <h2 class="header-styler">Prizes/Swags</h2>
-    <div class="divider divider-4"></div>
-    <p>
-      At the end of the program, students will be assigned a pass or fail grade
-      by the organisers and will be provided with mentor feedback. All
-      successful students will be provided with a digital certificate and swag
-      from the organising team.
     </p>
 
     <h2 class="header-styler">Contact us</h2>
