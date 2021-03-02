@@ -69,6 +69,8 @@
   line-height: 1.75em;
   border-top: 3px solid;
   -o-border-image: linear-gradient(to right, #ffa500 0%, #fd9346 100%);
+  -moz-border-image: linear-gradient(to right, #ffa500 0%, #fd9346 100%);
+  -webkit-border-image: linear-gradient(to right, #ffa500 0%, #fd9346 100%);
   border-image: linear-gradient(to right, #ffa500 0%, #fd9346 100%);
   border-image-slice: 1;
   border-width: 3px;

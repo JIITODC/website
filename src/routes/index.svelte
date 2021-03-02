@@ -143,6 +143,10 @@ a:hover {
   .divider {
     width: 130px;
   }
+
+  p {
+    font-size: 18px;
+  }
 }
 </style>
 
