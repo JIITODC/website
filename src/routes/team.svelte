@@ -79,6 +79,6 @@ export let datas;
 
 <div class="previous-team">
   <div class="year-container">
-    <a rel="prefetch" href="/team-2019"> &larr; 2019-2020</a>
+    <a sapper:prefetch href="/team-2019"> &larr; 2019-2020</a>
   </div>
 </div>

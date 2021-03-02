@@ -211,7 +211,7 @@ function handleClick() {
     <li><a class="nav-link" class:active="{!segment}" href=".">home</a></li>
     <li>
       <a
-        rel="prefetch"
+        sapper:prefetch
         class="nav-link"
         class:active="{segment === 'events'}"
         href="events"
@@ -219,7 +219,7 @@ function handleClick() {
     </li>
     <li>
       <a
-        rel="prefetch"
+        sapper:prefetch
         class="nav-link"
         class:active="{segment === 'team'}"
         href="team"
@@ -227,7 +227,7 @@ function handleClick() {
     </li>
     <li>
       <a
-        rel="prefetch"
+        sapper:prefetch
         class="nav-link"
         class:active="{segment === 'blog'}"
         href="blog"
@@ -238,7 +238,11 @@ function handleClick() {
         rel="prefetch"
         class="nav-link"
         class:active="{segment === 'hackweek'}"
+<<<<<<< HEAD
         href="hackweek"
+=======
+        href="hackweek/about"
+>>>>>>> 7068d62baeb0bf61d92541c37ad005ff999399a3
       >hackweek</a>
     </li>
   </ul>
@@ -248,7 +252,11 @@ function handleClick() {
       <li><a href="events">events</a></li>
       <li><a href="team">team</a></li>
       <li><a href="blog">blog</a></li>
+<<<<<<< HEAD
       <li><a href="hackweek">hackweek</a></li>
+=======
+      <li><a href="hackweek/about">hackweek</a></li>
+>>>>>>> 7068d62baeb0bf61d92541c37ad005ff999399a3
     </ul>
   </div>
 </nav>
