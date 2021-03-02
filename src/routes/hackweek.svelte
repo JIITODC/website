@@ -39,10 +39,6 @@
   margin-bottom: 60px;
 }
 
-.divider-4 {
-  width: 168px;
-}
-
 .reg-heading {
   display: inline-block;
   margin: 10px 20px 10px 0;
@@ -51,11 +47,10 @@
 .reg-link {
   text-decoration: none;
   font-size: 20px;
-  color: orange;
 }
 
 .reg-link:hover {
-  color: #fff;
+  color: orange;
 }
 
 .timeline-wrapper {
@@ -69,8 +64,6 @@
   line-height: 1.75em;
   border-top: 3px solid;
   -o-border-image: linear-gradient(to right, #ffa500 0%, #fd9346 100%);
-  -moz-border-image: linear-gradient(to right, #ffa500 0%, #fd9346 100%);
-  -webkit-border-image: linear-gradient(to right, #ffa500 0%, #fd9346 100%);
   border-image: linear-gradient(to right, #ffa500 0%, #fd9346 100%);
   border-image-slice: 1;
   border-width: 3px;
@@ -130,7 +123,7 @@
 .para-help,
 .para-projects {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .btn-help,
@@ -143,7 +136,6 @@
   border: none;
   color: #fff;
   font-weight: 600;
-  outline: none;
 }
 
 .link-help,
@@ -165,12 +157,6 @@
 @media (max-width: 1020px) {
   .divider-1 {
     width: 280px;
-  }
-
-  .para-help,
-  .para-projects {
-    font-size: 20px;
-    margin-left: 30px;
   }
 }
 
@@ -202,10 +188,6 @@
     width: 165px;
   }
 
-  .divider-4 {
-    width: 192px;
-  }
-
   .btn-help,
   .btn-projects {
     margin-left: 0;
@@ -213,12 +195,8 @@
 
   .para-help,
   .para-projects {
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 0;
-  }
-
-  p {
-    font-size: 18px;
   }
 }
 </style>
@@ -236,70 +214,46 @@
     <div class="divider divider-1"></div>
     <p>
       The Hack-Week will be a week long event in which you'll get a chance to
-      hack on something or if you chose to, mentor a team. You'll be able to
-      participate either as a project mentor or a mentee. Project mentors will
-      propose projects and mentees will apply individually to work on a proposed
-      project of their choice. The JODC team will review mentor applications and
-      once a mentor's project is accepted, they'll be able to review and select
-      mentees for their project. All successful students will be provided with a
-      digital certificate.
+      hack on something with a team or if you chose to, mentor a team. You'll be
+      able to participate either as a project mentor or a mentee. Project
+      mentors will propose projects and mentees will apply individually to work
+      on a proposed project of their choice. The JODC team will review mentor
+      applications and once a mentor's project is accepted, they'll be able to
+      review and select mentees for their project.
     </p>
   </div>
   <div class="registration">
     <h3 class="reg-heading">Mentor Registration &#8594</h3>
-    <a
-      href="https://www.shorturl.at/rxTX8"
-      class="reg-link"
-      target="_blank"
-    >Here</a>
+    <a href="#" class="reg-link">%Insert link here%</a>
     <p></p>
     <h3 class="reg-heading">Student Registration &#8594</h3>
-    <a href="#" class="reg-link">Releasing on 6th March, 2021</a>
+    <a href="#" class="reg-link">%Insert link here%</a>
   </div>
   <div class="timeline-container">
     <h2 class="header-styler">Timeline</h2>
     <div class="divider divider-2"></div>
 
     <div class="timeline-wrapper">
-      <p class="timeline-para">
-        Mentors Application : March 2, 2021 - March 5, 2021
-      </p>
-      <p class="timeline-para">Projects Announced: March 6, 2021</p>
-      <p class="timeline-para">
-        Student Application : March 6, 2021 - March 10, 2021
-      </p>
-      <p class="timeline-para">Students Project Announced: March 11, 2021</p>
-      <p class="timeline-para">
-        Coding Period: March 11, 2021 - March 17, 2021
-      </p>
-      <p class="timeline-para">Results Announced: March 23, 2021</p>
+      <p class="timeline-para">Doggo ipsum .</p>
+      <p class="timeline-para">Big ol</p>
+      <p class="timeline-para">very good spot.</p>
+      <p class="timeline-para">borking doggo.</p>
     </div>
   </div>
   <div class="more-info">
     <p class="para-projects">
       List of projects &#8594
-      <!-- <button class="btn-projects"><a
-          href="hackweek/projects"
+      <button class="btn-projects"><a
+          href="#"
           class="link-projects"
-        >PROJECTS</a></button> -->
-      Releasing on March 6, 2021
+        >PROJECTS</a></button>
     </p>
     <p class="para-help">
-      Student/Mentor Manual &#8594
-      <button class="btn-help"><a
-          href="hackweek/help"
-          class="link-help"
-        >HELP</a></button>
+      Manual and FAQs &#8594
+      <button class="btn-help"><a href="#" class="link-help">HELP</a></button>
     </p>
-
     <h2 class="header-styler">Contact us</h2>
     <div class="divider divider-3"></div>
-    <p>
-      Mail us at
-      <a
-        style="text-decoration:none"
-        href="mailto:jiitodc@gmail.com"
-      >jiitodc@gmail.com</a>
-    </p>
+    <p>%Insert contact details%</p>
   </div>
 </section>
