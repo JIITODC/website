@@ -254,7 +254,7 @@
     >Here</a>
     <p></p>
     <h3 class="reg-heading">Student Registration &#8594</h3>
-    <a href="#" class="reg-link">Releasing on 6th March, 2021</a>
+    <a href="#" class="reg-link">Releasing on 10th March, 2021</a>
   </div>
   <div class="timeline-container">
     <h2 class="header-styler">Timeline</h2>
@@ -262,17 +262,17 @@
 
     <div class="timeline-wrapper">
       <p class="timeline-para">
-        Mentors Application : March 2, 2021 - March 5, 2021
+        Mentors Application : March 6, 2021 - March 9, 2021
       </p>
-      <p class="timeline-para">Projects Announced: March 6, 2021</p>
+      <p class="timeline-para">Projects Announced: March 10, 2021</p>
       <p class="timeline-para">
-        Student Application : March 6, 2021 - March 10, 2021
+        Student Application : March 10, 2021 - March 14, 2021
       </p>
-      <p class="timeline-para">Students Project Announced: March 11, 2021</p>
+      <p class="timeline-para">Students Project Announced: March 15, 2021</p>
       <p class="timeline-para">
-        Coding Period: March 11, 2021 - March 17, 2021
+        Coding Period: March 15, 2021 - March 21, 2021
       </p>
-      <p class="timeline-para">Results Announced: March 23, 2021</p>
+      <p class="timeline-para">Results Announced: March 27, 2021</p>
     </div>
   </div>
   <div class="more-info">
@@ -282,7 +282,7 @@
           href="hackweek/projects"
           class="link-projects"
         >PROJECTS</a></button> -->
-      Releasing on March 6, 2021
+      Releasing on March 10, 2021
     </p>
     <p class="para-help">
       Student/Mentor Manual &#8594

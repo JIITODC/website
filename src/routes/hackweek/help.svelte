@@ -44,10 +44,11 @@
   <h2 class="header">Student Manual</h2>
   <div class="divider divider-1"></div>
   <p>
-    Students are expected to apply as a participant by March 10, 2021. The
+    Students are expected to apply as a participant by March 14, 2021. The
     selected projects and mentor contact details for each project will be listed
-    on the website by March 6, 2021 for students to go through. The contribution
-    period begins on March 11, 2021 and will end on March 17, 2021.<br />
+    on the website by March 10, 2021 for students to go through. The
+    contribution period begins on March 15, 2021 and will end on March 21, 2021.<br
+    />
     Students may select any issue to work on from the projects listed, inform
     the same to the mentor monitoring the project and join the project’s
     communication channel. Students may ask for help on any issue from the
