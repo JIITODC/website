@@ -16,5 +16,11 @@
     "mentor": "Prakher Prashank and Dharmveer Singh",
     "description": "The aim of the project is to create an app (in js or python) with basic utilities to- validate, verify, send emails, etc. It is a beginner-friendly project to introduce developers to basic app development and REST API architecture.",
     "github": "https://github.com/im-prakher/simply-mail"
+  },
+  {
+    "name": "Py-Browser",
+    "mentor": "Sabreen Parveen",
+    "description": "The aim of the project is to create a web browser, which is entirely written in python",
+    "github": "https://github.com/Sabreen-Parveen/Py-Browser"
   }
 ]
