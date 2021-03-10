@@ -1,8 +1,26 @@
 [
   {
-    "name": "TitleExample",
-    "mentor": "John Wick",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam a distinctio autem ad inventore animi deleniti illo blanditiis recusandae dolores fugit non dicta, odit iure maxime ipsum consectetur unde totam.",
-    "github": "https://www.google.com"
+    "name": "Basic Unix utilities in C",
+    "mentor": "Ankur Kothiwal and Divyansh Kamboj",
+    "description": "The aim of the project is to write basic Unix utilities like 'cat', 'ls', 'grep', etc in C language. The project will help in the better understanding of Unix file system, Shell scripting and writing Makefiles.",
+    "github": "https://github.com/Ankurk99/Basic-Unix-utilities"
+  },
+  {
+    "name": "Collaborative drawing webapp",
+    "mentor": "Suryashankar Das",
+    "description": "The aim of the project is to create a basic webapp using javascript (pure js or any framework) and socket.io to create a realtime collaborative drawing webapp",
+    "github": "https: A beginner-friendly project to introduce developers to REST API architecture.//github.com/iamsdas/drawing"
+  },
+  {
+    "name": "Email Utility App",
+    "mentor": "Prakher Prashank and Dharmveer Singh",
+    "description": "The aim of the project is to create an app (in js or python) with basic utilities to- validate, verify, send emails, etc. It is a beginner-friendly project to introduce developers to basic app development and REST API architecture.",
+    "github": "https://github.com/im-prakher/simply-mail"
+  },
+  {
+    "name": "Py-Browser",
+    "mentor": "Sabreen Parveen",
+    "description": "The aim of the project is to create a web browser, which is entirely written in python",
+    "github": "https://github.com/Sabreen-Parveen/Py-Browser"
   }
 ]
