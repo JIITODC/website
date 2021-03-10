@@ -4,5 +4,11 @@
     "mentor": "Ankur Kothiwal and Divyansh Kamboj",
     "description": "The aim of the project is to write basic Unix utilities like 'cat', 'ls', 'grep', etc in C language. The project will help in the better understanding of Unix file system, Shell scripting and writing Makefiles.",
     "github": "https://github.com/Ankurk99/Basic-Unix-utilities"
+  },
+  {
+    "name": "Collaborative drawing webapp",
+    "mentor": "Suryashankar Das",
+    "description": "The aim of the project is to create a basic webapp using javascript (pure js or any framework) and socket.io to create a realtime collaborative drawing webapp",
+    "github": "https://github.com/iamsdas/drawing"
   }
 ]
