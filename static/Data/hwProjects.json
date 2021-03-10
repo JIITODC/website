@@ -1,8 +1,8 @@
 [
   {
-    "name": "TitleExample",
-    "mentor": "John Wick",
-    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam a distinctio autem ad inventore animi deleniti illo blanditiis recusandae dolores fugit non dicta, odit iure maxime ipsum consectetur unde totam.",
+    "name": "Basic Unix utilities in C",
+    "mentor": "Ankur Kothiwal and Divyansh Kamboj",
+    "description": "The aim of the project is to write basic Unix utilities like 'cat', 'ls', 'grep', etc in C language. The project will help in the better understanding of Unix file system, Shell scripting and writing Makefiles.",
     "github": "https://www.google.com"
   }
 ]
