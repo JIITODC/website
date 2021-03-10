@@ -9,6 +9,12 @@
     "name": "Collaborative drawing webapp",
     "mentor": "Suryashankar Das",
     "description": "The aim of the project is to create a basic webapp using javascript (pure js or any framework) and socket.io to create a realtime collaborative drawing webapp",
-    "github": "https://github.com/iamsdas/drawing"
+    "github": "https: A beginner-friendly project to introduce developers to REST API architecture.//github.com/iamsdas/drawing"
+  },
+  {
+    "name": "Email Utility App",
+    "mentor": "Prakher Prashank and Dharmveer Singh",
+    "description": "The aim of the project is to create an app (in js or python) with basic utilities to- validate, verify, send emails, etc. It is a beginner-friendly project to introduce developers to basic app development and REST API architecture.",
+    "github": "https://github.com/im-prakher/simply-mail"
   }
 ]
