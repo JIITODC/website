@@ -278,11 +278,10 @@
   <div class="more-info">
     <p class="para-projects">
       List of projects &#8594
-      <!-- <button class="btn-projects"><a
+      <button class="btn-projects"><a
           href="hackweek/projects"
           class="link-projects"
-        >PROJECTS</a></button> -->
-      Releasing on March 10, 2021
+        >PROJECTS</a></button>
     </p>
     <p class="para-help">
       Student/Mentor Manual &#8594
