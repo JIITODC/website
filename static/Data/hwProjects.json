@@ -22,5 +22,11 @@
     "mentor": "Sabreen Parveen",
     "description": "The aim of the project is to create a web browser, which is entirely written in python",
     "github": "https://github.com/Sabreen-Parveen/Py-Browser"
+  },
+  {
+    "name": "Mask-Detection",
+    "mentor": "Arushi Verma, Nishit Anand and Eshan Dhawan",
+    "description": "The aim of the project is to create a Mask-Detector using Python",
+    "github": "https://github.com/arushivii/Mask-detection"
   }
 ]
