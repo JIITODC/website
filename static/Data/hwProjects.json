@@ -32,7 +32,7 @@
   {
     "name": "Peer to Peer Voice Chat Application",
     "mentor": "Aaryan Porwal, Aayush Kumar Sahu, Ishan",
-    "description": "Making a voice chat application using WebRTC technology for creating peers and socket.io for signaling. The project will help you in understanding how WebRTC works and will acquaint you with JavaScript technologies.",
+    "description": "Making a voice chat application using WebRTC technology for creating peers and socket.io for signaling. The project will help you in understanding how WebRTC works and will acquaint you with many cool JavaScript technologies.",
     "github": "https://github.com/aaryanporwal/P2P-Voice-Chat-App"
   }
 ]
