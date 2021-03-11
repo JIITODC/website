@@ -262,9 +262,9 @@
 
     <div class="timeline-wrapper">
       <p class="timeline-para">
-        Mentors Application : March 6, 2021 - March 9, 2021
+        Mentors Application : March 6, 2021 - March 13, 2021
       </p>
-      <p class="timeline-para">Projects Announced: March 10, 2021</p>
+      <p class="timeline-para">Projects Announced: Refer the link below</p>
       <p class="timeline-para">
         Student Application : March 10, 2021 - March 14, 2021
       </p>
