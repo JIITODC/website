@@ -246,15 +246,19 @@
     </p>
   </div>
   <div class="registration">
-    <h3 class="reg-heading">Mentor Registration &#8594</h3>
     <a
       href="https://www.shorturl.at/rxTX8"
       class="reg-link"
-      target="_blank"
-    >Here</a>
+      target="_blank">
+      <h3 class="reg-heading">Mentor Registration &#8594</h3>
+    </a>
     <p></p>
-    <h3 class="reg-heading">Student Registration &#8594</h3>
-    <a href="#" class="reg-link">Releasing on 10th March, 2021</a>
+ 
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTsN4cHHvLqbt1M9dHaUS9wqkzKf1cQcGSdkblGuRvbU8e1w/viewform?usp=sf_link" 
+       class="reg-link"
+       target="_blank">
+    <h3 class="reg-heading">Student Registration &#8594</h3>     
+    </a>
   </div>
   <div class="timeline-container">
     <h2 class="header-styler">Timeline</h2>

@@ -9,7 +9,7 @@
     "name": "Collaborative drawing webapp",
     "mentor": "Suryashankar Das",
     "description": "The aim of the project is to create a basic webapp using javascript (pure js or any framework) and socket.io to create a realtime collaborative drawing webapp",
-    "github": "https: A beginner-friendly project to introduce developers to REST API architecture.//github.com/iamsdas/drawing"
+    "github": "https://github.com/iamsdas/drawing"
   },
   {
     "name": "Email Utility App",
@@ -22,5 +22,17 @@
     "mentor": "Sabreen Parveen",
     "description": "The aim of the project is to create a web browser, which is entirely written in python",
     "github": "https://github.com/Sabreen-Parveen/Py-Browser"
+  },
+  {
+    "name": "Mask-Detection",
+    "mentor": "Arushi Verma, Nishit Anand and Eshan Dhawan",
+    "description": "The aim of the project is to create a Mask-Detector using Python",
+    "github": "https://github.com/arushivii/Mask-detection"
+  },
+  {
+    "name": "Peer to Peer Voice Chat Application",
+    "mentor": "Aaryan Porwal, Aayush Kumar Sahu, Ishan",
+    "description": "Making a voice chat application using WebRTC technology for creating peers and socket.io for signaling. The project will help you in understanding how WebRTC works and will acquaint you with many cool JavaScript technologies.",
+    "github": "https://github.com/aaryanporwal/P2P-Voice-Chat-App"
   }
 ]
