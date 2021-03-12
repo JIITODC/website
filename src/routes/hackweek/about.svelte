@@ -44,7 +44,9 @@
 }
 
 .reg-heading {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
   margin: 10px 20px 10px 0;
 }
 
@@ -246,18 +248,16 @@
     </p>
   </div>
   <div class="registration">
-    <a
-      href="https://www.shorturl.at/rxTX8"
-      class="reg-link"
-      target="_blank">
-      <h3 class="reg-heading">Mentor Registration &#8594</h3>
+    <a href="https://www.shorturl.at/rxTX8" class="reg-link" target="_blank">
+      <p class="reg-heading">Mentor Registration</p>
     </a>
-    <p></p>
- 
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTsN4cHHvLqbt1M9dHaUS9wqkzKf1cQcGSdkblGuRvbU8e1w/viewform?usp=sf_link" 
-       class="reg-link"
-       target="_blank">
-    <h3 class="reg-heading">Student Registration &#8594</h3>     
+
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSeTsN4cHHvLqbt1M9dHaUS9wqkzKf1cQcGSdkblGuRvbU8e1w/viewform?usp=sf_link"
+      class="reg-link"
+      target="_blank"
+    >
+      <p class="reg-heading">Student Registration</p>
     </a>
   </div>
   <div class="timeline-container">
@@ -288,7 +288,7 @@
         >PROJECTS</a></button>
     </p>
     <p class="para-help">
-      Student/Mentor Manual &#8594
+      Manual &#8594
       <button class="btn-help"><a
           href="hackweek/help"
           class="link-help"
