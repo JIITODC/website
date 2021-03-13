@@ -1,5 +1,65 @@
 [
   {
+    "name": "Awesome Portfolio Websites",
+    "mentor": "Smaranjit Ghose",
+    "description": "An open-source project aimed at providing a full-fledged template that anyone can use to build and put out their website within an hour! We take care of the SEO and the boring stuff behind your personal portfolio so that you can focus on building your projects.",
+    "github": "https://github.com/smaranjitghose/awesome-portfolio-websites"
+  },
+  {
+    "name": "All Notes",
+    "mentor": "Harsh Bardhan Mishra",
+    "description": "This Web Application powered by MERN Stack will be making use of intuitive User-Interface and User-Experience to allow Students to come onto a One-Stop Portal and share Resources and Notes related to their Syllabus and Subjects which can benefit the Society as a whole. An integrated PDF-Viewer would allow the other students to check out the Resources and upvote a User depending on the usefulness of the Resources shared from his part. This Social Application would allow Students to connect over their love of Subjects and helping out of the Community in an effective way, benefitting a lot of Students in the longer run.",
+    "github": "https://github.com/harshcasper/allnotes"
+  },
+  {
+    "name": "Rotten Scripts",
+    "mentor": "Harsh Bardhan Mishra",
+    "description": "Rotten Scripts contains amazing and awesome scripts written in Python, JavaScript, Bash, Powershell, and more. Consider this repository as your personal space to find or add any new script that can make life easier for us and the Open Source community too, as a Developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like everyone's Instagram Post.",
+    "github": "https://github.com/harshcasper/rotten-scripts"
+  },
+  {
+    "name": "IP-tracker",
+    "mentor": "Naman Bhatia",
+    "description": "A Web application that fetches details of  IP address entered by User ( such as longitude, latitude, Async number, internet Provider etc) using an API.",
+    "github": "https://github.com/Namanbhatia7/Ip-tracker"
+  },
+  {
+    "name": "Diabetes Detection-WebApp",
+    "mentor": "Uddeshya Tyagi",
+    "description": "A machine learning based web application used to predict if a person is likely to be diabetic or not (on the basis of certain measures like Blood pressure,their age,etc)",
+    "github": "https://github.com/uddeshyatyagi/Machine-Learning-minors/"
+  },
+  {
+    "name": "Payroll-System",
+    "mentor": "Gaurav Sehrawat",
+    "description": "Showcasing Node.js/MongoDB docker, docker compose skills via payroll system",
+    "github": "https://github.com/igauravsehrawat/payroll-system"
+  },
+  {
+    "name": "Payroll-Frontend",
+    "mentor": "Gaurav Sehrawat",
+    "description": "Payroll frontend using React and Ant Design",
+    "github": "https://github.com/igauravsehrawat/payroll-frontend"
+  },
+  {
+    "name": "Github Dataset API",
+    "mentor": "Gaurav Sehrawat",
+    "description": "Showcasing Node.js and SQL DB skills integrated with mocha chai tests",
+    "github": "https://github.com/igauravsehrawat/github-dataset-api"
+  },
+  {
+    "name": "Meetup Utilities",
+    "mentor": "Gaurav Sehrawat",
+    "description": "Managing tech meetup events and accounts",
+    "github": "https://github.com/igauravsehrawat/meetup-utilities"
+  },
+  {
+    "name": "Bloggy",
+    "mentor": "Nikhil Barik",
+    "description": "Bloggy is an app which makes blogging simpler. You can post what you're up-to, create groups, upload photos, videos and stay connected with your friends and family and what not.",
+    "github": "https://github.com/nerdynikhil/bloggy"
+  },
+  {
     "name": "Basic Unix utilities in C",
     "mentor": "Ankur Kothiwal and Divyansh Kamboj",
     "description": "The aim of the project is to write basic Unix utilities like 'cat', 'ls', 'grep', etc in C language. The project will help in the better understanding of Unix file system, Shell scripting and writing Makefiles.",
@@ -34,59 +94,5 @@
     "mentor": "Aaryan Porwal, Aayush Kumar Sahu, Ishan",
     "description": "Making a voice chat application using WebRTC technology for creating peers and socket.io for signaling. The project will help you in understanding how WebRTC works and will acquaint you with many cool JavaScript technologies.",
     "github": "https://github.com/aaryanporwal/P2P-Voice-Chat-App"
-  },
-  {
-    "name": "Awesome Portfolio Websites",
-    "mentor": "Smaranjit Ghose",
-    "description": "An open-source project aimed at providing a full-fledged template that anyone can use to build and put out their website within an hour! We take care of the SEO and the boring stuff behind your personal portfolio so that you can focus on building your projects.",
-    "github": "https://github.com/smaranjitghose/awesome-portfolio-websites"
-  },
-  {
-    "name": "All Notes",
-    "mentor": "Harsh Bardhan Mishra",
-    "description": "This Web Application powered by MERN Stack will be making use of intuitive User-Interface and User-Experience to allow Students to come onto a One-Stop Portal and share Resources and Notes related to their Syllabus and Subjects which can benefit the Society as a whole. An integrated PDF-Viewer would allow the other students to check out the Resources and upvote a User depending on the usefulness of the Resources shared from his part. This Social Application would allow Students to connect over their love of Subjects and helping out of the Community in an effective way, benefitting a lot of Students in the longer run.",
-    "github": "https://github.com/harshcasper/allnotes"
-  },
-  {
-    "name": "Rotten Scripts",
-    "mentor": "Harsh Bardhan Mishra",
-    "description": "Rotten Scripts contains amazing and awesome scripts written in Python, JavaScript, Bash, Powershell, and more. Consider this repository as your personal space to find or add any new script that can make life easier for us and the Open Source community too, as a Developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like everyone's Instagram Post.",
-    "github": "https://github.com/harshcasper/rotten-scripts"
-  },
-  {
-    "name": "IP-tracker",
-    "mentor": "Naman Bhatia",
-    "description": "A Web application that fetches details of  IP address entered by User ( such as longitude, latitude, Async number, internet Provider etc) using an API.",
-    "github": "https://jiitodc.netlify.app/hackweek/projects"
-  },
-  {
-    "name": "Diabetes Detection-WebApp",
-    "mentor": "Uddeshya Tyagi",
-    "description": "A machine learning based web application used to predict if a person is likely to be diabetic or not (on the basis of certain measures like Blood pressure,their age,etc)",
-    "github": "https://jiitodc.netlify.app/hackweek/projects"
-  },
-  {
-    "name": "Payroll-System",
-    "mentor": "Gaurav Sehrawat",
-    "description": "Showcasing Node.js/MongoDB docker, docker compose skills via payroll system",
-    "github": "https://github.com/igauravsehrawat/payroll-system"
-  },
-  {
-    "name": "Payroll-Frontend",
-    "mentor": "Gaurav Sehrawat",
-    "description": "Payroll frontend using React and Ant Design",
-    "github": "https://github.com/igauravsehrawat/payroll-frontend"
-  },
-  {
-    "name": "Payroll-System",
-    "mentor": "Gaurav Sehrawat",
-    "description": "Showcasing Node.js and SQL DB skills integrated with mocha chai tests",
-    "github": "https://github.com/igauravsehrawat/github-dataset-api"
-  },
-  {
-    "name": "Payroll-System",
-    "mentor": "Gaurav Sehrawat",
-    "description": "Managing tech meetup events and accounts",
-    "github": "https://github.com/igauravsehrawat/meetup-utilities"
   }
 ]

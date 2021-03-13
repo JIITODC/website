@@ -66,11 +66,11 @@ export let projects;
 <div class="divider"></div>
 
 <section class="project-list">
-  {#each projects as project}
-    <h2>{project.name}</h2>
+  {#each projects as project, i}
+    <h2>{i + 1}. {project.name}</h2>
     <p>Mentor(s) : {project.mentor}</p>
     <p>{project.description}</p>
-    <a class="gitlink" href="{project.github}">Github link</a>
+    <a class="gitlink" href="{project.github}" target="_blank">Github link</a>
     <hr />
   {/each}
 </section>
