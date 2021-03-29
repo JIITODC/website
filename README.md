@@ -40,7 +40,7 @@ This is the main website for JODC built with Svelte and Sapper
 -   However you get the code, you can install dependencies and run the project in development mode with:
 
 ```bash
-$ cd jiitodc.github.io
+$ cd website
 $ npm install # or yarn
 $ npm run dev
 ```

@@ -153,6 +153,7 @@ a:hover {
 <script>
 import Icon from 'svelte-awesome/components/Icon.svelte';
 import { telegram, twitter, facebook, github } from 'svelte-awesome/icons';
+import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 </script>
 
 <svelte:head>
@@ -175,6 +176,11 @@ import { telegram, twitter, facebook, github } from 'svelte-awesome/icons';
         style="margin-right: 10px; scale:1.5;"
         data="{telegram}"
       />TELEGRAM</a>
+    <a href="https://discord.gg/TC3DymJ">
+      <Icon
+        style="margin-right: 10px; scale:1.5;"
+        data="{faDiscord}"
+      />DISCORD</a>
     <a href="https://twitter.com/jiitodc">
       <Icon
         style="margin-right: 10px; scale:1.5;"
