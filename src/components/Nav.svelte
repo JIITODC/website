@@ -233,14 +233,6 @@ function handleClick() {
         href="blog"
       >blog</a>
     </li>
-    <li>
-      <a
-        rel="prefetch"
-        class="nav-link"
-        class:active="{segment === 'hackweek'}"
-        href="hackweek/about"
-      >hackweek</a>
-    </li>
   </ul>
   <div class="nav-overlay" on:click="{handleClick}" class:open="{isOpen}">
     <ul class="nav-overlay-list">
@@ -248,7 +240,6 @@ function handleClick() {
       <li><a href="events">events</a></li>
       <li><a href="team">team</a></li>
       <li><a href="blog">blog</a></li>
-      <li><a href="hackweek/about">hackweek</a></li>
     </ul>
   </div>
 </nav>
