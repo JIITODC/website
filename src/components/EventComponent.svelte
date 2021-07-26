@@ -63,7 +63,7 @@ import { calendar, mapMarker } from 'svelte-awesome/icons';
   <div class="left">
     <img
       alt="event poster"
-      src="Poster.png"
+      src="jodcMascotWB.svg"
       data-src="{imagelink}"
       class="lazyload"
     />

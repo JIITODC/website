@@ -59,7 +59,7 @@ export let role;
   <div class="card-author">
     <img
       alt="author-avatar"
-      src="Poster.png"
+      src="jodcMascotWB.svg"
       data-src="{imgSrc}"
       class="lazyload"
     />
