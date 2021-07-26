@@ -16,7 +16,6 @@
   {
     "id": 3,
     "name": "Arushi Verma",
-    "imgSrc": "Photos/Poster.png",
     "role": "Management Head",
     "gitlink": "https://github.com/arushivii"
   },
@@ -30,28 +29,24 @@
   {
     "id": 5,
     "name": "Eshan Dhawan",
-    "imgSrc": "Photos/Poster.png",
     "role": "Co-ordinator",
     "gitlink": "https://github.com/eshandhawan51"
   },
   {
     "id": 6,
     "name": "Nishit Anand",
-    "imgSrc": "Photos/Poster.png",
     "role": "Co-ordinator",
     "gitlink": "https://github.com/nishitanand"
   },
   {
     "id": 7,
     "name": "Prakher Prashank",
-    "imgSrc": "Photos/Poster.png",
     "role": "Co-ordinator",
     "gitlink": "https://github.com/im-prakher"
   },
   {
     "id": 8,
     "name": "Aachman Mittal",
-    "imgSrc": "Photos/Poster.png",
     "role": "Core Team",
     "gitlink": "https://github.com/AarKiMos"
   },
@@ -65,7 +60,6 @@
   {
     "id": 10,
     "name": "Akshat Agarwal",
-    "imgSrc": "Photos/Poster.png",
     "role": "Core Team",
     "gitlink": "https://github.com/humancalico"
   },
@@ -93,7 +87,6 @@
   {
     "id": 14,
     "name": "Sabreen Parveen",
-    "imgSrc": "Photos/Poster.png",
     "role": "Core Team",
     "gitlink": "https://github.com/Sabreen-Parveen"
   },
