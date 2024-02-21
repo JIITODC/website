@@ -1,5 +1,60 @@
 [
   {
+    "id": 11,
+    "title": "Postman API Workshop and JODC Orientation",
+    "about": "Introduction to Postman API and JODC society orientation by Saarthak Maini.",
+    "time": "October 8' 2023",
+    "location": "Virtual",
+    "formatDate": "2023-10-08",
+    "imagelink": "Photos/posters/postman-workshop.png",
+    "links": [
+      "https://docs.google.com/presentation/d/1p59s5vhVAs6wC013J54yE7wuAdR9F2qx/edit?usp=sharing&ouid=103575396996591927316&rtpof=true&sd=true",
+      "https://drive.google.com/file/d/1OZmzXqclZm51Pa2v_So9wPiFm9wqZQrF/view"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Linux Workshop and VMVirtualBox Linux Installation",
+    "about": "Workshop on Linux and virtual machines. Installation session using VirtualBox.",
+    "time": "March 11' 2023",
+    "location": "Virtual",
+    "formatDate": "2023-03-11",
+    "imagelink": "Photos/posters/linux-workshop2.png",
+    "links": [
+      "https://docs.google.com/forms/d/e/1FAIpQLSeLDAu96p4BF1g1O76Gsn0GP-70UfcYMe_7PuYPd4h5_19tvw/viewform?usp=sharing"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "010101 Trivia Freshers event",
+    "about": "Quiz event for the freshers.",
+    "time": "March 11' 2023",
+    "imagelink": "Photos/posters/trivia-workshop.png",
+    "location": "Virtual",
+    "formatDate": "2023-03-11"
+  },
+  {
+    "id": 14,
+    "title": "Web Development Roadmap",
+    "about": "Workshop on Web Development roadmap with a hands-on session.",
+    "time": "March 11' 2023",
+    "location": "Virtual",
+    "imagelink": "Photos/posters/web-dev-roadmap.png",
+    "formatDate": "2023-03-11",
+    "links": [
+      "https://docs.google.com/forms/d/e/1FAIpQLSc_-S6EQWlGzu_KbjW1gabDZ1dlUEFNzzLtS5RTgvkpznUOPw/viewform?usp=sharing"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Docker (But it works on my machine)",
+    "about": "Introduction to Docker and containerization to ensure consistent application behavior across different environments.",
+    "time": "November 23' 2023",
+    "imagelink": "Photos/posters/docker-workshop.png",
+    "location": "Virtual",
+    "formatDate": "2023-11-23"
+  },
+  {
     "id": 1,
     "title": "First Informal Meetup",
     "about": "Very first meetup for the first year students at JIIT",
