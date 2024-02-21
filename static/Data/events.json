@@ -53,5 +53,90 @@
     "imagelink": "Photos/posters/docker-workshop.png",
     "location": "Virtual",
     "formatDate": "2023-11-23"
+  },
+  {
+    "id": 1,
+    "title": "First Informal Meetup",
+    "about": "Very first meetup for the first year students at JIIT",
+    "time": "September 19' 2020  @  6:00PM",
+    "location": "Virtual",
+    "imagelink": "Photos/webp/Informal_Meetup.webp",
+    "formatDate": "2020-9-19"
+  },
+  {
+    "id": 2,
+    "title": "Git/Github/Hacktoberfest Workshop ",
+    "about": "Introduction to Open Source and Git/Github",
+    "time": "September 30' 2020  @  6:00PM",
+    "location": "Virtual",
+    "imagelink": "Photos/webp/git-github-workshop.webp",
+    "formatDate": "2020-9-30"
+  },
+  {
+    "id":3,
+    "title": "Workshop on Linux",
+    "about": "An introduction to what, why and how to Linux, what's Ricing and why developers love linux",
+    "time":"October 16' 2020 @ 6:00 PM",
+    "location":"Virtual",
+    "imagelink": "Photos/webp/linux-workshop.webp",
+    "formatDate":"2020-10-16"
+  },
+  {
+    "id":4,
+    "title": "Introduction to APIs",
+    "about": "APIs and how do they work, Introduction to REST API, CRUD Operations, cURL and Python Scripts, and Working with twilio API",
+    "time":"November 22' 2020  @  6:00PM",
+    "location":"Virtual",
+    "imagelink": "Photos/webp/api-workshop.webp",
+    "formatDate":"2020-11-22"
+  },
+  {
+    "id":5,
+    "title": "Introduction to GSOC",
+    "about": "GSOC, Open Source and talk with former GSOC members",
+    "time":"December 04' 2020  @  6:00PM",
+    "location":"Virtual",
+    "imagelink": "Photos/webp/gsoc-workshop.webp",
+    "formatDate":"2020-12-04"
+  },
+  {
+    "id":6,
+    "title": "Building Your Own Text Editor",
+    "about": "Build a fully functional terminal based text editor from scratch in C and assembly using minimal external libraries",
+    "time":"December 11' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2020-12-11"
+  },
+  {
+    "id":7,
+    "title": "Building a Code Sharing Platform",
+    "about": "Make your own full stack Pastebin like code sharing platform using HTML, CSS, JS and using MySQL Database. Pastebin clone is the hello world to system design, and possibly one of the most asked interview questions for system design and in a lot of product based companies.",
+    "time":"December 27' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2020-12-27"
+  },
+  {
+    "id":8,
+    "title": "Getting Started with Vim",
+    "about": "Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. Learn how to get started with Vim and how to customize it to take your productivity to the moon 🚀 ",
+    "time":"January 02' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2021-01-02"
+  },
+  {
+    "id":9,
+    "title": "Conway's Game of Life in WebAssembly",
+    "about": "WebAssembly (wasm) is a simple machine model and executable format for a stack-based virtual machine. It is designed to be portable, compact, and execute at native or near native speeds. In this event we'll implement the famous Comway's Game Of Life in wasm!",
+    "time":"January 10' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2021-01-10"
+  },
+  {
+    "id":10,
+    "title": "Getting started with CLI apps in Node.js",
+    "about": "Command line applications (CLI) are often the core tools for automating tasks, such as deploying production applications, running tests, building reports, etc. and Node.js is a great solution for writing CLI apps. You can take advantage of Node.js's thousands of built-in libraries and npm packages to build apps faster than ever.",
+    "time":"January 22' 2020  @  10:00PM",
+    "location":"JODC Discord",
+    "formatDate":"2021-01-22"
   }
 ]
